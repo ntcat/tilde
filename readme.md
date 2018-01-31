@@ -1,7 +1,6 @@
-# tilde
-
-# ~Tilde~ 泰迪 数据编辑上传工具 使用说明
-![](./resource/image/tilde.jpg)
+# Tilde
+# Tilde~ 泰迪 数据编辑上传工具 使用说明
+![](https://github.com/ntcat/tilde/blob/master/resource/image/tilde.jpg)
 
 - 简单的说，它可以很方便的编辑和整理成批的数据 ，带上自描述的tag，让你一个命令就上传到数据库
 - 相对来说，.sql和.cvs格式是供机器使用的，对人类并不友好。
