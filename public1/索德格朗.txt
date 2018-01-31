@@ -1,0 +1,14 @@
+﻿<conn id=<conn id=MY122.json>>
+<table id=audios1>
+<fields_value_diff id=title,body>
+<fields_value_same id=id,code,type_id,author value={AUTO_INCREMENT},{AUTO_INCREMENT},118,索德格朗>
+
+~星星~
+当夜色降临 
+我站在台阶上倾听 
+星星蜂拥在花园里 
+而我站在黑暗中 
+
+听，一颗星星落地作响 
+你别赤脚在这草地上散步 
+我的花园到处是星星的碎片~

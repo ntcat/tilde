@@ -1,0 +1,11 @@
+﻿<conn id=<conn id=MY122.json>>
+<table id=audios1>
+<fields_value_diff id=title,body>
+<fields_value_same id=id,code,type_id,author value={AUTO_INCREMENT},{AUTO_INCREMENT},118,杜荣琛>
+
+~年龄的问题~
+爷爷的年龄，写在脸上的皱纹里；
+马儿的年龄，嚼在嘴巴的牙齿里；
+树木的年龄，藏在肚子的年轮里。
+老师!那么池塘的年龄，
+是不是画在一圈圈的涟漪里？ ~
