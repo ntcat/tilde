@@ -1,5 +1,5 @@
 ﻿<conn id=<conn id=MY122.json>>
-<table id=audios1>
+<table id=book>
 <fields_value_same id=id,code,type_id,author value={AUTO_INCREMENT},{AUTO_INCREMENT},118,徐志摩>
 <fields_value_diff id=title,body>
 

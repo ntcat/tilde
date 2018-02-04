@@ -14,11 +14,11 @@ set @v_body="小时侯
 乡愁是一湾浅浅的海峡
 我在这头
 大陆在那头";
-set @v_id="1";
-set @v_code="1";
+set @v_id="7410";
+set @v_code="7410";
 set @v_type_id="118";
 set @v_author="余光中";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="当我死时";
 set @v_body="当我死时，葬我在长江与黄河
@@ -35,11 +35,11 @@ set @v_body="当我死时，葬我在长江与黄河
 想望透黑夜看中国的黎明，
 饕餮地图，从西湖到太湖，
 到多鹧鸪的重庆，代替回乡。";
-set @v_id="2";
-set @v_code="2";
+set @v_id="7411";
+set @v_code="7411";
 set @v_type_id="118";
 set @v_author="余光中";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title=" 浆声灯影里的秦淮河(俞平伯篇）";
 set @v_body="我们消受得秦淮河上的灯影，当圆月犹皎的仲夏之夜。 
@@ -165,11 +165,11 @@ set @v_body="我们消受得秦淮河上的灯影，当圆月犹皎的仲夏之�
 我决不敢望诸君能在此中窥得。即我自己虽正在这儿执笔构思，实在也无从重新体验出那时 
 的情景。说老实话，我所有的只是忆。我告诸君的只是忆中的秦淮夜泛。至于说到那“当时 
 之感”，这应当去请教当时的我。而他久飞升了，无所存在。 ";
-set @v_id="3";
-set @v_code="3";
+set @v_id="7412";
+set @v_code="7412";
 set @v_type_id="118";
 set @v_author="俞平伯";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="礼物";
 set @v_body="如此幸福的一天 
@@ -182,11 +182,11 @@ set @v_body="如此幸福的一天
 我感觉不到痛苦 
 直起身，我看见 
 蓝色的大海和风帆。 ";
-set @v_id="4";
-set @v_code="4";
+set @v_id="7413";
+set @v_code="7413";
 set @v_type_id="118";
 set @v_author="切斯瓦夫·米沃什";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="对星星的诺言";
 set @v_body="星星睁着眼睛， 
@@ -218,11 +218,11 @@ set @v_body="星星睁着眼睛，
 我向你们保证： 
 你们瞅着我， 
 我永远，永远纯真";
-set @v_id="5";
-set @v_code="5";
+set @v_id="7414";
+set @v_code="7414";
 set @v_type_id="118";
 set @v_author="加夫列拉·米斯特拉尔";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="回答";
 set @v_body="卑鄙是卑鄙者的通行证，
@@ -253,11 +253,11 @@ set @v_body="卑鄙是卑鄙者的通行证，
 正在缀满没有遮拦的天空，
 那是五千年的象形文字，
 那是未来人们凝视的眼睛。";
-set @v_id="6";
-set @v_code="6";
+set @v_id="7415";
+set @v_code="7415";
 set @v_type_id="118";
 set @v_author="北岛";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="一束";
 set @v_body="在我和世界之间
@@ -293,11 +293,11 @@ set @v_body="在我和世界之间
 是正在下陷的深渊
 你是栅栏，是墙垣
 是盾牌上永久的图案";
-set @v_id="7";
-set @v_code="7";
+set @v_id="7416";
+set @v_code="7416";
 set @v_type_id="118";
 set @v_author="北岛";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title=" 断章";
 set @v_body="你站在桥上看风景，
@@ -305,11 +305,11 @@ set @v_body="你站在桥上看风景，
 
 明月装饰了你的窗子，
 你装饰了别人的梦";
-set @v_id="8";
-set @v_code="8";
+set @v_id="7417";
+set @v_code="7417";
 set @v_type_id="118";
 set @v_author="卞之琳";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="一棵开花的树";
 set @v_body="如何让你遇见我
@@ -326,8 +326,8 @@ set @v_body="如何让你遇见我
 在你身后落了一地的
 朋友啊　那不是花瓣
 是我凋零的心";
-set @v_id="9";
-set @v_code="9";
+set @v_id="91";
+set @v_code="91";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -347,8 +347,8 @@ set @v_body="想你　和那一个
 好能　一次次地　在千万年间
 重复地　重复地　重复地
 嵌进你我的心中";
-set @v_id="10";
-set @v_code="10";
+set @v_id="92";
+set @v_code="92";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -376,8 +376,8 @@ set @v_body="一定有些什么
 
 那些美丽的如山百合般的
 秘密";
-set @v_id="11";
-set @v_code="11";
+set @v_id="93";
+set @v_code="93";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -388,8 +388,8 @@ set @v_body="是令人日渐消瘦的心事
 是记忆里一场不散的筵席
 是不能饮不可饮　也要拼却的
 一醉";
-set @v_id="12";
-set @v_code="12";
+set @v_id="94";
+set @v_code="94";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -418,8 +418,8 @@ set @v_body="不再回头的
 在仓皇下降的暮色中
 我年轻的心啊
 永不再重逢";
-set @v_id="13";
-set @v_code="13";
+set @v_id="95";
+set @v_code="95";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -442,8 +442,8 @@ set @v_body="在陌生的城市里醒来
 而在陌生的城市里
 我夜夜举杯
 遥向着十六岁的那一年";
-set @v_id="14";
-set @v_code="14";
+set @v_id="96";
+set @v_code="96";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -466,8 +466,8 @@ set @v_body="我相信　爱的本质一如
 一起去追溯
 在那遥远而谦卑的源头之上
 我们终于会互相明白";
-set @v_id="15";
-set @v_code="15";
+set @v_id="97";
+set @v_code="97";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -484,8 +484,8 @@ set @v_body="不愿成为一种阻挡
 试着将你藏起
 藏到任何人　任何岁月
 也无法触及的　距离";
-set @v_id="16";
-set @v_code="16";
+set @v_id="98";
+set @v_code="98";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -531,8 +531,8 @@ set @v_body="忘不了的　是你眼中的泪
 林中有模糊的鹿影
 幽径上开的是什么花
 为什么夜夜总是带泪的月华";
-set @v_id="17";
-set @v_code="17";
+set @v_id="99";
+set @v_code="99";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -568,8 +568,8 @@ set @v_body="　<１>
 我是一棵被移植的针叶木
 亲爱的　你是那极北的
 冬日的故土";
-set @v_id="18";
-set @v_code="18";
+set @v_id="100";
+set @v_code="100";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -591,8 +591,8 @@ set @v_body="你若是那含泪的射手
 那么　让我死在你的手下
 就好象是　终于能
 死在你的怀中";
-set @v_id="19";
-set @v_code="19";
+set @v_id="101";
+set @v_code="101";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -617,8 +617,8 @@ set @v_body="在古老单纯的时光里
 我却在拦阻不及的热泪里
 发现　此刻之后
 青春终于一去不再复返";
-set @v_id="20";
-set @v_code="20";
+set @v_id="102";
+set @v_code="102";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -642,8 +642,8 @@ set @v_body="我好像答应过
 少年的你　是不是
 还在等我
 还在急切地向来处张望";
-set @v_id="21";
-set @v_code="21";
+set @v_id="103";
+set @v_code="103";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -665,8 +665,8 @@ set @v_body="我已无诗
 我柔弱的心啊
 请试着去忘记　请千万千万
 别再哭泣";
-set @v_id="22";
-set @v_code="22";
+set @v_id="104";
+set @v_code="104";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -690,8 +690,8 @@ set @v_body="不是在一瞬间　就能
 也能　终于
 由得它去疯狂地照进
 所有的山林";
-set @v_id="23";
-set @v_code="23";
+set @v_id="105";
+set @v_code="105";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -712,8 +712,8 @@ set @v_body="假如生命是一列
 在太迟了的时候
 才能细细揣摩出　一种
 无悔的　美丽的　心情";
-set @v_id="24";
-set @v_code="24";
+set @v_id="106";
+set @v_code="106";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -732,8 +732,8 @@ set @v_body="假如生命是一列
 命运将它装订得极为拙劣 
 含着泪 我一读再读 却不得不承认 
 青春是一本太仓促的书";
-set @v_id="25";
-set @v_code="25";
+set @v_id="107";
+set @v_code="107";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -759,8 +759,8 @@ set @v_body="不是所有的梦都来得及实现
 尽管他们说 
 世间种种 
 最后终必 终必成空";
-set @v_id="26";
-set @v_code="26";
+set @v_id="108";
+set @v_code="108";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -805,8 +805,8 @@ set @v_body="前世的五百次回眸才能换得今生的一次擦肩而过，
 今生我仍旧不喝孟婆汤 
 来世我还会千里迢迢将你寻觅 
 来世我还会和你手牵手寻找五瓣的丁香";
-set @v_id="27";
-set @v_code="27";
+set @v_id="109";
+set @v_code="109";
 set @v_type_id="118";
 set @v_author="席慕蓉";
 Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
@@ -846,11 +846,11 @@ set @v_body="轻轻的我走了，
 正如我悄悄的来；
 我挥一挥衣袖，
 不带走一片云彩。 ";
-set @v_id="28";
-set @v_code="28";
+set @v_id="7418";
+set @v_code="7418";
 set @v_type_id="118";
 set @v_author="徐志摩";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="赠日本女郎";
 set @v_body="最是那一低头的温柔，
@@ -858,11 +858,11 @@ set @v_body="最是那一低头的温柔，
 道一声珍重，道一声珍重，
 那一声珍重里有蜜甜的忧愁——
 沙扬娜拉！";
-set @v_id="29";
-set @v_code="29";
+set @v_id="7419";
+set @v_code="7419";
 set @v_type_id="118";
 set @v_author="徐志摩";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="雪花的快乐";
 set @v_body="假如我是一朵雪花，
@@ -888,11 +888,11 @@ set @v_body="假如我是一朵雪花，
 贴近她柔波似的心胸——
 消溶，消溶，消溶——
 溶入了她柔波似的心胸！ ";
-set @v_id="30";
-set @v_code="30";
+set @v_id="7420";
+set @v_code="7420";
 set @v_type_id="118";
 set @v_author="徐志摩";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="翡冷翠的一夜";
 set @v_body="    你真的走了，明天？那我，那我，……
@@ -971,11 +971,11 @@ set @v_body="    你真的走了，明天？那我，那我，……
     隔着天，通着恋爱的灵犀一点……
 
     　　六月十一日，一九二五年翡冷翠山中 ";
-set @v_id="31";
-set @v_code="31";
+set @v_id="7421";
+set @v_code="7421";
 set @v_type_id="118";
 set @v_author="徐志摩";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="偶然";
 set @v_body="我是天空里的一片云，
@@ -988,11 +988,11 @@ set @v_body="我是天空里的一片云，
 你记得也好，
 最好你忘掉，
 在这交会时互放的光亮！ ";
-set @v_id="32";
-set @v_code="32";
+set @v_id="7422";
+set @v_code="7422";
 set @v_type_id="118";
 set @v_author="徐志摩";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="雨巷";
 set @v_body="撑着油纸伞，独自
@@ -1037,11 +1037,11 @@ set @v_body="撑着油纸伞，独自
 我希望飘过
 一个丁香一样地
 结着愁怨的姑娘。";
-set @v_id="33";
-set @v_code="33";
+set @v_id="7423";
+set @v_code="7423";
 set @v_type_id="118";
 set @v_author="戴望舒";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="我用残损的手掌";
 set @v_body="谁家动刀尺？
@@ -1061,11 +1061,11 @@ set @v_body="谁家动刀尺？
 
 而断裂的吴丝蜀桐，
 仅使人从弦柱间思忆华年。";
-set @v_id="34";
-set @v_code="34";
+set @v_id="7424";
+set @v_code="7424";
 set @v_type_id="118";
 set @v_author="戴望舒";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="你还在我身边";
 set @v_body="    瀑布的水逆流而上
@@ -1079,11 +1079,11 @@ set @v_body="    瀑布的水逆流而上
 厨房里飘来饭菜的香
 你把我的卷子签好名字
 关掉电视 帮我把书包背上";
-set @v_id="35";
-set @v_code="35";
+set @v_id="7425";
+set @v_code="7425";
 set @v_type_id="118";
 set @v_author="戴畅";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="童话";
 set @v_body="“白桦为什么颤抖，妈妈？” 
@@ -1102,11 +1102,11 @@ set @v_body="“白桦为什么颤抖，妈妈？”
 我只知道，等到仙女挨着白鸽的脸蛋时， 
 就像如今我在亲你一样， 
 亲呀亲呀，亲个没完。” ";
-set @v_id="36";
-set @v_code="36";
+set @v_id="7426";
+set @v_code="7426";
 set @v_type_id="118";
 set @v_author="斯拉德克";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="念一首诗给你听";
 set @v_body="下雨过后的屋檐 果然 是适合风铃 
@@ -1122,11 +1122,11 @@ set @v_body="下雨过后的屋檐 果然 是适合风铃
 很小心 很轻  很轻 很小心 
 就像猫跟风铃 
 我念了一首诗 给你听 ";
-set @v_id="37";
-set @v_code="37";
+set @v_id="7427";
+set @v_code="7427";
 set @v_type_id="118";
 set @v_author="方文山";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="诗笺";
 set @v_body="听时光轻盈的引领着夜色的步伐 
@@ -1143,11 +1143,11 @@ set @v_body="听时光轻盈的引领着夜色的步伐
 终于穿越过氤氲找到一丝温暖的牵挂 
 仿佛那枚流浪在边缘的寂寞明月 
 也终于寻觅到一处任思念栖息的天涯";
-set @v_id="38";
-set @v_code="38";
+set @v_id="7428";
+set @v_code="7428";
 set @v_type_id="118";
 set @v_author="方文山";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="潇湘";
 set @v_body="明月潇湘的客栈 
@@ -1169,11 +1169,11 @@ set @v_body="明月潇湘的客栈
 宛若诗人般吟唱轻弹 
 绵绵一曲春江花月夜 
 在逾越迷漫传颂千年 ";
-set @v_id="39";
-set @v_code="39";
+set @v_id="7429";
+set @v_code="7429";
 set @v_type_id="118";
 set @v_author="方文山";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="英雄冢";
 set @v_body="纵然 将军面对的朝代为 泱泱盛唐 
@@ -1187,11 +1187,11 @@ set @v_body="纵然 将军面对的朝代为 泱泱盛唐
 
 提笔的手 也还不够力悬腕 诗却已初露锋芒 
 汉字 竟可如此细腻的 儿女情长 ";
-set @v_id="40";
-set @v_code="40";
+set @v_id="7430";
+set @v_code="7430";
 set @v_type_id="118";
 set @v_author="方文山";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="所有的美好正在生长";
 set @v_body="天空生长的花朵
@@ -1205,11 +1205,11 @@ set @v_body="天空生长的花朵
 所有的美好正在生长
 荷花打着伞，盛装而来
 一路擎着深爱，偎着蓝";
-set @v_id="41";
-set @v_code="41";
+set @v_id="7431";
+set @v_code="7431";
 set @v_type_id="118";
 set @v_author="星飞";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="母亲的江山";
 set @v_body="你给了我黑发
@@ -1224,11 +1224,11 @@ set @v_body="你给了我黑发
 和时光争夺江山
 是你，让予我
 一车一马，整个棋盘";
-set @v_id="42";
-set @v_code="42";
+set @v_id="7432";
+set @v_code="7432";
 set @v_type_id="118";
 set @v_author="星飞";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="行路的人，你要一无所想";
 set @v_body="你要把手插在口袋里
@@ -1246,11 +1246,11 @@ set @v_body="你要把手插在口袋里
 有一些小小的快乐，你要把它撒在天空
 留在傍晚之后。撒在路边
 说不定哪天，你会与它再度重逢";
-set @v_id="43";
-set @v_code="43";
+set @v_id="7433";
+set @v_code="7433";
 set @v_type_id="118";
 set @v_author="星飞";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="我有漂亮的村庄（星飞、大江刘合作）";
 set @v_body="我有漂亮的村庄
@@ -1266,11 +1266,11 @@ set @v_body="我有漂亮的村庄
 旷野有风在歌唱
 歌声注视月亮
 在又冷又硬的冰层下明亮地摇晃";
-set @v_id="44";
-set @v_code="44";
+set @v_id="7434";
+set @v_code="7434";
 set @v_type_id="118";
 set @v_author="星飞";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="用自己去爱一爱残存的浮萍";
 set @v_body="用草地挥霍雨水
@@ -1285,11 +1285,11 @@ set @v_body="用草地挥霍雨水
 用悲伤也不要万万千千
 用自己去爱一爱残存的浮萍
 用还不肯了然的秋天渲染流水的画板";
-set @v_id="45";
-set @v_code="45";
+set @v_id="7435";
+set @v_code="7435";
 set @v_type_id="118";
 set @v_author="星飞";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="我想像过去那样";
 set @v_body="洗掉白日的油彩
@@ -1310,11 +1310,11 @@ set @v_body="洗掉白日的油彩
 然后，像过去那样
 不必担心多少有毒悬浮物潜伏暗藏
 随意做一个自由的深呼吸";
-set @v_id="46";
-set @v_code="46";
+set @v_id="7436";
+set @v_code="7436";
 set @v_type_id="118";
 set @v_author="星飞";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="假如生活欺骗了你";
 set @v_body="假如生活欺骗了你
@@ -1327,11 +1327,11 @@ set @v_body="假如生活欺骗了你
 一切都将会过去
 而那过去了的
 就会成为亲切的回忆 ";
-set @v_id="47";
-set @v_code="47";
+set @v_id="7437";
+set @v_code="7437";
 set @v_type_id="118";
 set @v_author="普希金";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="从前慢";
 set @v_body="记得早先少年时 
@@ -1349,11 +1349,11 @@ set @v_body="记得早先少年时
 从前的锁也好看 
 钥匙精美有样子 
 你锁了 人家就懂了 ";
-set @v_id="48";
-set @v_code="48";
+set @v_id="7438";
+set @v_code="7438";
 set @v_type_id="118";
 set @v_author="木心";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="年龄的问题";
 set @v_body="爷爷的年龄，写在脸上的皱纹里；
@@ -1361,11 +1361,11 @@ set @v_body="爷爷的年龄，写在脸上的皱纹里；
 树木的年龄，藏在肚子的年轮里。
 老师!那么池塘的年龄，
 是不是画在一圈圈的涟漪里？ ";
-set @v_id="49";
-set @v_code="49";
+set @v_id="7439";
+set @v_code="7439";
 set @v_type_id="118";
 set @v_author="杜荣琛";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="热爱生命";
 set @v_body="我不去想是否能够成功
@@ -1383,11 +1383,11 @@ set @v_body="我不去想是否能够成功
 我不去想未来是平坦还是泥泞
 只要热爱生命
 一切，都在意料之中";
-set @v_id="50";
-set @v_code="50";
+set @v_id="7440";
+set @v_code="7440";
 set @v_type_id="118";
 set @v_author="汪国真";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="怀想";
 set @v_body="我不知道
@@ -1407,11 +1407,11 @@ set @v_body="我不知道
 都已成为过去
 只有婆娑的夜晚
 一如从前　那样美丽 ";
-set @v_id="51";
-set @v_code="51";
+set @v_id="7441";
+set @v_code="7441";
 set @v_type_id="118";
 set @v_author="汪国真";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="假如你不够快乐";
 set @v_body="假如你不够快乐
@@ -1426,11 +1426,11 @@ set @v_body="假如你不够快乐
 
 博大可以稀释忧愁
 深色能够覆盖浅色 ";
-set @v_id="52";
-set @v_code="52";
+set @v_id="7442";
+set @v_code="7442";
 set @v_type_id="118";
 set @v_author="汪国真";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="只要彼此爱过一次";
 set @v_body="如果不曾相逢
@@ -1452,11 +1452,11 @@ set @v_body="如果不曾相逢
 爱又怎能　无动于衷
 只要彼此爱过一次
 就是无憾的人生 ";
-set @v_id="53";
-set @v_code="53";
+set @v_id="7443";
+set @v_code="7443";
 set @v_type_id="118";
 set @v_author="汪国真";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="跨越自己";
 set @v_body="我们可以欺瞒别人
@@ -1473,11 +1473,11 @@ set @v_body="我们可以欺瞒别人
 有人欣喜
 当我们跨越了一座高山
 也就跨越了一个真实的自己";
-set @v_id="54";
-set @v_code="54";
+set @v_id="7444";
+set @v_code="7444";
 set @v_type_id="118";
 set @v_author="汪国真";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="旅行";
 set @v_body="凡是遥远的地方
@@ -1494,11 +1494,11 @@ set @v_body="凡是遥远的地方
 仰首是春　俯首是秋
 愿所有的幸福都追随着你
 月圆是画　月缺是诗";
-set @v_id="55";
-set @v_code="55";
+set @v_id="7445";
+set @v_code="7445";
 set @v_type_id="118";
 set @v_author="汪国真";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="倘若才华得不到承认";
 set @v_body="倘若才华得不到承认
@@ -1517,11 +1517,11 @@ set @v_body="倘若才华得不到承认
 没人识得星星一颗
 那么明日
 何妨做　皓月一轮";
-set @v_id="56";
-set @v_code="56";
+set @v_id="7446";
+set @v_code="7446";
 set @v_type_id="118";
 set @v_author="汪国真";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="倘若才华得不到承认";
 set @v_body="倘若才华得不到承认
@@ -1540,11 +1540,11 @@ set @v_body="倘若才华得不到承认
 没人识得星星一颗
 那么明日
 何妨做　皓月一轮";
-set @v_id="57";
-set @v_code="57";
+set @v_id="7447";
+set @v_code="7447";
 set @v_type_id="118";
 set @v_author="汪国真";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="面朝大海，春暖花开";
 set @v_body="从明天起，做一个幸福的人
@@ -1563,11 +1563,11 @@ set @v_body="从明天起，做一个幸福的人
 愿你有情人终成眷属
 愿你在尘世获得幸福
 我只愿面朝大海，春暖花开";
-set @v_id="58";
-set @v_code="58";
+set @v_id="7448";
+set @v_code="7448";
 set @v_type_id="118";
 set @v_author="海子";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="五月的麦地";
 set @v_body="全世界的兄弟们
@@ -1585,11 +1585,11 @@ set @v_body="全世界的兄弟们
 让大地上布满哀伤的村庄
 有时我孤独一人坐在麦地里为众兄弟背诵中国诗歌
 没有了眼睛也没有了嘴唇";
-set @v_id="59";
-set @v_code="59";
+set @v_id="7449";
+set @v_code="7449";
 set @v_type_id="118";
 set @v_author="海子";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="祖国(以梦为马)";
 set @v_body="我要做远方的忠诚的儿子
@@ -1638,11 +1638,11 @@ set @v_body="我要做远方的忠诚的儿子
 太阳的山顶埋葬　诗歌的尸体——千年王国和我
 骑着五千年凤凰和名字叫“马”的龙——我必将失败
 但诗歌本身以太阳必将胜利";
-set @v_id="60";
-set @v_code="60";
+set @v_id="7450";
+set @v_code="7450";
 set @v_type_id="118";
 set @v_author="海子";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="黑夜的献诗";
 set @v_body="黑夜从大地上升起
@@ -1674,11 +1674,11 @@ set @v_body="黑夜从大地上升起
 放声歌唱
 大风刮过山岗
 上面是无边的天空";
-set @v_id="61";
-set @v_code="61";
+set @v_id="7451";
+set @v_code="7451";
 set @v_type_id="118";
 set @v_author="海子";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="九月";
 set @v_body="目击众神死亡的草原上野花一片
@@ -1692,11 +1692,11 @@ set @v_body="目击众神死亡的草原上野花一片
 明月如镜高悬草原映照千年岁月
 我的琴声呜咽　泪水全无
 只身打马过草原";
-set @v_id="62";
-set @v_code="62";
+set @v_id="7452";
+set @v_code="7452";
 set @v_type_id="118";
 set @v_author="海子";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="星星";
 set @v_body="当夜色降临 
@@ -1707,11 +1707,11 @@ set @v_body="当夜色降临
 听，一颗星星落地作响 
 你别赤脚在这草地上散步 
 我的花园到处是星星的碎片";
-set @v_id="63";
-set @v_code="63";
+set @v_id="7453";
+set @v_code="7453";
 set @v_type_id="118";
 set @v_author="索德格朗";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="致橡树";
 set @v_body="我如果爱你——
@@ -1748,11 +1748,11 @@ set @v_body="我如果爱你——
 坚贞就在这里：
 不仅爱你伟岸的身躯，
 也爱你坚持的位置，脚下的土地。";
-set @v_id="64";
-set @v_code="64";
+set @v_id="7454";
+set @v_code="7454";
 set @v_type_id="118";
 set @v_author="舒婷";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="祖国啊，我亲爱的祖国";
 set @v_body="我是你河边上破旧的老水车，
@@ -1789,11 +1789,11 @@ set @v_body="我是你河边上破旧的老水车，
 你的富饶、你的荣光、你的自由；
 —— 祖国啊，
 我亲爱的祖国！";
-set @v_id="65";
-set @v_code="65";
+set @v_id="7455";
+set @v_code="7455";
 set @v_type_id="118";
 set @v_author="舒婷";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="这也是一切";
 set @v_body="不是一切大树，
@@ -1829,11 +1829,11 @@ set @v_body="不是一切大树，
 未来的一切都生长于它的昨天。
 希望，而且为它斗争，
 请把这一切放在你的肩上。";
-set @v_id="66";
-set @v_code="66";
+set @v_id="7456";
+set @v_code="7456";
 set @v_type_id="118";
 set @v_author="舒婷";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="双桅船";
 set @v_body="雾打湿了我的双翼，
@@ -1851,11 +1851,11 @@ set @v_body="雾打湿了我的双翼，
 岂在朝朝夕夕。
 你在我的航程上，
 我在你的视线里。";
-set @v_id="67";
-set @v_code="67";
+set @v_id="7457";
+set @v_code="7457";
 set @v_type_id="118";
 set @v_author="舒婷";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="神女峰";
 set @v_body="在向你挥舞的各色花帕中
@@ -1878,11 +1878,11 @@ set @v_body="在向你挥舞的各色花帕中
 正煽动新的背叛
 与其在悬崖上展览千年
 不如在爱人肩头痛哭一晚 ";
-set @v_id="68";
-set @v_code="68";
+set @v_id="7458";
+set @v_code="7458";
 set @v_type_id="118";
 set @v_author="舒婷";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="我爱这土地";
 set @v_body="假如我是一只鸟，
@@ -1895,11 +1895,11 @@ set @v_body="假如我是一只鸟，
 连羽毛也腐烂在土地里面。
 为什么我的眼里常含泪水？
 因为我对这土地爱得深沉…… ";
-set @v_id="69";
-set @v_code="69";
+set @v_id="7459";
+set @v_code="7459";
 set @v_type_id="118";
 set @v_author="艾青";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="礁石";
 set @v_body="一个浪，一个浪
@@ -1910,11 +1910,11 @@ set @v_body="一个浪，一个浪
 象刀砍过的一样
 但它依然站在那里
 含着微笑，看着海洋……";
-set @v_id="70";
-set @v_code="70";
+set @v_id="7460";
+set @v_code="7460";
 set @v_type_id="118";
 set @v_author="艾青";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="大堰河──我的褓姆";
 set @v_body="大堰河，是我的褓姆。
@@ -2037,11 +2037,11 @@ set @v_body="大堰河，是我的褓姆。
 你的儿子，
 我敬你
 爱你！ ";
-set @v_id="71";
-set @v_code="71";
+set @v_id="7461";
+set @v_code="7461";
 set @v_type_id="118";
 set @v_author="艾青";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="黎明的通知";
 set @v_body="为了我的祈愿
@@ -2108,11 +2108,11 @@ set @v_body="为了我的祈愿
 我将给所有期待我的以最慈惠的光辉
 趁这夜已快完了，请告诉他们
 说他们所等待的就要来了 ";
-set @v_id="72";
-set @v_code="72";
+set @v_id="7462";
+set @v_code="7462";
 set @v_type_id="118";
 set @v_author="艾青";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="给太阳";
 set @v_body="早晨，我从睡眠中醒来，
@@ -2155,11 +2155,11 @@ set @v_body="早晨，我从睡眠中醒来，
 今天，我想到山巅上去，
 解散我的衣服，赤裸着，
 在你的光辉里沐浴我的灵魂…… ";
-set @v_id="73";
-set @v_code="73";
+set @v_id="7463";
+set @v_code="7463";
 set @v_type_id="118";
 set @v_author="艾青";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="梦";
 set @v_body="醒着的时候
@@ -2178,11 +2178,11 @@ set @v_body="醒着的时候
 
 不是一场虚惊
 就是若有所失 ";
-set @v_id="74";
-set @v_code="74";
+set @v_id="7464";
+set @v_code="7464";
 set @v_type_id="118";
 set @v_author="艾青";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="雪落在中国的土地上";
 set @v_body="雪落在中国的土地上，
@@ -2283,11 +2283,11 @@ set @v_body="雪落在中国的土地上，
 所写的无力的诗句
 能给你些许的温暖么？
 ·1937年12月28日夜间 ";
-set @v_id="75";
-set @v_code="75";
+set @v_id="7465";
+set @v_code="7465";
 set @v_type_id="118";
 set @v_author="艾青";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="我想和你一起生活";
 set @v_body="我想和你一起生活
@@ -2317,11 +2317,11 @@ set @v_body="我想和你一起生活
 短小灰白的烟蒂——连灰烬
 你都懒得弹落——
 香烟遂飞舞进火中。";
-set @v_id="76";
-set @v_code="76";
+set @v_id="7466";
+set @v_code="7466";
 set @v_type_id="118";
 set @v_author="茨维塔耶娃";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="回延安";
 set @v_body="    一
@@ -2420,11 +2420,11 @@ set @v_body="    一
 再回延安看母亲！
 
 ·1956年3月9日 延安";
-set @v_id="77";
-set @v_code="77";
+set @v_id="7467";
+set @v_code="7467";
 set @v_type_id="118";
 set @v_author="贺敬之";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="错误";
 set @v_body="我打江南走过
@@ -2442,11 +2442,11 @@ set @v_body="我打江南走过
 是美丽的错误
 我不是归人
 是个过客……";
-set @v_id="78";
-set @v_code="78";
+set @v_id="7468";
+set @v_code="7468";
 set @v_type_id="118";
 set @v_author="郑愁予";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="水手刀";
 set @v_body="长春籐一样
@@ -2463,11 +2463,11 @@ set @v_body="长春籐一样
 被用于欢乐
 被用于航向一切逆风的
 桅蓬与绳索……";
-set @v_id="79";
-set @v_code="79";
+set @v_id="7469";
+set @v_code="7469";
 set @v_type_id="118";
 set @v_author="郑愁予";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="秋天";
 set @v_body="黑夜是凝滞的岁月， 
@@ -2486,22 +2486,22 @@ set @v_body="黑夜是凝滞的岁月，
 哦，那是永恒在天空书写；
 是的，一瞥就足够了，
 我已该深深把你感谢。";
-set @v_id="80";
-set @v_code="80";
+set @v_id="7470";
+set @v_code="7470";
 set @v_type_id="118";
 set @v_author="顾城";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="我的幻想";
 set @v_body="我在幻想着，
 幻想在破灭着；
 幻想总把破灭宽恕，
 破灭却从不把幻想放过。";
-set @v_id="81";
-set @v_code="81";
+set @v_id="7471";
+set @v_code="7471";
 set @v_type_id="118";
 set @v_author="顾城";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="我赞美世界";
 set @v_body="我赞美世界，
@@ -2535,11 +2535,11 @@ set @v_body="我赞美世界，
 投入思想的熔岩，
 凝成我黎明一样灿烂的
 ——诗歌。";
-set @v_id="82";
-set @v_code="82";
+set @v_id="7472";
+set @v_code="7472";
 set @v_type_id="118";
 set @v_author="顾城";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="一代人（外两首）";
 set @v_body="一 代 人
@@ -2568,11 +2568,11 @@ set @v_body="一 代 人
 看那最后一念
 怎样灭绝
 怎样被风吹散";
-set @v_id="83";
-set @v_code="83";
+set @v_id="7473";
+set @v_code="7473";
 set @v_type_id="118";
 set @v_author="顾城";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="远和近";
 set @v_body="你 
@@ -2581,11 +2581,11 @@ set @v_body="你
 我觉得 
 你看我时很远 
 你看云时很近";
-set @v_id="84";
-set @v_code="84";
+set @v_id="7474";
+set @v_code="7474";
 set @v_type_id="118";
 set @v_author="顾城";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="是树木游泳的力量";
 set @v_body="是树木游泳的力量 
@@ -2601,11 +2601,11 @@ set @v_body="是树木游泳的力量
 寂静成型 
 我们看不见最初的日子 
 最初，只有爱情 ";
-set @v_id="85";
-set @v_code="85";
+set @v_id="7475";
+set @v_code="7475";
 set @v_type_id="118";
 set @v_author="顾城";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="我是一个任性的孩子";
 set @v_body="也许
@@ -2691,11 +2691,11 @@ set @v_body="也许
 我是一个孩子
 一个被幻想妈妈宠坏的孩子
 我任性 ";
-set @v_id="86";
-set @v_code="86";
+set @v_id="7476";
+set @v_code="7476";
 set @v_type_id="118";
 set @v_author="顾城";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="一个人应该活得是自己并且干净";
 set @v_body="人的生命里有一种能量，它使你不安宁。说它是欲望也行，幻想也行，妄想也行，总之它不可能停下来，它需要一个表达形式。这个形式可能是革命，也可能是爱情；可能是搬一块石头，也可能是写一首诗。只要这个形式和生命力里的这个能量吻合了，就有了一个完美的过程。 
@@ -2717,11 +2717,11 @@ set @v_body="人的生命里有一种能量，它使你不安宁。说它是欲�
 中国人只创造了两个理想，一个是山中的桃花源，一个是墙里的大观园。我的笑话不过是把大观园搬到了山里，忘了林黛玉的药锄是葬花用的。 
 
 我到了新西兰一个小岛上，把身体交给了劳动。四年之后，有一天，我忽然看见黑色的鸟停在月亮里，树上的花早就开了，红花已经落了满地。这时候我才感到我从文 化中间、文字中间走了出来。万物清清楚楚地呈现在你的心里，一阵风吹过，鸟就开始叫了，树就开始响了。这个时候我明白了一个道理：只有在你生命美丽的时 候，世界才是美丽的。 ";
-set @v_id="87";
-set @v_code="87";
+set @v_id="7477";
+set @v_code="7477";
 set @v_type_id="118";
 set @v_author="顾城";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="相信未来";
 set @v_body="当蜘蛛网无情地查封了我的炉台  
@@ -2752,11 +2752,11 @@ set @v_body="当蜘蛛网无情地查封了我的炉台
 相信不屈不挠的努力  
 相信战胜死亡的年轻  
 相信未来、热爱生命 ";
-set @v_id="88";
-set @v_code="88";
+set @v_id="7478";
+set @v_code="7478";
 set @v_type_id="118";
 set @v_author="食指";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="这是四点零八分的北京";
 set @v_body="这是四点零八分的北京
@@ -2787,11 +2787,11 @@ set @v_body="这是四点零八分的北京
 管他是谁的手，不能松
 因为这是我的北京
 是我的最后的北京";
-set @v_id="89";
-set @v_code="89";
+set @v_id="7479";
+set @v_code="7479";
 set @v_type_id="118";
 set @v_author="食指";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
 set @v_title="你应该努力追求幸福";
 set @v_body="在嘈杂和匆忙中，平静地前行吧，
@@ -2838,9 +2838,9 @@ set @v_body="在嘈杂和匆忙中，平静地前行吧，
 不管经历了多少伪善、苦役、和破碎的梦，
 世界依然是美丽的。
 要保持轻松开朗。努力保持快乐。";
-set @v_id="90";
-set @v_code="90";
+set @v_id="7480";
+set @v_code="7480";
 set @v_type_id="118";
 set @v_author="麦克斯·埃尔曼";
-Insert ignore into audios1(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
+Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
 
