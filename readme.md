@@ -39,8 +39,11 @@
    - 对于有规律，可计算的字段值，也规于same标签中。标记方式是大括号里面是一个声明式的函数。
    - 目前支持的三个函数是：
       - AUTO_INCREMENT :自动加一
+      
       - UUID: 生成64位的GUID串
+      
       - NOW: 返回当前时间
+      
  ```
  <fields_value_same id=code,type_id,author value={AUTO_INCREMENT},118,茨维塔耶娃>
  ```
