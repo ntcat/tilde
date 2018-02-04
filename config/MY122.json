@@ -2,11 +2,8 @@
     "host": "127.0.0.1",
     "port": 3306,
     "user": "root",
-<<<<<<< HEAD
     "passwd":"rocky1127",
-=======
     "passwd":"123456",
->>>>>>> e54431587a96e2a862da34d6593b5622f5724686
     "db":"classics",
     "charset":"utf8"
 }
