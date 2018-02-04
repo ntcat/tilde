@@ -1,3 +1,4 @@
+
 # Tilde
 # Tilde~ 泰迪 数据编辑上传工具 使用说明
 ![](https://github.com/ntcat/tilde/blob/master/resource/image/tilde.jpg)
@@ -39,9 +40,7 @@
    - 对于有规律，可计算的字段值，也规于same标签中。标记方式是大括号里面是一个声明式的函数。
    - 目前支持的三个函数是：
       - AUTO_INCREMENT :自动加一
-      
       - UUID: 生成64位的GUID串
-      
       - NOW: 返回当前时间
       
  ```
