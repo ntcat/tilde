@@ -1,4 +1,4 @@
-5  # !/usr/bin/env python
+#! /usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 __title__ = ''
@@ -6,12 +6,13 @@ __author__ = 'shen.bas'
 __time__ = '2018/01/27'
 """
 import sys
-from common import files,global_var,build_sql,load_tld,execute_sql
-__version__ = '1.1.1'
+from common import files,build_sql,load_tld,execute_sql
+import  common.global_var as gl
+
+__version__ = '1.1.2'
 
 class Tilde:
     def __init__(self):
-        self.g = global_var.GlobalVar()
         self.action ='scan'
         self.sub_tld_dir = 'public'  # 数据处理子文件夹
         self.tld_path = ''    		 # tld数据夹在路径
@@ -29,24 +30,24 @@ class Tilde:
         insert_rows = 0
         for i in range(len(files_array)):
             f_pro = files_array[i]
-            self.g.data = files.read_file(f_pro.fullPath)
-            self.g.file_name = f_pro.name # 正处理的文件名
+            gl.data = files.read_file(f_pro.fullPath)
+            gl.file_name = f_pro.name # 正处理的文件名
 
-            if not load_tld.load(self.g):       # 载入所有标签和数据，并检查错误
-                print(self.g.msg)
+            if not load_tld.load():       # 载入所有标签和数据，并检查错误
+                print(gl.msg)
                 break
 
             # 该载入的都已读入，有问题的，早滚蛋了。现在清净了，处理吧
 
             if  self.action=='sql':
-                build_sql.build_sql_list(self.g)
-                build_sql.export_sql_list('append',self.g)
-                export_rows += len(self.g.sql_list)
-                print('(导出文件,记录数)=',self.g.file_name, '=>',len(self.g.sql_list))
+                build_sql.build_sql_list()
+                build_sql.export_sql_list('append')
+                export_rows += len(gl.sql_list)
+                print('(导出文件,记录数)=',gl.file_name, '=>',len(gl.sql_list))
             elif self.action == 'insert':
-                affected_rows = execute_sql.execute_sql_list(self.g)
+                affected_rows = execute_sql.execute_sql_list()
                 insert_rows += 0 if affected_rows is None else affected_rows
-                print('从[',self.g.file_name.strip(),']插入行数',affected_rows)
+                print('从[',gl.file_name.strip(),']插入行数',affected_rows)
 
         if self.action == 'scan':
             print('扫描完成，一切正常，可以插入')

@@ -8,19 +8,19 @@ __time__ = '2018-01-28'
 import uuid
 import re
 from datetime import *
-
+import  common.global_var as gl
 from common import sqlmanager
 
-def trans_decl_func_to_value(gv,keyName):
+def trans_decl_func_to_value(keyName):
     try:
-        keyValue = gv.fields_dict[keyName]
+        keyValue = gl.fields_dict[keyName]
         pat = re.compile(r'{[ ]{0,}([\s\S]+?)[ ]{0,}}')
         outs = re.findall(pat, str(keyValue))
         df = '' if len(outs)==0 else outs[0].upper()
         if df == '':   # most first
             return keyValue
         elif df == 'AUTO_INCREMENT':
-            return get_auto_increment(gv,keyName)
+            return get_auto_increment(keyName)
         elif df == 'UUID' or df =='GUID':
             return get_uuid()
         elif df =='NOW':
@@ -42,24 +42,24 @@ def get_now():
     return str(datetime.now())
 
 # 自动加一功能，先搜索找到表中最大值，然后存储在字典中（考虑到可能有多个字段使用auto_increment)
-def get_auto_increment(gv,field):
-    table = gv.table_name
+def get_auto_increment(field):
+    table = gl.table_name
     keyName = table + '_' + field
-    if keyName in gv.auto_increment_dict:
-        new_value = gv.auto_increment_dict[keyName] + 1
+    if keyName in gl.auto_increment_dict:
+        new_value = gl.auto_increment_dict[keyName] + 1
     else:
-        maxValue = get_max_auto_increment_from_table(gv,field)
+        maxValue = get_max_auto_increment_from_table(field)
         new_value = maxValue + 1
 
-    gv.auto_increment_dict[keyName] = new_value
+    gl.auto_increment_dict[keyName] = new_value
     return new_value
 
-def get_max_auto_increment_from_table(gv,field):
+def get_max_auto_increment_from_table(field):
     try:
-        table = gv.table_name
+        table = gl.table_name
         sql = 'select max({fd}) as maxv from {tb}'.format(fd=field,tb=table)
 
-        db = sqlmanager.SQLManager(gv.DB_CONFIG)
+        db = sqlmanager.SQLManager(gl.DB_CONFIG)
         row=db.get_one(sql)
         db.close()
         if len(row)>0:
@@ -67,7 +67,7 @@ def get_max_auto_increment_from_table(gv,field):
         else:
             return 0
     except Exception as e:
-        print(gv.file_name, e)
+        print(gl.file_name, e)
         print('表或字段可能不存在。')
         return 0
 

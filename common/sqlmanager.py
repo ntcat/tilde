@@ -22,9 +22,12 @@ class SQLManager:
 				self.msg = '数据库连接串为空，检查server、conn标签参数。\n'
 				return False
 			else:
-				self.conn = pymysql.connect(host=self.DB_CONFIG['host'], port=int(self.DB_CONFIG['port']),
-											user=self.DB_CONFIG['user'], passwd=self.DB_CONFIG['passwd'],
-											db=self.DB_CONFIG['db'], charset=self.DB_CONFIG['charset'])
+				self.conn = pymysql.connect(host=self.DB_CONFIG['host'],
+											port=int(self.DB_CONFIG['port']),
+											user=self.DB_CONFIG['user'],
+											passwd=self.DB_CONFIG['passwd'],
+											db=self.DB_CONFIG['db'],
+											charset=self.DB_CONFIG['charset'])
 				self.cursor = self.conn.cursor(cursor=pymysql.cursors.DictCursor)
 			return True
 		except Exception as e:

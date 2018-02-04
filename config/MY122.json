@@ -1,8 +1,8 @@
 {
-    "host": "192.168.1.122",
-    "port": 3307,
+    "host": "127.0.0.1",
+    "port": 3306,
     "user": "root",
-    "passwd":"070327",
+    "passwd":"rocky1127",
     "db":"classics",
     "charset":"utf8"
 }
