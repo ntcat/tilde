@@ -2,7 +2,7 @@
     "host": "192.168.1.122",
     "port": 3307,
     "user": "root",
-    "passwd":"070327",
+    "passwd":"123455",
     "db":"classics",
     "charset":"utf8"
 }
