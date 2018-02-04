@@ -23,7 +23,7 @@ def is_tilde_count_ok(content,field_count):
 	return tilde_count%(1+field_count)==0
 
 def is_table_exist(table_name):
-	"""检查字段是否存在"""
+	"""检查表是否存在"""
 	try:
 		sql = 'SELECT table_name FROM information_schema.TABLES WHERE table_name ="{tb}";'\
 			.format(tb=table_name)
