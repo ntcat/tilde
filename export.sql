@@ -14,10 +14,10 @@ set @v_body="小时侯
 乡愁是一湾浅浅的海峡
 我在这头
 大陆在那头";
-<<<<<<< HEAD
+ 
 set @v_id="1986";
 set @v_code="1986";
-=======
+ 
 set @v_id="7410";
 set @v_code="7410";
 >>>>>>> e54431587a96e2a862da34d6593b5622f5724686
@@ -43,16 +43,14 @@ set @v_body="当我死时，葬我在长江与黄河
 <<<<<<< HEAD
 set @v_id="1987";
 set @v_code="1987";
-=======
+ 
 set @v_id="7411";
 set @v_code="7411";
->>>>>>> e54431587a96e2a862da34d6593b5622f5724686
+ 
 set @v_type_id="118";
 set @v_author="余光中";
 Insert ignore into book(title,body,id,code,type_id,author) values(@v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author);
-
-<<<<<<< HEAD
-=======
+ 
 set @v_title=" 浆声灯影里的秦淮河(俞平伯篇）";
 set @v_body="我们消受得秦淮河上的灯影，当圆月犹皎的仲夏之夜。 
 
