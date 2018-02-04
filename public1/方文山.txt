@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-﻿<conn id=conn id=MY122.json>
-=======
-﻿<conn id=<conn id=MY122.json>>
->>>>>>> e54431587a96e2a862da34d6593b5622f5724686
+﻿<conn id=MY122.json>
 <table id=book>
 <fields_value_diff id=title,body>
 <fields_value_same id=id,code,type_id,author value={AUTO_INCREMENT},{AUTO_INCREMENT},118,方文山>

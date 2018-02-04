@@ -1,6 +1,6 @@
-﻿<server id='192.168.1.122'>
-<table id="audios1">
-<fields_value_diff id='title,body'>
+﻿﻿<conn id=MY122.json>
+<table id=book>
+<fields_value_diff id=title,body>
 <fields_value_same id=id,code,type_id,author value={AUTO_INCREMENT},{AUTO_INCREMENT},118,席慕蓉>
 
 ~一棵开花的树~
