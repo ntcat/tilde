@@ -38,7 +38,7 @@ def load():
 
 	# 现在检查 表和字段 是否存在
 	if not check.is_table_exist(gl.table_name):
-		gl.msg = gl.file_name + ': table标签指定表名不存在，请检查本文件。\n'
+		gl.msg = gl.file_name + ': table标签指定表名不存在，请检查本文件。\n' + gl.msg
 		return False
 
 	# 现在检查 表和字段 是否存在

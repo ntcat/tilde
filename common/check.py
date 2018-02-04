@@ -25,6 +25,7 @@ def is_tilde_count_ok(content,field_count):
 def is_table_exist(table_name):
 	"""检查表是否存在"""
 	try:
+		gl.msg = ''
 		sql = 'SELECT table_name FROM information_schema.TABLES WHERE table_name ="{tb}";'\
 			.format(tb=table_name)
 		db = sqlmanager.SQLManager(gl.DB_CONFIG)
@@ -35,8 +36,7 @@ def is_table_exist(table_name):
 		else:
 			return False
 	except Exception as e:
-		print(gl.file_name, e)
-		print('表或字段可能不存在。')
+		gl.msg = e
 		return False
 
 def is_fields_exist(table_name,fields_name):
