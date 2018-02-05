@@ -1,7 +1,0 @@
-﻿﻿<conn id=<conn id=redfish122.json>>
-<table id=t_zhang>
-<fields_value_diff id=creattime,name>
-<fields_value_same id=id,code,type_id,author value={AUTO_INCREMENT},{AUTO_INCREMENT},118,北岛>
-
-~11:43 2018-02-02~浙江老张~SXBG~300~TRUE
-~11:44 2018-02-02~啊哈弗~XKT，CDB~800~TRUE
