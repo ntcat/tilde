@@ -14,7 +14,8 @@ class SQLManager:
 		self.cursor = None
 		self.msg = ''
 		self.affect_rows = 0
-		self.connect()
+		if not self.connect():
+			exit()  #连接失败，退出
 
 	def connect(self):
 		try:
@@ -31,7 +32,7 @@ class SQLManager:
 				self.cursor = self.conn.cursor(cursor=pymysql.cursors.DictCursor)
 			return True
 		except Exception as e:
-			self.msg = str(e)
+			print('\nmysql connect failed:\n',str(e))
 			return False
 
 	# 查询多条数据
