@@ -16,7 +16,9 @@ def fill_row_to_fields_dict(tuple_row):
 	"""
 	diff_sp = gl.fields_diff_name.split(',')
 	for i in range(len(diff_sp)):
-		gl.fields_dict[diff_sp[i]] = tuple_row[i]
+		tr = tuple_row[i].replace('"','“')
+		tr = tr.replace("'","’")
+		gl.fields_dict[diff_sp[i]] = tr
 
 	same_name_sp = gl.fields_same_name.split(',')
 	same_value_sp = gl.fields_same_value.split(',')
@@ -43,19 +45,23 @@ def build_insert_ignore():
 
 def build_insert_update():
 	"""建立插入决策之我更新SQL语句"""
-	set_str = ''
-	update_str = ''
-	at_fields = ''
-	fs_sp = gl.fields_name.split(',')
+	try:
+		set_str = ''
+		update_str = ''
+		at_fields = ''
+		fs_sp = gl.fields_name.split(',')
 
-	for key in fs_sp:
-		set_str += 'set @v_' + key + '="' + gl.fields_dict[key] + '";\n'
-		update_str += ',' + key + '=@v_' + key
-		at_fields += ',' + '@v_' + key
+		for key in fs_sp:
+			set_str += 'set @v_' + key + '="' + str(gl.fields_dict[key]) + '";\n'
+			update_str += ',' + key + '=@v_' + key
+			at_fields += ',' + '@v_' + key
 
-	return '{setStr}Insert into {table}({fields}) values({atFields}) on duplicate key UPDATE {updateStr};'.format(
-		setStr=set_str, table=gl.table_name, fields=gl.fields_name, atFields=at_fields[1:],
-		fieldsName=gl.fields_name, updateStr=update_str[1:])
+		return '{setStr}Insert into {table}({fields}) values({atFields}) on duplicate key UPDATE {updateStr};'.format(
+			setStr=set_str, table=gl.table_name, fields=gl.fields_name, atFields=at_fields[1:],
+			fieldsName=gl.fields_name, updateStr=update_str[1:])
+	except Exception as e:
+		gl.msg = str(e)
+		return False
 
 def build_sql_list():
 	"""重建sql执行队列，for output export.sql or excute
