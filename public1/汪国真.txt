@@ -1,7 +1,8 @@
 ﻿<conn id=MY122.json>
 <table id=book>
-<fields_value_same id=id,code,type_id,author value={AUTO_INCREMENT},{AUTO_INCREMENT},118,汪国真>
+<fields_value_same id=id,code,type_id,author_id value={AUTO_INCREMENT},{AUTO_INCREMENT},118,{SQL:select id from author where author_name='汪国真'}>
 <fields_value_diff id=title,body>
+<fields_value_only id=title,author_id>
 
 ~热爱生命~
 我不去想是否能够成功
@@ -128,21 +129,3 @@
 那么明日
 何妨做　皓月一轮~
 
-
-~倘若才华得不到承认~
-倘若才华得不到承认
-与其诅咒　不如坚忍
-在坚忍中积蓄力量
-默默耕耘
-
-诅咒　无济于事
-只能让原来的光芒黯淡
-在变得黯淡的光芒中
-沦丧的更有　大树的精神
-
-飘来的是云
-飘去的也是云
-既然今天
-没人识得星星一颗
-那么明日
-何妨做　皓月一轮~
