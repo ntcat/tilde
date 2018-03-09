@@ -1,8 +1,10 @@
 ﻿<conn id=MY122.json>
 <table id=book>
 <fields_value_diff id=title,body>
-<fields_value_same id=id,code,type_id,author value={AUTO_INCREMENT},{AUTO_INCREMENT},118,江河>
-<inset_policy duplicate=update> 
+<fields_value_same id=id,code,type_id,author_id value={AUTO_INCREMENT},{AUTO_INCREMENT},118,{SQL:select id from author where author_name='江河'}>
+
+<fields_value_only id=title,author_id>
+
 ~没有写完的诗~
 一、 古老的故事 
 

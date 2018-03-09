@@ -1,8 +1,8 @@
 ﻿<conn id=MY122.json>
 <table id=book>
 <fields_value_diff id=title,body>
-<fields_value_same id=id,code,type_id,author value={AUTO_INCREMENT},{AUTO_INCREMENT},118,沈浩波>
-<inset_policy duplicate=update> 
+<fields_value_same id=id,code,type_id,author_id value={AUTO_INCREMENT},{AUTO_INCREMENT},118,{SQL:select id from author where author_name='沈浩波'}>
+<fields_value_only id=title,author_id>
 ~ 雨中抒情~
 没有其他什么人了 走廊里安静得出奇 有些冷 仿佛堆满了积雪。
 雨的哗哗声 像一柄巨大的扫帚 将人们冲刷进各自温暖的房间。

@@ -2,8 +2,8 @@
 ﻿<conn id=MY122.json>
 <table id=book>
 <fields_value_diff id=title,body>
-<fields_value_same id=id,code,type_id,author value={AUTO_INCREMENT},{AUTO_INCREMENT},79,曹雪芹>
-
+<fields_value_same id=id,code,type_id,author_id value={AUTO_INCREMENT},{AUTO_INCREMENT},79,{SQL:select id from author where author_name='曹雪芹'}>
+<fields_value_only id=title,author_id>
 ~《赞林黛玉》~
 两弯似蹙非蹙肙烟眉，
 一双似喜非喜含露目。

@@ -1,7 +1,8 @@
 ﻿<conn id=MY122.json>
 <table id=book>
 <fields_value_diff id=title,body>
-<fields_value_same id=id,code,type_id,author value={AUTO_INCREMENT},{AUTO_INCREMENT},118,杜荣琛>
+<fields_value_only id=title,author_id>
+<fields_value_same id=id,code,type_id,author_id value={AUTO_INCREMENT},{AUTO_INCREMENT},118,{SQL:select id from author where author_name='杜荣琛'}>
 
 ~年龄的问题~
 爷爷的年龄，写在脸上的皱纹里；

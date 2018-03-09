@@ -8,7 +8,7 @@
 <fields_value_diff id=title,body>
 
 #值相同字段，可选标签，注意id和value的内容要对应正确
-<fields_value_same id=code,type_id,author value={AUTO_INCREMENT},118,顾城>
+<fields_value_same id=code,type_id,author_id value={AUTO_INCREMENT},118,顾城>
 
 #插入策略，可选标签，这个起作用的条件是表内相关字段建立索引
 #duplicate有二种值:skip(遇到相同跳过）、update(遇到相同，更新）

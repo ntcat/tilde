@@ -14,10 +14,9 @@ DB_CONFIG = {}
 table_name = '' # 表名
 
 fields_diff_name = ''   # 必要标签，标记值不同的字段
+fields_only_name = ''   # 必要标签，虚拟唯一性约束
 fields_same_name = ''   # 可选标签，标记值相同的字段
 fields_same_value= ''   # 可选标签，标记值相同的字段的值
-
-inset_policy  = 'ignore'   # 可选标签，出现重复处理方式：ignore,update
 
 fields_name = ''        #  diff+same字段
 

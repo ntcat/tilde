@@ -50,13 +50,20 @@ def prase_fields_value_diff(content):
     else:
        return  fb['id'].replace('，',',').replace(' ',',').replace('"','').replace("'","")
 
+def prase_fields_value_only(content):
+    fb = prase_common(content, 'fields_value_only')
+    if len(fb) == 0:
+        return ""
+    else:
+       return  fb['id'].replace('，',',').replace(' ',',').replace('"','').replace("'","")
+
+
 def prase_fields_value_same(content):
     fb = prase_common(content, 'fields_value_same')
     if len(fb) == 0:
         return ("","")
     else:
-       return  (fb['id'].replace('，',',').replace(' ',','),
-                fb['value'].replace('，',',').replace(' ',','))
+       return  (fb['id'].replace('，',','),fb['value'].replace('，',','))
 
 def prase_inset_policy(content):
     fb = prase_common(content, 'inset_policy')
@@ -75,6 +82,14 @@ def prase_common(content, keyword):
         return []
     # 先规范一下，去掉=号二边的空格
     tag_com = tag_coms[0].strip()
+
+    # 对{}中的内容进行保护
+    pat = re.compile(r'{([\s\S]+?)}', flags=re.IGNORECASE)
+    tag_brace = re.findall(pat,tag_com)
+    for i in range(len(tag_brace)):
+        replace_to = 'tag_brace_%d'%i
+        tag_com = tag_com.replace(tag_brace[i], replace_to)
+
     # 把单引号，双引号全部去掉
     tag_com = tag_com.replace('\'', '')
     tag_com = tag_com.replace('\"', '')
@@ -82,20 +97,29 @@ def prase_common(content, keyword):
     # 在处理逗号前，去掉多余的空格，否则下面二行有漏洞
     tag_com = tag_com.replace(', ', ',')  # 去掉逗号右的空格
     tag_com = tag_com.replace(' ,', ',')  # 去掉逗号左的空格
-    sp_com = tag_com.split('=')  # 之所以先处理=.再处理空格，是防止出现
-    regex = re.compile('\s+')  # 多个连续空格当一个用
+
+    # 去除=号二边的空格
+    sp_com = tag_com.split('=')
     new_tag_com = ''
     for a in sp_com:
         a = a.strip()
         new_tag_com = new_tag_com + '=' + a
     new_tag_com = new_tag_com[1:]  # 去掉头部的=号
+
     # 现在规范了，处理吧
+    regex = re.compile('\s+')  # 多个连续空格当一个用
     sp_com = regex.split(new_tag_com)
     keys = {}
+    the_value = ''
+    replace_from = ''
     for a in sp_com:
         sp_a = a.split('=')
         if len(sp_a) == 2:
-            keys[sp_a[0]] = sp_a[1]
+            the_value = sp_a[1]
+            for i in range(len(tag_brace)):
+                fd = 'tag_brace_%d'%i
+                the_value = the_value.replace(fd,tag_brace[i])
+            keys[sp_a[0]] = the_value
     return keys
 
 # 只做一件，将连续的空格变成一个，合并 多余空格a='1    2'.split(' ') any(aa[1]) == false

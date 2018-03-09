@@ -1,8 +1,8 @@
 ﻿<conn id=MY122.json>
 <table id=book>
 <fields_value_diff id=title,body>
-<fields_value_same id=id,code,type_id,author value={AUTO_INCREMENT},{AUTO_INCREMENT},118,欧阳江河>
-<inset_policy duplicate=update> 
+<fields_value_same id=id,code,type_id,author_id value={AUTO_INCREMENT},{AUTO_INCREMENT},118,{SQL:select id from author where author_name='欧阳江河'}>
+<fields_value_only id=title,author_id>
 ~傍晚穿过广场~
 我不知道一个过去年代的广场
 从何而始，从何而终

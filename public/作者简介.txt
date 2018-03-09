@@ -1,8 +1,8 @@
 ﻿<conn id=MY122.json>
 <table id=author>
 <fields_value_diff id=author_name,intro>
-<fields_value_same id=id,dynasty,dynasty_id  value={AUTO_INCREMENT},近当代,13>
-<inset_policy duplicate=update> 
+<fields_value_same id=id,dynasty,dynasty_id value={AUTO_INCREMENT},近当代,13>
+<fields_value_only id=author_name,dynasty_id>
 
 ~戈麦~
 戈麦，原名褚福军，祖籍山东巨野，1967年生于黑龙江省萝北县宝泉岭农场，1985年考入北京大学中文系。有北大”校园诗人”之称。1991年9月24日自沉于北京西郊万泉河，时年仅二十四岁。~

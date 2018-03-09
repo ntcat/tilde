@@ -25,6 +25,8 @@ def trans_decl_func_to_value(keyName):
             return get_uuid()
         elif df =='NOW':
             return get_now()
+        elif df[:4] =='SQL:':
+            return get_column0(df[4:])
         else:
             pass
         return keyValue
@@ -70,4 +72,16 @@ def get_max_auto_increment_from_table(field):
         print(gl.file_name, e)
         print('表或字段可能不存在。')
         return 0
+
+def get_column0(sql):
+    try:
+        db = sqlmanager.SQLManager(gl.DB_CONFIG)
+        row=db.get_one(sql)
+        db.close()
+        value_list = list(row.values())  # {'id':'6543'} -> [6543]
+        return value_list[0]
+
+    except Exception as e:
+        print(gl.file_name, e)
+        return None
 

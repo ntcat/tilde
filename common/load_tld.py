@@ -21,9 +21,16 @@ def load():
 	if gl.fields_diff_name == '':
 		gl.msg = gl.file_name +':没有fields_value_diff标签。\n'
 		return False
-	gl.fields_same_name, gl.fields_same_value = prase.prase_fields_value_same(gl.data)
-	gl.inset_policy = prase.prase_inset_policy(gl.data)
 
+	gl.fields_only_name = prase.prase_fields_value_only(gl.data)
+	if gl.fields_only_name == '':
+		gl.msg = gl.file_name +':没有fields_value_only标签。\n'
+		return False
+
+	gl.fields_same_name, gl.fields_same_value = prase.prase_fields_value_same(gl.data)
+
+	# 需要对这些字段进行合法性检查：diff 和 same 不能有交集，only集合无要求，它可以是任意字段
+	# 集合是无序的，不考虑用它，用逗串吧:)
 
 	count_same = 0
 	if gl.fields_same_name != '':  #有可选标签
@@ -36,12 +43,12 @@ def load():
 
 	fields_diff_count = gl.fields_diff_name.count(',') + 1  # diff 字段数量
 
-	# 现在检查 表和字段 是否存在
+	# 现在检查 表 是否存在
 	if not check.is_table_exist(gl.table_name):
 		gl.msg = gl.file_name + ': table标签指定表名不存在，请检查本文件。\n' + gl.msg
 		return False
 
-	# 现在检查 表和字段 是否存在
+	# 现在检查 字段 是否存在
 	if not check.is_fields_exist(gl.table_name,gl.fields_name):
 		gl.msg = gl.file_name + gl.msg
 		return False
