@@ -117,8 +117,8 @@ def prase_common(content, keyword):
         if len(sp_a) == 2:
             the_value = sp_a[1]
             for i in range(len(tag_brace)):
-                fd = 'tag_brace_%d'%i
-                the_value = the_value.replace(fd,tag_brace[i])
+                replace_from = 'tag_brace_%d'%i
+                the_value = the_value.replace(replace_from,tag_brace[i])
             keys[sp_a[0]] = the_value
     return keys
 

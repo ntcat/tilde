@@ -75,6 +75,9 @@ if __name__ == '__main__':
                 tld.option = 'sql'
             else:
                 tld.sub_tld_dir = sys.argv[i]
-
-        tld.main()
+        if tld.action == "":
+            print("error command")
+            exit(0)
+        else:
+            tld.main()
 
