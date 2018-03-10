@@ -83,7 +83,6 @@ def get_column0(sql):
             return value_list[0]
         else:
             return 0
-
     except Exception as e:
         print(gl.file_name, e)
         return 0
