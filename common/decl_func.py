@@ -74,6 +74,7 @@ def get_max_auto_increment_from_table(field):
         return 0
 
 def get_column0(sql):
+    row=''
     try:
         db = sqlmanager.SQLManager(gl.DB_CONFIG)
         row=db.get_one(sql)
@@ -85,6 +86,7 @@ def get_column0(sql):
         else:
             return 0
     except Exception as e:
-        print(gl.file_name, e)
+        print(gl.file_name,'row=%s'%row,sql)
+        print(e)
         return 0
 
