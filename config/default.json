@@ -2,11 +2,7 @@
     "host": "localhost",
     "port": 3306,
     "user": "root",
-<<<<<<< HEAD
     "passwd":"",
-=======
-    "passwd":"1234",
->>>>>>> a9f091829fea2f088fcb9c56057cc929b29100c7
     "db":"classics",
     "charset":"utf8"
 }
