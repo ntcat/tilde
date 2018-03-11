@@ -78,6 +78,7 @@ def get_column0(sql):
         db = sqlmanager.SQLManager(gl.DB_CONFIG)
         row=db.get_one(sql)
         db.close()
+        print('---------',row,'============')
         if len(row) > 0:
             value_list = list(row.values())  # {'id':'6543'} -> [6543]
             return value_list[0]
