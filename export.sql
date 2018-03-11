@@ -1,45 +1,2600 @@
-set @v_title="乡愁";
-set @v_body="小时侯
-乡愁是一枚小小的邮票
-我在这头
-母亲在那头
-长大后乡愁是一张窄窄的船票
-我在这头
-新娘在那头
-后来呵
-乡愁是一方矮矮的坟墓
-我在外头
-母亲呵在里头
-而现在
-乡愁是一湾浅浅的海峡
-我在这头
-大陆在那头";
-set @v_id="909";
-set @v_code="297";
-set @v_type_id="118";
-set @v_author_id="5179";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_title="回延安";
+set @v_body="    一
 
-set @v_title="当我死时";
-set @v_body="当我死时，葬我在长江与黄河
-之间，枕我的头颅，白发盖着黑土。
-在中国，最美最母亲的国度，
-我便坦然睡去，睡整张大陆，
-听两侧，安魂曲起自长江，黄河
-两管永生的音乐，滔滔，朝东。
-这是最纵容最宽阔的床，
+心口呀莫要这么厉害的跳，
+灰尘呀莫把我眼睛挡住了……
+手抓黄土我不放，
+紧紧贴在心窝上。
 
-让一颗心满足地睡去，满足的想，
-从前，一个中国青年曾经，
-在冰冻的密西根河向西了望，
-想望透黑夜看中国的黎明，
-饕餮地图，从西湖到太湖，
-到多鹧鸪的重庆，代替回乡。";
-set @v_id="910";
-set @v_code="298";
+……几回回梦里回延安，
+双手搂定宝塔山。
+千声万声呼唤你
+──母亲延安就在这里！
+
+杜甫川唱来柳林铺笑，
+红旗飘飘把手招。
+白羊肚手巾红腰带，
+亲人们迎过延河来。
+
+满心话登时说不过来，
+一头扑在亲人怀……
+
+二
+
+……二十里铺送过柳林铺迎，
+分别十年又回家中。
+树梢树枝树根根，
+亲山亲水有亲人。
+
+羊羔羔吃奶望着妈，
+小米饭养活我长大。
+东山的糜子西山的谷，
+肩膀上的红旗手中的书。
+
+手把手儿教会了我，
+母亲打发我们过黄河。
+革命的道路千万里，
+天南海北想着你……
+
+三
+
+米酒油馍木炭火，
+团团围定炕头坐。
+满窑里围的不透风，
+脑畔上还响着脚步声。
+
+老爷爷进门气喘得紧：
+“我梦见鸡毛信来──
+可真见亲人……”
+亲人见了亲人面，
+双眼的眼泪眼眶里转。
+
+保卫延安你们费了心，
+白头发添了几根根。
+团支书又领进社主任，
+当年的放羊娃如今长成人。
+
+白生生的窗纸红窗花，
+娃娃们争抢来把手儿拉。
+一口口的米酒千万句话，
+长江大河起浪花。
+
+十年来革命大发展，
+说不尽这三千六百天……
+
+四
+
+千万条腿来千万只眼，
+也不够我走来也不够我看。
+头顶着蓝天大明镜，
+延安城照在我心中──
+
+一条条街道宽又平，
+一座座楼房披彩虹；
+一盏盏电灯亮又明，
+一排排绿树迎春风……
+
+对照过去我认不出了你，
+母亲延安换新衣。
+
+五
+
+杨家岭的红旗啊高高的飘，
+革命万里起高潮！
+宝塔山下留脚印，
+毛主席登上了天安门！
+
+枣园的灯光照人心，
+延河滚滚喊“前进”！
+赤卫队……青年团……红领巾，
+走着咱英雄几辈辈人……
+
+社会主义路上大踏步走，
+光荣的延河还要在前头！
+身长翅膀吧脚生云，
+再回延安看母亲！
+
+·1956年3月9日 延安";
+set @v_id="7678";
+set @v_code="7677";
 set @v_type_id="118";
-set @v_author_id="5179";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="你还在我身边";
+set @v_body="    瀑布的水逆流而上
+蒲公英的种子从远处飘回，聚成伞的模样
+太阳从西边升起 落向东方
+
+子弹退回枪膛
+运动员回到起跑线上
+我交回录取通知书 忘了十年寒窗
+
+厨房里飘来饭菜的香
+你把我的卷子签好名字
+关掉电视 帮我把书包背上";
+set @v_id="7679";
+set @v_code="7678";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="回答";
+set @v_body="卑鄙是卑鄙者的通行证，
+高尚是高尚者的墓志铭。
+看吧，在那镀金的天空中，
+飘满了死者弯曲的倒影。
+冰川纪过去了，
+为什么到处都是冰凌？
+好望角发现了，
+为什么死海里千帆相竞？
+我来到这个世界上，
+只带着纸、绳索和身影，
+为了在审判之前，
+宣读那些被判决了的声音：
+告诉你吧，世界，
+我——不——相——信！
+纵使你脚下有一千名挑战者，
+那就把我算做第一千零一名。
+我不相信天是蓝的，
+我不相信雷的回声；
+我不相信梦是假的，
+我不相信死无报应。
+如果海洋注定要决堤，
+就让所有的苦水都注入我心中；
+如果陆地注定要上升，
+就让人类重新选择生存的峰顶。
+新的转机和闪闪的星斗，
+正在缀满没有遮拦的天空，
+那是五千年的象形文字，
+那是未来人们凝视的眼睛。";
+set @v_id="7680";
+set @v_code="7679";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="一束";
+set @v_body="在我和世界之间
+你是海湾，是帆
+是缆绳忠实的两端
+你是喷泉，是风
+是童年清脆的呼喊
+
+
+在我和世界之间
+你是画框，是窗口
+是开满野花的田园
+你是呼吸，是床头
+是陪伴星星的夜晚
+
+
+在我和世界之间
+你是日历，是罗盘
+是暗中滑行的光线
+你是履历，是书签
+是写在最后的序言
+
+
+在我和世界之间
+你是纱幕，是雾
+是映入梦中的灯盏
+你是口笛，是无言之歌
+是石雕低垂的眼帘
+
+
+在我和世界之间
+你是鸿沟，是池沼
+是正在下陷的深渊
+你是栅栏，是墙垣
+是盾牌上永久的图案";
+set @v_id="7681";
+set @v_code="7680";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="秋天";
+set @v_body="黑夜是凝滞的岁月， 
+岁月是流动的黑夜。
+你停在门口，
+回过头，递给我短短的一瞥。
+这就是离别吗？
+难道一切都将被忘却？
+像绚丽的秋天过去，
+到处要蒙上冷漠的白雪。
+我珍爱果实，
+但也不畏惧这空旷的拒绝。
+只要心灵饮着热血，
+未来就没有凋残的季节！
+秋风摇荡繁星，
+哦，那是永恒在天空书写；
+是的，一瞥就足够了，
+我已该深深把你感谢。";
+set @v_id="7682";
+set @v_code="7681";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="我的幻想";
+set @v_body="我在幻想着，
+幻想在破灭着；
+幻想总把破灭宽恕，
+破灭却从不把幻想放过。";
+set @v_id="7683";
+set @v_code="7682";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="我赞美世界";
+set @v_body="我赞美世界，
+用蜜蜂的歌，
+蝴蝶的舞，
+和花朵的诗。
+月亮，
+遗失在夜空中，
+像是一枚卵石。
+星群，
+散落在黑夜里，
+像是细小的金沙。
+用夏夜的风，
+来淘洗吧！
+你会得到宇宙的光华。
+把牧童
+草原样浓绿的短曲；
+把猎人
+森林样丰富的幻想；
+把农民
+麦穗样金黄的欢乐；
+把渔人
+水波样透明的希望；
+……
+把全天下的：海洋、高山
+平原、江河，
+把七大州：
+早晨、傍晚、日出
+月落，
+从生活中，睡梦中，
+投入思想的熔岩，
+凝成我黎明一样灿烂的
+——诗歌。";
+set @v_id="7684";
+set @v_code="7683";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="一代人（外两首）";
+set @v_body="一 代 人
+ 
+黑夜给了我黑色的眼睛
+我却用它寻找光明
+ 
+ 
+摄
+ 
+阳光
+在天上一闪，
+又被乌云埋掩。
+暴雨冲洗着，
+我灵魂的底片。
+ 
+ 
+祭
+ 
+我把你的誓言
+把爱
+刻在蜡烛上
+看它怎样
+被泪水淹没
+被心火烧完
+看那最后一念
+怎样灭绝
+怎样被风吹散";
+set @v_id="7685";
+set @v_code="7684";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="远和近";
+set @v_body="你 
+一会看我 
+一会看云 
+我觉得 
+你看我时很远 
+你看云时很近";
+set @v_id="7686";
+set @v_code="7685";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="是树木游泳的力量";
+set @v_body="是树木游泳的力量 
+使鸟保持它的航程 
+使它想起潮水的声音 
+鸟在空中说话 
+它说：中午 
+它说：树冠的年龄 
+
+芳香覆盖我们全身 
+长长清凉的手臂越过内心 
+我们在风中游泳 
+寂静成型 
+我们看不见最初的日子 
+最初，只有爱情 ";
+set @v_id="7687";
+set @v_code="7686";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="我是一个任性的孩子";
+set @v_body="也许
+我是被妈妈宠坏的孩子
+我任性
+我希望
+每一个时刻
+都像彩色蜡笔那样美丽
+我希望
+能在心爱的白纸上画画
+画出笨拙的自由
+画下一只永远不会
+流泪的眼睛
+一片天空
+一片属于天空的羽毛和树叶
+一个淡绿的夜晚和苹果
+我想画下早晨
+画下露水
+所能看见的微笑
+画下所有最年轻的
+没有痛苦的爱情
+画下想象中
+我的爱人
+她没有见过阴云
+她的眼睛是晴空的颜色
+她永远看着我
+永远，看着
+绝不会忽然掉过头去
+我想画下遥远的风景
+画下清晰的地平线和水波
+画下许许多多快乐的小河
+画下丘陵——
+长满淡淡的茸毛
+我让它们挨得很近
+让它们相爱
+让每一个默许
+每一阵静静的春天的激动
+都成为一朵小花的生日
+我还想画下未来
+我没见过她，也不可能
+但知道她很美
+我画下她秋天的风衣
+画下那些燃烧的烛火和枫叶
+画下许多因为爱她
+而熄灭的心
+画下婚礼
+画下一个个早早醒来的节日——
+上面贴着玻璃糖纸
+和北方童话的插图
+我是一个任性的孩子
+我想涂去一切不幸
+我想在大地上
+画满窗子
+让所有习惯黑暗的眼睛
+都习惯光明
+我想画下风
+画下一架比一架更高大的山岭
+画下东方民族的渴望
+画下大海——
+无边无际愉快的声音
+最后，在纸角上
+我还想画下自己
+画下一只树熊
+他坐在维多利亚深色的丛林里
+坐在安安静静的树枝上
+发愣
+他没有家
+没有一颗留在远处的心
+他只有，许许多多
+浆果一样的梦
+和很大很大的眼睛
+我在希望
+在想
+但不知为什么
+我没有领到蜡笔
+没有得到一个彩色的时刻
+我只有我
+我的手指和创痛
+只有撕碎那一张张
+心爱的白纸
+让它们去寻找蝴蝶
+让它们从今天消失
+我是一个孩子
+一个被幻想妈妈宠坏的孩子
+我任性 ";
+set @v_id="7688";
+set @v_code="7687";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="一个人应该活得是自己并且干净";
+set @v_body="人的生命里有一种能量，它使你不安宁。说它是欲望也行，幻想也行，妄想也行，总之它不可能停下来，它需要一个表达形式。这个形式可能是革命，也可能是爱情；可能是搬一块石头，也可能是写一首诗。只要这个形式和生命力里的这个能量吻合了，就有了一个完美的过程。 
+
+一个彻底诚实的人是从不面对选择的，那条路永远会清楚无二地呈现在你面前，这和你的憧憬无关，就像你是一棵苹果树，你憧憬结橘子，但是你还是诚实地结出苹果一样。 
+
+西方爱情是强烈开放的花朵，东方爱情是两朵花之间微妙的芳香。 
+
+自由并不是你不知道干什么好，也不是你干什么都可以不坐牢；自由是你清楚无疑你要干什么，不装蒜，不矫揉造作，无论什么功利结果，会不会坐牢或者送死，都不在话下了。对于惶惑不知道干什么的人来说，自由是不存在的；对于瞻前顾后、患得患失的人来说，自由是不可及的。 
+
+一个人，生活可以变得好，也可以变得坏；可以活得久，也可以活得不久；可以做一个艺术家，也可以锯木头，没有多大区别。但是有一点，就是他不能面目全非，他不能变成一个鬼，他不能说鬼话、说谎言，他不能在醒来的时候看见自己觉得不堪入目。一个人应该活得是自己并且干净。 
+
+命运不是风来回吹，命运是大地，走到哪里你都在命中。 
+
+贾宝玉是真性情，鲁智深也是真性情；鲁智深一句唱词儿“赤条条来去无牵挂”，贾宝玉眼泪就下来了，顿时就有了感觉。可是你让贾宝玉抡个棍子去打，那无疑是找死。他们爱好不同，性情很不一样，但是呢，都是真性情，它就通了。 
+
+从叶到花，或从花到叶，于科研是一个过程，而于生命自身则永远只在此刻。花和叶都是一种记忆方式。果子同时也是叶子。生命是闪耀的此刻，不是过程，就像芳香不需要道路一样。 
+
+中国人只创造了两个理想，一个是山中的桃花源，一个是墙里的大观园。我的笑话不过是把大观园搬到了山里，忘了林黛玉的药锄是葬花用的。 
+
+我到了新西兰一个小岛上，把身体交给了劳动。四年之后，有一天，我忽然看见黑色的鸟停在月亮里，树上的花早就开了，红花已经落了满地。这时候我才感到我从文 化中间、文字中间走了出来。万物清清楚楚地呈现在你的心里，一阵风吹过，鸟就开始叫了，树就开始响了。这个时候我明白了一个道理：只有在你生命美丽的时 候，世界才是美丽的。 ";
+set @v_id="7689";
+set @v_code="7688";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="礼物";
+set @v_body="如此幸福的一天 
+雾早散了，我在花园劳作 
+蜂鸟歇在忍冬花上 
+世上没有什么我真想拥有 
+我知道没人值得我羡慕 
+遭受的任何痛苦，我都忘了 
+想起过去的我并不使我难堪 
+我感觉不到痛苦 
+直起身，我看见 
+蓝色的大海和风帆。 ";
+set @v_id="7690";
+set @v_code="7689";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="誓言";
+set @v_body="好了。我现在接受全部的失败
+全部的空酒瓶子和漏着小眼儿的鸡蛋
+好了。我已经可以完成一次重要的分裂
+仅仅一次，就可以干得异常完美
+对于我们身上的补品，抽干的校样
+爱情、行为、唾液和革命理想
+我完全可以把它们全部煮进锅里
+送给你，渴望我完全垮掉的人
+但我对于我肢解后的那些零件
+是给予优厚的希冀，还是颓丧的废弃
+我送给你一颗米粒，好似忠告
+是作为美好形成的据点还是丑恶的证明
+所以，还要进行第二次分裂
+瞄准遗物中我堆砌的最软弱的部位
+判决——我不需要剩下的一切
+哪怕第三、第四，加法和乘法
+全部扔给你。还有死鸟留下的衣裳
+我同样不需要减法，以及除法
+这些权利的姐妹，也同样送给你
+用它们继续把我的零也给废除掉";
+set @v_id="7691";
+set @v_code="7690";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="沧海";
+set @v_body="拒绝死亡　就是拒绝岸上的沉沙
+事物的内部　铀被方向和地理抽空
+那岸上的芦苇在微风中摆动
+时光在摆动　摆动岸边的叶子　摆动灯塔
+
+遥远的绿呀　遥远的七弦琴　翡翠色的盔甲
+这绝对的沉寂被嵌在一颗不名的星球
+像偶然的一块羊皮　羊皮被标记打中
+偶然的绿呀　偶然的风　汇往平明之镜
+
+黑夜里一叶孤舟　一片指甲
+一叶孤舟悄然浔渡　黑夜谛视源头
+一粒银栗漂浮不定　跃上船梢
+细密的波纹呀　通向远方的航路为银线环绕
+
+这是远方　什么人在宇宙的窗口了望
+一只鸟　一直蓝尾鸟　在黑夜登上枝头
+鸟呵　疲倦的鸟　大水上被风暴洗刷的眼睛
+一声鸣叫像一粒啄尖上的石子　石子上有光亮
+
+一只鸟在一滴水上站着　它站了好久　
+这是海面上悬起的的一滴水　它的质量直指
+星球的核心　一只鸟在水上看了好久
+一只蓝色的影子在窗口像死一样绝望
+
+风一直在领航　指引的是海上的波浪
+波浪一直在荡　海面上延伸的钟磬一直在
+谁在千尺之下栽种了槐桑
+谁是琥珀的桶　谁是人　谁是物种";
+set @v_id="7692";
+set @v_code="7691";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="天鹅";
+set @v_body="我面对一面烟波浩淼的景象
+一面镜子可以称作是一位多年忠实的友人
+我梦见他在梦中向我讲述
+我的天蝎座上是一只伏卧的天鹅
+
+他的梦境被我的诗歌的真理照亮而趋于灭亡
+因而那些景象同样也适合于我的梦境
+我在梦中竟也梦见我的诗歌
+我亲手写下的文字之中棉朵一样的天鹅
+
+一只天鹅漂浮在光滑无波的水面
+闪光的毛羽　那黑夜中光明的字句
+我的诗歌一点点布满典籍应有的灰尘
+它华丽的外表将被后世的人清声颂唱
+
+当我郎声地读过并且大胆说出
+那只天鹅振动神仙般的翅膀扶摇直上
+我的诗歌仅剩下消匿之后的痕迹
+一行行隐去　透彻但不清晰
+
+梦中的诗歌　你向我讲述了什么
+它曾在我的脑海中彗星一样一闪而过
+永恒不适于展示　神思不适合述说
+我诗歌的天鹅振翅飞往遥旷的深渊
+
+除了梦幻　我的诗歌已不存在
+有关天鹅也属于上一代人没有实现的梦想
+我们日夜于语言之中寻找的并非天鹅的本质
+它只是作为片段的花彩从我的梦中一晃而过";
+set @v_id="7693";
+set @v_code="7692";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_author_name="戈麦";
+set @v_intro="戈麦，原名褚福军，祖籍山东巨野，1967年生于黑龙江省萝北县宝泉岭农场，1985年考入北京大学中文系。有北大”校园诗人”之称。1991年9月24日自沉于北京西郊万泉河，时年仅二十四岁。";
+set @v_id="5441";
+set @v_dynasty="近当代";
+set @v_dynasty_id="13";
+Insert into author(author_name,intro,id,dynasty,dynasty_id) SELECT @v_author_name,@v_intro,@v_id,@v_dynasty,@v_dynasty_id from DUAL WHERE NOT EXISTS(SELECT author_name,dynasty_id from author WHERE author_name=@v_author_name AND dynasty_id=@v_dynasty_id)
+
+set @v_author_name="江河";
+set @v_intro="江河，原名于友泽，1949年生，北京人，1968年高中毕业。1980年5月在《上海文学》发表处女作《星星变奏曲》，著有诗集《从这里开始》《太阳和它的反光》等，是新时期朦胧诗派的代表诗人之一。他的诗作中灌注了相当厚重的历史感，以《纪念碑》等政治抒情诗和古代神话组诗《太阳和它的反光》赢得社会瞩目。与顾城、北岛、舒婷和杨炼一起并称为“五大朦胧诗人”。";
+set @v_id="5442";
+set @v_dynasty="近当代";
+set @v_dynasty_id="13";
+Insert into author(author_name,intro,id,dynasty,dynasty_id) SELECT @v_author_name,@v_intro,@v_id,@v_dynasty,@v_dynasty_id from DUAL WHERE NOT EXISTS(SELECT author_name,dynasty_id from author WHERE author_name=@v_author_name AND dynasty_id=@v_dynasty_id)
+
+set @v_author_name="于坚";
+set @v_intro="于坚，男，1954年8月8日，出生于昆明。云南师范大学文学院任教、云南作家协会副主席。80年代成名，为“第三代诗歌”的代表性人物，强调口语写作的重要性。";
+set @v_id="5443";
+set @v_dynasty="近当代";
+set @v_dynasty_id="13";
+Insert into author(author_name,intro,id,dynasty,dynasty_id) SELECT @v_author_name,@v_intro,@v_id,@v_dynasty,@v_dynasty_id from DUAL WHERE NOT EXISTS(SELECT author_name,dynasty_id from author WHERE author_name=@v_author_name AND dynasty_id=@v_dynasty_id)
+
+set @v_author_name="沈浩波";
+set @v_intro="沈浩波，诗人、出版人。1976年出生于江苏泰兴，1999年毕业于北京师范大学。为世纪初席卷诗坛的“下半身诗歌运动”的重要发起者。2004年，受邀到荷兰与比利时举办专场诗歌朗诵会。出版有诗集《心藏大恶》、《文楼村记事》、《蝴蝶》、《命令我沉默》。曾获第11届华语文学传媒大奖；《人民文学》诗歌奖；《十月》诗歌奖；中国首届桂冠诗集奖；首届“新世纪诗典”金诗奖；第三届长安诗歌节·现代诗成就大奖等。同时，作为北京磨铁图书有限公司创始人，是国内最著名的出版人之一。";
+set @v_id="5444";
+set @v_dynasty="近当代";
+set @v_dynasty_id="13";
+Insert into author(author_name,intro,id,dynasty,dynasty_id) SELECT @v_author_name,@v_intro,@v_id,@v_dynasty,@v_dynasty_id from DUAL WHERE NOT EXISTS(SELECT author_name,dynasty_id from author WHERE author_name=@v_author_name AND dynasty_id=@v_dynasty_id)
+
+set @v_author_name="芒克";
+set @v_intro="芒克（原名姜世伟），1950年11月出生。朦胧诗人的代表之一，生于沈阳，1956年全家迁到北京市。1969年到河北省白洋淀插队。1978年底与北岛共同创办文学刊物《今天》，并出版了处女诗集《心事》。1987年与唐晓渡、杨炼组织了“幸存者诗歌俱乐部”，并出版刊物《幸存者》。诗集有《阳光中的向日葵》（1988）《芒克诗选》（1989）《没有时间的时间》《今天是哪一天》《芒克的诗歌》，长篇小说《野事》，随笔集《瞧，这些人》。作品被翻译成英、法、意大利、德、西班牙、荷兰、瑞典、日文等。曾应邀访问过法国、意大利、英国、西班牙、荷兰、澳大利亚、美国、瑞典、古巴和日本等国进行学术交流。现居北京，从事写作和油画创作。";
+set @v_id="5445";
+set @v_dynasty="近当代";
+set @v_dynasty_id="13";
+Insert into author(author_name,intro,id,dynasty,dynasty_id) SELECT @v_author_name,@v_intro,@v_id,@v_dynasty,@v_dynasty_id from DUAL WHERE NOT EXISTS(SELECT author_name,dynasty_id from author WHERE author_name=@v_author_name AND dynasty_id=@v_dynasty_id)
+
+set @v_author_name="欧阳江河";
+set @v_intro="欧阳江河，（1956——）四川泸州人，现居北京。原名江河，早年诗作以原名发表。但由于“江河”同时也是当时著名朦胧派诗人于友泽的笔名，为避免混淆，1985年后以“欧阳江河”的笔名发表作品。1979年开始发表诗歌作品。欧阳江河这一笔名直到1985年才正式出现在中国现代诗坛。华语文学传媒大奖2010年度诗人，中国作家协会会员。";
+set @v_id="5446";
+set @v_dynasty="近当代";
+set @v_dynasty_id="13";
+Insert into author(author_name,intro,id,dynasty,dynasty_id) SELECT @v_author_name,@v_intro,@v_id,@v_dynasty,@v_dynasty_id from DUAL WHERE NOT EXISTS(SELECT author_name,dynasty_id from author WHERE author_name=@v_author_name AND dynasty_id=@v_dynasty_id)
+
+set @v_author_name="西川";
+set @v_intro="西川，1963年出生于江苏徐州，1985年毕业于北京大学英文系。美国艾奥瓦大学2002年访问学者。现执教于北京中央美术学院人文学院。西川自80年代起即投身于全国性的青年诗歌运动。他和海子、骆一禾被誉为北大三诗人。出版作品有《深浅》《大河拐大弯》等。其创作和诗歌理念在当代中国诗歌界影响广泛。出版有诗集《虚构的家谱》（1997）《大意如此》（1997）《西川的诗》（1999），诗文集《深浅》（2006）、散文集《水渍》（2001）、《游荡与闲谈：一个中国人的印度之行》（2004）、随笔集《让蒙面人说话》（1997）、评著《外国文学名作导读本.诗歌卷》（2001）、译著《博尔赫斯八十忆旧》（2004）、《米沃什词典》（与北塔合译，2004）。编有《海子的诗》（1995）《海子诗全编》（1997）。曾获鲁迅文学奖（2001）、庄重文文学奖（2003）、联合国教科文组织阿齐伯格奖修金（1997）、德国魏玛全球论文竞赛十佳（1999）等。";
+set @v_id="5447";
+set @v_dynasty="近当代";
+set @v_dynasty_id="13";
+Insert into author(author_name,intro,id,dynasty,dynasty_id) SELECT @v_author_name,@v_intro,@v_id,@v_dynasty,@v_dynasty_id from DUAL WHERE NOT EXISTS(SELECT author_name,dynasty_id from author WHERE author_name=@v_author_name AND dynasty_id=@v_dynasty_id)
+
+set @v_author_name="韩东";
+set @v_intro="韩东，著名诗人作家，1961年5月生于南京。8岁随父母下放苏北农村，1982年毕业于山东大学哲学系。历任西安陕西财经学院教师，南京审计学院教师，1992年辞职成为自由写作者，受聘于广东省作家协会为合同制作家，后转聘于深圳尼克艺术公司，为职业作家。江苏省作家协会理事。1980年开始发表作品。1990年加入中国作家协会。";
+set @v_id="5448";
+set @v_dynasty="近当代";
+set @v_dynasty_id="13";
+Insert into author(author_name,intro,id,dynasty,dynasty_id) SELECT @v_author_name,@v_intro,@v_id,@v_dynasty,@v_dynasty_id from DUAL WHERE NOT EXISTS(SELECT author_name,dynasty_id from author WHERE author_name=@v_author_name AND dynasty_id=@v_dynasty_id)
+
+set @v_title="童话";
+set @v_body="“白桦为什么颤抖，妈妈？” 
+——“他在细听鸟儿说话。” 
+“鸟儿说些什么，妈妈？” 
+——“说仙女傍晚把它们好一顿吓。” 
+“仙女怎么会把鸟儿吓呢？” 
+——“她追赶着白鸽在林中乱窜。” 
+“仙女为什么要追赶白鸽？” 
+——“她见白鸽差点淹死在水潭。” 
+
+“白鸽为什么会差点淹死呢？” 
+——“它想把掉到水里的星星啄上岸” 
+“妈妈，它把水里的星星啄上来了吗？” 
+——“孩子啊，这个我可答不上来。 
+我只知道，等到仙女挨着白鸽的脸蛋时， 
+就像如今我在亲你一样， 
+亲呀亲呀，亲个没完。” ";
+set @v_id="7694";
+set @v_code="7693";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="傍晚穿过广场";
+set @v_body="我不知道一个过去年代的广场
+从何而始，从何而终
+有的人用一小时穿过广场
+有的人用一生——
+早晨是孩子，傍晚已是垂暮之人
+我不知道还要在夕光中走出多远
+才能停住脚步？ 　
+　
+还要在夕光中眺望多久才能
+闭上眼睛？
+当高速行驶的汽车打开刺目的车灯
+那些曾在一个明媚早晨穿过广场的人
+我从汽车的后视镜看见过他们一闪即逝
+的面孔
+傍晚他们乘车离去 
+　　
+一个无人离去的地方不是广场
+一个无人倒下的地方也不是
+离去的重新归来
+倒下的却永远倒下了
+一种叫做石头的东西
+迅速地堆积、屹立
+不象骨头的生长需要一百年的时间
+也不象骨头那么软弱 
+　　
+每个广场都有一个用石头垒起来的
+脑袋，使两手空空的人们感到生存的
+份量。以巨大的石头脑袋去思考和仰望
+对任何人都不是一件轻松的事
+石头的重量
+减轻了人们肩上的责任、爱情和牺牲 
+　　
+或许人们会在一个明媚的早晨穿过广场
+张开手臂在四面来风中柔情地拥抱
+但当黑夜降临
+双手就变得沉重
+唯一的发光体是脑袋里的石头
+唯一刺向石头的利剑悄然坠地 
+　　
+黑暗和寒冷在上升
+广场周围的高层建筑穿上了瓷和玻璃的时装
+一切变得矮小了。石头的世界
+在玻璃反射出来的世界中轻轻浮起
+象是涂在孩子们作业本上的
+一个随时会被撕下来揉成一团的阴沉念头 
+　　
+汽车疾驶而过，把流水的速度
+倾泻到有着钢铁筋骨的庞大混凝土制度中
+赋予寂静以喇叭的形状
+一个过去年代的广场从汽车的后视镜消失了 
+　　
+永远消失了——
+一个青春期的、初恋的、布满粉刺的广场
+一个从未在帐单和死亡通知书上出现的广场
+一个露出胸膛、挽起衣袖、扎紧腰带
+一个双手使劲搓洗的带补丁的广场 　
+　
+一个通过年轻的血液流到身体之外
+用舌头去舔、用前额去下磕、用旗帜去覆盖
+的广场
+
+空想的、消失的、不复存在的广场
+象下了一夜的大雪在早晨停住
+一种纯洁而神秘的融化
+在良心和眼睛里交替闪耀
+一部分成为叫做泪水的东西
+另一部分在叫做石头的东西里变得坚硬起来 
+　　
+石头的世界崩溃了
+一个软组织的世界爬到高处
+整个过程就象泉水从吸管离开矿物
+进入密封的、蒸馏过的、有着精美包装的空间
+我乘坐高速电梯在雨天的伞柄里上升 　
+　
+回到地面时，我看到雨伞一样张开的
+一座圆形餐厅在城市上空旋转
+象一顶从魔法变出来的帽子
+它的尺寸并不适合
+用石头垒起来的巨人的脑袋 　
+　
+那些曾托起广场的手臂放了下来
+如今巨人仅靠一柄短剑来支撑
+它会不会刺破什么呢？比如，一场曾经有过的
+从纸上掀起、在墙上张帖的脆弱革命？ 
+　　
+从来没有一种力量
+能把两个不同的世界长久地粘在一起
+一个反复张帖的脑袋最终将被撕去
+反复粉刷的墙壁
+被露出大腿的混血女郎占据了一半
+另一半是头发再生、假肢安装之类的诱人广告 
+　　
+一辆婴儿车静静地停在傍晚的广场上
+静静地，和这个快要发疯的世界没有关系
+我猜婴儿和落日之间的距离有一百年之遥
+这是近乎无限的尺度，足以测量
+穿过广场所要经历的一个幽闭时代有多么漫长 
+　　
+对幽闭的普遍恐惧，使人们从各自的栖居
+云集广场，把一生中的孤独时刻变成热烈的节日
+但在栖居深处，在爱与死的默默的注目礼中
+一个空无人迹的影子广场被珍藏着
+象紧闭的忏悔室只属于内心的秘密
+
+是否穿越广场之前必须穿越内心的黑暗
+现在黑暗中最黑的两个世界合为一体
+坚硬的石头脑袋被劈开
+利剑在黑暗中闪闪发光 
+　　
+如果我能用被劈成两半的神秘黑夜
+去解释一个双脚踏在大地上的明媚早晨——
+如果我能沿着洒满晨曦的台阶
+去登上虚无之巅的巨人的肩膀
+不是为了升起，而是为了陨落——
+如果黄金镌刻的铭文不是为了被传颂
+而是为了被抹去、被遗忘、被践踏—— 　
+　
+正如一个被践踏的广场迟早要落到践踏者头上
+那些曾在一个明媚早晨穿过广场的人
+他们的黑色皮鞋也迟早要落到利剑之上
+象必将落下的棺盖落到棺材上那么沉重
+躺在里面的不是我，也不是
+行走在剑刃上的人
+
+我没想到这么多人会在一个明媚的早晨
+穿过广场，避开孤独和永生
+他们是幽闭时代的幸存者
+我没想到他们会在傍晚时离去或倒下 
+　　
+一个无人倒下的地方不是广场
+一个无人站立的地方也不是
+我曾是站着的吗？还要站立多久？
+毕竟我和那些倒下去的人一样
+从来不是一个永生者";
+set @v_id="7695";
+set @v_code="7694";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="相信未来";
+set @v_body="当蜘蛛网无情地查封了我的炉台  
+当灰烬的余烟叹息着贫困的悲哀  
+我依然固执地铺平失望的灰烬  
+用美丽的雪花写下：相信未来  
+当我的紫葡萄化为深秋的露水  
+当我的鲜花依偎在别人的情怀  
+我依然固执地用凝霜的枯藤  
+在凄凉的大地上写下：相信未来  
+我要用手指那涌向天边的排浪  
+我要用手掌那托住太阳的大海  
+摇曳着曙光那枝温暖漂亮的笔杆  
+用孩子的笔体写下：相信未来  
+我之所以坚定地相信未来  
+是我相信未来人们的眼睛  
+她有拨开历史风尘的睫毛  
+她有看透岁月篇章的瞳孔  
+不管人们对于我们腐烂的皮肉  
+那些迷途的惆怅、失败的苦痛  
+是寄予感动的热泪、深切的同情  
+还是给以轻蔑的微笑、辛辣的嘲讽  
+我坚信人们对于我们的脊骨  
+那无数次的探索、迷途、失败和成功  
+一定会给予热情、客观、公正的评定  
+是的，我焦急地等待着他们的评定  
+朋友，坚定地相信未来吧  
+相信不屈不挠的努力  
+相信战胜死亡的年轻  
+相信未来、热爱生命 ";
+set @v_id="7696";
+set @v_code="7695";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="这是四点零八分的北京";
+set @v_body="这是四点零八分的北京
+一片手的海洋翻动
+这是四点零八分的北京
+一声尖厉的汽笛长鸣
+北京车站高大的建筑
+突然一阵剧烈地抖动
+我吃惊地望着窗外
+不知发生了什么事情
+我的心骤然一阵疼痛，一定是
+妈妈缀扣子的针线穿透了我的心胸
+这时，我的心变成了一只风筝
+风筝的线绳就在妈妈的手中
+线绳绷得太紧了，就要扯断了
+我不得不把头探出车厢的窗棂
+直到这时，直到这个时候
+我才明白发生了什么事情
+——一阵阵告别的声浪
+就要卷走车站
+北京在我的脚下
+已经缓缓地移动
+我再次向北京挥动手臂
+想一把抓住她的衣领
+然后对她大声地叫喊：
+永远记着我，妈妈啊北京
+终于抓住了什么东西
+管他是谁的手，不能松
+因为这是我的北京
+是我的最后的北京";
+set @v_id="7697";
+set @v_code="7696";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title=" 断章";
+set @v_body="你站在桥上看风景，
+看风景人在楼上看你。
+
+明月装饰了你的窗子，
+你装饰了别人的梦";
+set @v_id="7698";
+set @v_code="7697";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="一棵开花的树";
+set @v_body="如何让你遇见我
+在我最美丽的时刻　为这
+我已在佛前　求了五百年
+求祗让我们结一段尘缘
+佛于是把我化作一棵树
+长在你必经的路旁
+阳光下慎重地开满了花
+朵朵都是我前世的盼望
+当你走近　请你细听
+那颤抖的叶是我等待的热情
+而当你终于无视地走过
+在你身后落了一地的
+朋友啊　那不是花瓣
+是我凋零的心";
+set @v_id="7699";
+set @v_code="7698";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="夏日的午后";
+set @v_body="想你　和那一个
+夏日的午后
+想你从林深处缓缓走来
+是我含笑的出水的莲
+是我的　最最温柔
+最易疼痛的那一部分
+是我的　圣洁遥远
+最不可碰触的年华
+极愿　如庞贝的命运
+将一切最美的在瞬间烧熔
+含泪成为永恒的模子
+好能　一次次地　在千万年间
+重复地　重复地　重复地
+嵌进你我的心中";
+set @v_id="7700";
+set @v_code="7699";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="如歌的行板";
+set @v_body="一定有些什么
+是我所不能了解的
+
+不然　草木怎么都会
+循序生长
+而侯鸟都能飞回故乡
+
+一定有些什么
+是我所无能无力的
+
+不然　日与夜怎么交替得
+那样快　所有的时刻
+都已错过　忧伤蚀我心怀
+
+一定有些什么　在叶落之后
+是我所必须放弃的
+
+是十六岁时的那本日记
+还是　我藏了一生的
+
+那些美丽的如山百合般的
+秘密";
+set @v_id="7701";
+set @v_code="7700";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="爱的筵席";
+set @v_body="是令人日渐消瘦的心事
+是举箸前莫名的伤悲
+是记忆里一场不散的筵席
+是不能饮不可饮　也要拼却的
+一醉";
+set @v_id="7702";
+set @v_code="7701";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="年轻的心";
+set @v_body="不再回头的
+不再是古老的辰光
+也不只是那些个夜晚的
+星群和月亮
+
+尽管　每个清晨仍然会
+开窗探望
+每个夏季　仍然
+会有茉莉的清香
+
+可是　是有些什么
+已经失落了
+在拥挤的市街前
+在仓皇下降的暮色中
+我年轻的心啊
+会有茉莉的清香
+
+可是　是有些什么
+已经失落了
+在拥挤的市街前
+在仓皇下降的暮色中
+我年轻的心啊
+永不再重逢";
+set @v_id="7703";
+set @v_code="7702";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="十六岁的花季";
+set @v_body="在陌生的城市里醒来
+唇间仍留着你的名字
+爱人我已离你千万里
+我也知道
+十六岁的花季只开一次
+
+但我仍在意裙裾的洁白
+在意那一切被赞美的
+被宠爱与抚慰的情怀
+在意那金色的梦幻的网
+替我挡住异域的风霜
+
+爱原来是一种酒
+饮了就化作思念
+而在陌生的城市里
+我夜夜举杯
+遥向着十六岁的那一年";
+set @v_id="7704";
+set @v_code="7703";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="我的信仰";
+set @v_body="我相信　爱的本质一如
+生命的单纯与温柔
+我相信　所有的
+光与影的反射和相投
+
+我相信　满树的花朵
+只源于冰雪中的一粒种子
+我相信　三百篇诗
+反复述说着的　也就只是
+年少时没能说出的
+那一个字
+
+我相信　上苍一切的安排
+我也相信　如果你愿与我
+一起去追溯
+在那遥远而谦卑的源头之上
+我们终于会互相明白";
+set @v_id="7705";
+set @v_code="7704";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="诀别";
+set @v_body="不愿成为一种阻挡
+不愿　让泪水
+沾濡上最亲爱的那张脸庞
+
+于是　在这黑暗的时刻
+我悄然隐退
+请原谅我不说一声再会
+而在最深最深的角落里
+试着将你藏起
+藏到任何人　任何岁月
+也无法触及的　距离";
+set @v_id="7706";
+set @v_code="7705";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="泪─月华";
+set @v_body="忘不了的　是你眼中的泪
+映影着云间的月华
+
+昨夜　下了雨
+雨丝侵入远山的荒冢
+那小小的相思木的树林
+遮盖在你坟山的是青色的荫
+今晨　天晴了
+地萝爬上远山的荒冢
+那轻轻的山谷里的野风
+拂拭在你坟上的是白头的草
+
+黄昏时
+谁会到坟间去辨认残破的墓碑
+已经忘了埋葬时的方位
+只记得哭的时候是朝着斜阳
+
+随便吧
+选一座青草最多的
+放下一束风信子
+我本不该流泪
+明知地下长眠的不一定是你
+又何必效世俗人的啼泣
+
+是几百年了啊
+这悠长的梦　还没有醒
+但愿现实变成古老的童话
+你只是长睡一百年　我也陪你
+让野蔷薇在我们身上开花
+让红胸鸟在我们发间做巢
+让落叶在我们衣褶里安息
+转瞬间就过了一个世纪
+
+但是　这只是梦而已
+远山的山影吞没了你
+也吞没了我忧郁的心
+回去了　穿过那松林
+林中有模糊的鹿影
+幽径上开的是什么花
+为什么夜夜总是带泪的月华";
+set @v_id="7707";
+set @v_code="7706";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="四季";
+set @v_body="　<１>
+
+让我相信　亲爱的
+这是我的故事
+就好像　让我相信
+花开　花落
+就是整个春季的历史
+
+　<２>
+
+你若能忘记　那么
+我应该也可以
+把所有的泪珠都冰凝在心中
+或者　将它们缀上
+那夏夜的无垠的天空
+
+　<３>
+
+而当风起的时候
+我也只不管紧一紧衣裾
+护住我那仍在低唱的心
+不让秋来偷听
+
+　<４>
+
+只为　不能长在落雪的地方
+终我一生　无法说出那个盼望
+我是一棵被移植的针叶木
+亲爱的　你是那极北的
+冬日的故土";
+set @v_id="7708";
+set @v_code="7707";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="白鸟之死";
+set @v_body="你若是那含泪的射手
+我就是　那一只
+决心不再躲闪的白鸟
+
+只等那羽箭破空而来
+射入我早已碎裂的胸怀
+你若是这世间唯一
+唯一能伤我的射手
+我就是你所有的青春岁月
+所有不能忘的欢乐和悲愁
+
+就好象是最后的一朵云彩
+隐没在那无限澄蓝的天空
+那么　让我死在你的手下
+就好象是　终于能
+死在你的怀中";
+set @v_id="7709";
+set @v_code="7708";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="此刻之后";
+set @v_body="在古老单纯的时光里
+一直　有一句
+没说完的话
+
+像日里夜里的流水
+是山上海上的月光
+反复地来　反复地去
+
+让我柔弱的心
+始终在盼望　始终
+找不到栖身的地方
+
+而在此时　你用
+静默的风景　静默的
+声音把它说完
+
+我却在拦阻不及的热泪里
+发现　此刻之后
+青春终于一去不再复返";
+set @v_id="7710";
+set @v_code="7709";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="山路";
+set @v_body="我好像答应过
+要和你　一起
+走上那条美丽的山路
+
+你说　那坡上种满了新茶
+还有细密的相思树
+我好像答应过你
+在一个遥远的春日下午
+而今夜　在灯下
+梳起我初白的发
+忽然记起了一些没能
+实现的诺言　一些
+无法解释的悲伤
+
+在那条山路上
+少年的你　是不是
+还在等我
+还在急切地向来处张望";
+set @v_id="7711";
+set @v_code="7710";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="请别哭泣";
+set @v_body="我已无诗
+世间也再无飞花　无细雨
+尘封的四季啊
+请别哭泣
+
+万般　万般的无奈
+爱的余烬已熄
+重回人间
+猛然醒觉那千条万条　都是
+已知的路　已了然的轨迹
+
+跟着人群走下去吧
+就这样微笑地走到尽头
+我柔弱的心啊
+请试着去忘记　请千万千万
+别再哭泣";
+set @v_id="7712";
+set @v_code="7711";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="灯下的诗与心情";
+set @v_body="不是在一瞬间　就能
+脱胎换骨的
+生命原是一次又一次的
+试探
+
+所以　请耐心地等待
+我爱　让昼与夜交替地过去
+让白发日渐滋长
+让我们慢慢地改变了心情
+让焚烧了整个春与夏的渴望
+终于熄灭　换成了
+一种淡然的逐渐远去的酸辛
+
+月亮出来的时候
+也不能再开门去探望
+也能　终于
+由得它去疯狂地照进
+所有的山林";
+set @v_id="7713";
+set @v_code="7712";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="美丽的心情";
+set @v_body="假如生命是一列
+疾驰而过的火车
+快乐和伤悲　就是
+那两条铁轨
+在我身后　紧紧追随
+
+所有的时刻都很仓皇而又模糊
+除非你能停下来　远远地回顾
+
+只有在回首的刹那
+才能得到一种清明的
+酸辛　所以　也只有
+在太迟了的时候
+才能细细揣摩出　一种
+无悔的　美丽的　心情";
+set @v_id="7714";
+set @v_code="7713";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="青春";
+set @v_body="假如生命是一列
+所有的结局都已写好 
+所有的泪水也都已启程 
+却忽然忘了是怎么样的一个开始 
+在那个古老的不再回来的夏日 
+无论我如何地去追索 
+年轻的你只如云影掠过 
+而你微笑的面容极浅极淡 
+逐渐隐没在日落后的群岚 
+遂翻开那发黄的扉页 
+命运将它装订得极为拙劣 
+含着泪 我一读再读 却不得不承认 
+青春是一本太仓促的书";
+set @v_id="7715";
+set @v_code="7714";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="送别";
+set @v_body="不是所有的梦都来得及实现
+不是所有的话都来得及告诉你
+内疚和悔恨 
+总要深深地种植在离别后的心中
+尽管他们说
+世间种种
+最后终必成空
+我并不是立意要错过
+可是我 一直都在这样做
+错过那花满枝桠的昨日
+又要错过今朝   
+今朝 仍要重复那相同的别离
+馀生将成陌路
+一去千里 
+在暮霭里
+向你深深地俯首
+请为我珍重
+尽管他们说 
+世间种种 
+最后终必 终必成空";
+set @v_id="7716";
+set @v_code="7715";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="回眸";
+set @v_body="前世的五百次回眸才能换得今生的一次擦肩而过，
+那么，我要用多少次回眸才能真正住进你的心中？
+         ------席慕容
+前世，我频频回眸 
+挥别的手帕飘成一朵云 
+多少相思 多少离愁 
+终成一道水痕送我远走 
+今生，我寻觅前世失落的足迹 
+跋山涉水 走进你的眼中 
+前世的五百次回眸换得今生的一次擦肩而过 
+我用一千次回眸换得今生在你面前的驻足停留 
+问佛：要多少次回眸才能真正住进你的心中 
+佛无语,我只有频频回首 
+像飞蛾扑向火 
+可以不计后果 可以不要理由 
+回眸 再回眸 
+千次万次 你在我眼中 也在我心中 
+我频频回顾着 期待你的温柔 
+我频频回顾着 渴望长相厮守 
+前世 我在舟中回眸 
+莲叶一片一片 连成我眼中的哀愁 
+今生 佛成全我的思念 
+让我走进你的眼中 
+我寻觅了很久 累了 
+只想在你怀中停息 
+只想让你的手揩去我脸上的泪痕 
+只想让你的体温温暖我冰凉的双手 
+不要问我为何今生千里迢迢将你寻觅 
+我没有喝孟婆汤 心中牵挂着你 
+不要问我为何哭泣 
+我没有喝孟婆汤 仍记得前世离别时心底的绝望 
+说我喜极而泣吧 
+泪落在你的襟上 
+前世的种种哀愁开成一树繁密的丁香 
+我只想与你携手在树下看那一朵开成五瓣向我们预言幸福 
+今生我仍旧频频回望 
+今生我仍旧不喝孟婆汤 
+来世我还会千里迢迢将你寻觅 
+来世我还会和你手牵手寻找五瓣的丁香";
+set @v_id="7717";
+set @v_code="7716";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="所有的美好正在生长";
+set @v_body="天空生长的花朵
+叫醒大地上更多的颜色
+大地生长的花朵
+认真倾听盛夏的诉说
+合欢以纤细测量树荫的体温
+幽香半含，起起伏伏
+木槿簪花轻笑
+比起去年好像更甜了几分
+所有的美好正在生长
+荷花打着伞，盛装而来
+一路擎着深爱，偎着蓝";
+set @v_id="7718";
+set @v_code="7717";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="母亲的江山";
+set @v_body="你给了我黑发
+时光把它变浅
+你给了我红颜
+时光令之变暗
+你给了我飞快
+时光还你以缓慢
+你给了我丰茂
+时光报你以萧条
+多年后，我变成了你
+和时光争夺江山
+是你，让予我
+一车一马，整个棋盘";
+set @v_id="7719";
+set @v_code="7718";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="行路的人，你要一无所想";
+set @v_body="你要把手插在口袋里
+那串暖得热乎乎的钥匙，你可以时而握着
+时而放开，让它们唱出
+你还未能写出的歌词
+你要一无所想，步履轻盈
+即使行囊在肩上生根，雪粘在头发上
+雾霾挡住了视线
+你可以左顾右盼
+但不要停下来，这一点你最好学学风
+不疲轮换萧瑟和葱茏
+学学鸟儿，在摇摇晃晃的枝头
+不舍歌喉清脆
+有一些小小的快乐，你要把它撒在天空
+留在傍晚之后。撒在路边
+说不定哪天，你会与它再度重逢";
+set @v_id="7720";
+set @v_code="7719";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="我有漂亮的村庄（星飞、大江刘合作）";
+set @v_body="我有漂亮的村庄
+那里孤独的人都像紫地丁一样
+骄傲地活着
+在岸坡，在沟渠
+在任何有泥土的地方
+不卑不亢
+
+我有漂亮的村庄
+那里河流都穿着五彩的衣裳
+流苏点缀在冬的额头
+旷野有风在歌唱
+歌声注视月亮
+在又冷又硬的冰层下明亮地摇晃";
+set @v_id="7721";
+set @v_code="7720";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="用自己去爱一爱残存的浮萍";
+set @v_body="用草地挥霍雨水
+用绿荫回绝空泛
+用繁茂解释无言
+用满满解释甜甜
+用星空去辨认曾经
+用一天去印证漫漫
+用歌一曲完成远与近的循环
+用梦一场告诉时至今日的答案
+用快乐还需节制一点
+用悲伤也不要万万千千
+用自己去爱一爱残存的浮萍
+用还不肯了然的秋天渲染流水的画板";
+set @v_id="7722";
+set @v_code="7721";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="我想像过去那样";
+set @v_body="洗掉白日的油彩
+脱掉摇花曳步的鞋子
+到夜晚里去
+松开高举的旗帜
+放下喧嚣的酒樽
+揭开连日紧堵口鼻的罩子
+到春风里去
+我想像过去那样
+到春风的夜晚走走
+
+把心和肺一起放进去
+把影子和灵魂一起放进去
+把说出来和说不出来的一起放进去
+把流动的和凝结的一起放进去
+
+然后，像过去那样
+不必担心多少有毒悬浮物潜伏暗藏
+随意做一个自由的深呼吸";
+set @v_id="7723";
+set @v_code="7722";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="假如生活欺骗了你";
+set @v_body="假如生活欺骗了你
+不要悲伤 不要心急
+忧郁的日子里须要镇静
+相信吧 快乐的日子将会来临
+心儿永远向往着未来
+现在却常是忧郁
+一切都是瞬息
+一切都将会过去
+而那过去了的
+就会成为亲切的回忆 ";
+set @v_id="7724";
+set @v_code="7723";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="星星";
+set @v_body="当夜色降临 
+我站在台阶上倾听 
+星星蜂拥在花园里 
+而我站在黑暗中 
+
+听，一颗星星落地作响 
+你别赤脚在这草地上散步 
+我的花园到处是星星的碎片";
+set @v_id="7725";
+set @v_code="7724";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="再别康桥";
+set @v_body="轻轻的我走了，
+正如我轻轻的来；
+我轻轻的招手，
+作别西天的云彩。
+
+那河畔的金柳，
+是夕阳中的新娘；
+波光里的艳影，
+在我的心头荡漾。
+
+软泥上的青荇，
+油油的在水底招摇；
+在康河的柔波里，
+我甘心做一条水草！
+
+那榆荫下的一潭，
+不是清泉，是天上虹；
+揉碎在浮藻间，
+沉淀着彩虹似的梦。
+
+寻梦？撑一支长，
+向青草更青处漫；
+满载一船星辉，
+在星辉斑斓里放歌。
+
+但我不能放歌，
+悄悄是别离的笙箫；
+夏虫也为我沉默，
+沉默是今晚的康桥！
+
+悄悄的我走了，
+正如我悄悄的来；
+我挥一挥衣袖，
+不带走一片云彩。 ";
+set @v_id="7726";
+set @v_code="7725";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="赠日本女郎";
+set @v_body="最是那一低头的温柔，
+象一朵水莲花不胜凉风的娇羞，
+道一声珍重，道一声珍重，
+那一声珍重里有蜜甜的忧愁——
+沙扬娜拉！";
+set @v_id="7727";
+set @v_code="7726";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="雪花的快乐";
+set @v_body="假如我是一朵雪花，
+翩翩的在半空里潇洒，
+我一定认清我的方向——
+飞扬，飞扬，飞扬，——
+这地面上有我的方向。
+不去那冷寞的幽谷，
+
+不去那凄清的山麓，
+也不上荒街去惆怅——
+飞扬，飞扬，飞扬，——
+你看，我有我的方向！
+
+在半空里娟娟的飞舞，
+认明了那清幽的住处，
+等着她来花园里探望——
+飞扬，飞扬，飞扬，——
+啊，她身上有朱砂梅的清香！
+
+那时我凭借我的身轻，
+盈盈的②，沾住了她的衣襟，
+贴近她柔波似的心胸——
+消溶，消溶，消溶——
+溶入了她柔波似的心胸！ ";
+set @v_id="7728";
+set @v_code="7727";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="翡冷翠的一夜";
+set @v_body="    你真的走了，明天？那我，那我，……
+    你也不用管，迟早有那一天；
+    你愿意记着我，就记着我，
+    要不然趁早忘了这世界上
+    有我，省得想起时空着恼，
+    只当是一个梦，一个幻想；
+    只当是前天我们见的残红，
+    怯怜怜的在风前抖擞，一瓣，
+    两瓣，落地，叫人踩，变泥……
+    唉，叫人踩，变泥——变了泥倒干净，
+    这半死不活的才叫是受罪，
+    看着寒伧，累赘，叫人白眼——
+    天呀！你何苦来，你何苦来……
+    我可忘不了你，那一天你来，
+    就比如黑暗的前途见了光彩，
+    你是我的先生，我爱，我的恩人，
+    你教给我什么是生命，什么是爱，
+    你惊醒我的昏迷，偿还我的天真。
+    没有你我哪知道天是高，草是青？
+    你摸摸我的心，它这下跳得多快；
+    再摸我的脸，烧得多焦，亏这夜黑
+    看不见；爱，我气都喘不过来了，
+    别亲我了；我受不住这烈火似的活，
+    这阵子我的灵魂就象是火砖上的
+    熟铁，在爱的槌子下，砸，砸，火花
+    四散的飞洒……我晕了，抱着我，
+    爱，就让我在这儿清静的园内，
+    闭着眼，死在你的胸前，多美！
+    头顶白树上的风声，沙沙的，
+    算是我的丧歌，这一阵清风，
+    橄榄林里吹来的，带着石榴花香，
+    就带了我的灵魂走，还有那萤火，
+    多情的殷勤的萤火，有他们照路，
+    我到了那三环洞的桥上再停步，
+    听你在这儿抱着我半暖的身体，
+    悲声的叫我，亲我，摇我，咂我，……
+    我就微笑的再跟着清风走，
+    随他领着我，天堂，地狱，哪儿都成，
+    反正丢了这可厌的人生，实现这死
+    在爱里，这爱中心的死，不强如
+    五百次的投生？……自私，我知道，
+    可我也管不着……你伴着我死？
+    什么，不成双就不是完全的“爱死”，
+    要飞升也得两对翅膀儿打伙，
+    进了天堂还不一样的要照顾，
+    我少不了你，你也不能没有我；
+    要是地狱，我单身去你更不放心，
+    你说地狱不定比这世界文明
+    （虽则我不信，）象我这娇嫩的花朵，
+    难保不再遭风暴，不叫雨打，
+    那时候我喊你，你也听不分明，——
+    那不是求解脱反投进了泥坑，
+    倒叫冷眼的鬼串通了冷心的人，
+    笑我的命运，笑你懦怯的粗心？
+    这话也有理，那叫我怎么办呢？
+    活着难，太难就死也不得自由，
+    我又不愿你为我牺牲你的前程……
+    唉！你说还是活着等，等那一天！
+    有那一天吗？——你在，就是我的信心；
+    可是天亮你就得走，你真的忍心
+    丢了我走？我又不能留你，这是命；
+    但这花，没阳光晒，没甘露浸，
+    不死也不免瓣尖儿焦萎，多可怜！
+    你不能忘我，爱，除了在你的心里，
+    我再没有命；是，我听你的话，我等，
+    等铁树儿开花我也得耐心等；
+    爱，你永远是我头顶的一颗明星：
+    要是不幸死了，我就变一个萤火，
+    在这园里，挨着草根，暗沉沉的飞，
+    黄昏飞到半夜，半夜飞到天明，
+    只愿天空不生云，我望得见天
+    天上那颗不变的大星，那是你，
+    但愿你为我多放光明，隔着夜，
+    隔着天，通着恋爱的灵犀一点……
+
+    　　六月十一日，一九二五年翡冷翠山中 ";
+set @v_id="7729";
+set @v_code="7728";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="偶然";
+set @v_body="我是天空里的一片云，
+偶尔投影在你的波心－－
+你不必讶异，
+更无须欢喜－－
+在转瞬间消灭了踪影。
+你我相逢在黑夜的海上，
+你有你的，我有我的，方向；
+你记得也好，
+最好你忘掉，
+在这交会时互放的光亮！ ";
+set @v_id="7730";
+set @v_code="7729";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="从前慢";
+set @v_body="记得早先少年时 
+大家诚诚恳恳 
+说一句 是一句
+
+清早上火车站 
+长街黑暗无行人 
+卖豆浆的小店冒着热气
+
+从前的日色变得慢 
+车，马，邮件都慢 
+一生只够爱一个人
+
+从前的锁也好看 
+钥匙精美有样子 
+你锁了 人家就懂了 ";
+set @v_id="7731";
+set @v_code="7730";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="错误";
+set @v_body="我打江南走过
+那等在季节里的容顏
+如莲花的开落
+
+东风不来
+三月的柳絮不飞
+你底心如小小寂寞的城
+恰若青石的街道向晚
+音不响，三月的春帷不揭
+你底心，是小小的窗扉紧掩
+
+我达达的马蹄
+是美丽的错误
+我不是归人
+是个过客……";
+set @v_id="7732";
+set @v_code="7731";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="水手刀";
+set @v_body="长春籐一样
+热带的情丝
+挥一挥手即断了
+挥沉了处子般的
+款摆著绿的岛
+挥沉了半个夜的星星
+挥出一程风雨来
+
+一把古老的水手刀
+被离别磨亮
+被用于寂寞
+被用于欢乐
+被用于航向一切逆风的
+桅蓬与绳索……";
+set @v_id="7733";
+set @v_code="7732";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="雨巷";
+set @v_body="撑着油纸伞，独自
+彷徨在悠长，悠长
+又寂寥的雨巷，
+我希望逢着
+一个丁香一样地
+结着愁怨的姑娘。
+她是有
+丁香一样的颜色，
+丁香一样的芬芳，
+丁香一样的忧愁，
+在雨中哀怨，
+哀怨又彷徨；
+她彷徨在这寂寥的雨巷，
+撑着油纸伞
+像我一样，
+像我一样地
+默默彳亍着，
+冷漠，凄清，又惆怅。
+她静默地走近
+走近，又投出
+太息一般的眼光，
+她飘过
+像梦一般地，
+像梦一般地凄婉迷茫。
+像梦中飘过
+一枝丁香地，
+我身旁飘过这女郎；
+她静静地远了，远了，
+到了颓圮的篱墙，
+走尽这雨巷。
+在雨的哀曲里，
+消了她的颜色，
+散了她的芬芳，
+消散了，甚至她的
+太息般的眼光，
+丁香般的惆怅。
+撑着油纸伞，独自
+彷徨在悠长，悠长
+又寂寥的雨巷，
+我希望飘过
+一个丁香一样地
+结着愁怨的姑娘。";
+set @v_id="7734";
+set @v_code="7733";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="我用残损的手掌";
+set @v_body="谁家动刀尺？
+心也需要秋衣。
+
+听鲛人的召唤，
+听木叶的呼息！
+风从每一条脉络进来，
+窃听心的枯裂之音。
+
+诗人云：心即是琴。
+谁听过那古旧的阳春白雪？
+为真知的死者的慰藉，
+有人已将它悬在树梢，
+为天籁之凭托——
+但曾一度谛听的飘逝之音。
+
+而断裂的吴丝蜀桐，
+仅使人从弦柱间思忆华年。";
+set @v_id="7735";
+set @v_code="7734";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="我爱这土地";
+set @v_body="假如我是一只鸟，
+我也就应用嘶哑的喉咙歌唱：
+这被暴风雨所打击的土地，
+这永远汹涌着我们的悲愤的河流，
+这无止息地吹刮着的激怒的风，
+和那来自林间的无比温柔的黎明……
+——然后我死了，
+连羽毛也腐烂在土地里面。
+为什么我的眼里常含泪水？
+因为我对这土地爱得深沉…… ";
+set @v_id="7736";
+set @v_code="7735";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="礁石";
+set @v_body="一个浪，一个浪
+无休止地扑过来
+每一个浪都在它脚下
+被打成碎沫、散开……
+它的脸上和身上
+象刀砍过的一样
+但它依然站在那里
+含着微笑，看着海洋……";
+set @v_id="7737";
+set @v_code="7736";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="大堰河──我的褓姆";
+set @v_body="大堰河，是我的褓姆。
+她的名字就是生她的村庄的名字，
+她是童养媳，
+大堰河，是我的褓姆。
+
+我是地主的儿子；
+也是吃了大堰河的奶而长大了的
+大堰河的儿子。
+大堰河以养育我而养育她的家，
+而我，是吃了你的奶而被养育了的，
+大堰河啊，我的褓姆。
+
+大堰河，今天我看到雪使我想起了你：
+你的被雪压着的草盖的坟墓，
+你的关闭了的故居檐头的枯死的瓦菲，
+你的被典押了的一丈平方的园地，
+你的门前的长了青苔的石椅，
+大堰河，今天我看到雪使我想起了你。
+
+你用你厚大的手掌把我抱在怀里，抚摸我；
+在你搭好了灶火之后，
+在你拍去了围裙上的炭灰之后，
+在你尝到饭已煮熟了之后，
+在你把乌黑的酱碗放到乌黑的桌子上之后，
+在你补好了儿子们的为山腰的荆棘扯破的衣服之后，
+在你把小儿被柴刀砍伤了的手包好之后，
+在你把夫儿们的衬衣上的虱子一颖颗的掐死之后，
+在你拿起了今天的第一颗鸡蛋之后，
+你用你厚大的手掌把我抱在怀里，抚摸我。
+
+我是地主的儿子，
+在我吃光了你大堰河的奶之后，
+我被生我的父母领回到自己的家里。
+啊，大堰河，你为什么要哭？
+
+我做了生我的父母家里的新客了！
+我摸着红漆雕花的家具，
+我摸着父母的睡床上金色的花纹，
+我呆呆地看着檐头的我不认得的“天伦叙乐”的匾，
+我摸着新换上的衣服的丝的和贝壳的钮扣，
+我看着母亲怀里的不熟识的妹妹，
+我坐着油漆过的安了火钵的炕凳，
+我吃着碾了三番的白米的饭，
+但，我是这般忸怩不安！因为我
+我做了生我的父母家里的新客了。
+
+大堰河，为了生活，
+在她流尽了她的乳液之后，
+她就开始用抱过我的两臂劳动了；
+她含着笑，洗着我们的衣服，
+她含着笑，提着菜篮到村边的结冰的池塘去，
+她含着笑，切着冰屑悉索的萝卜，
+她含着笑，用手掏着猪吃的麦糟，
+她含着笑，扇着敦肉的炉子的火，
+她含着笑，背了团箕到广场上去
+晒好那些大豆和小麦，
+大堰河，为了生活，
+在她流尽了她的乳液之后，
+她就用抱过我的两臂，劳动了。
+
+大堰河，深爱着她的乳儿；
+在年节里，为了他，忙着切那冬米的糖，
+为了他，常悄悄地走到村边的她的家里去，
+为了他，走到她的身边叫一声“妈”，
+大堰河，把他画的大红大绿的关云长
+贴在灶边的墙上，
+大堰河，会对她的邻居夸口赞美她的乳儿；
+大堰河曾做了一个不能对人说的梦：
+在梦里，她吃着她的乳儿的婚酒，
+坐在辉煌的结彩的堂上，
+而她的娇美的媳妇亲切地叫她“婆婆”
+……
+大堰河，深爱她的乳儿！
+
+大堰河，在她的梦没有做醒的时候已死了。
+她死时，乳儿不在她的旁侧，
+她死时，平时打骂她的丈夫也为她流泪，
+五个儿子，个个哭得很悲，
+她死时，轻轻地呼着她的乳儿的名字，
+大堰河，已死了，
+她死时，乳儿不在她的旁侧。
+
+大堰河，含泪的去了！
+同着四十几年的人世生活的凌侮，
+同着数不尽的奴隶的凄苦，
+同着四块钱的棺材和几束稻草，
+同着几尺长方的埋棺材的土地，
+同着一手把的纸钱的灰，
+大堰河，她含泪的去了。
+
+这是大堰河所不知道的：
+她的醉酒的丈夫已死去，
+大儿做了土匪，
+第二个死在炮火的烟里，
+第三，第四，第五
+在师傅和地主的叱骂声里过着日子。
+而我，我是在写着给予这不公道的世界的咒语。
+当我经了长长的飘泊回到故土时，
+在山腰里，田野上，
+兄弟们碰见时，是比六七年前更要亲密！
+这，这是为你，静静的睡着的大堰河
+所不知道的啊！
+
+大堰河，今天，你的乳儿是在狱里，
+写着一首呈给你的赞美诗，
+呈给你黄土下紫色的灵魂，
+呈给你拥抱过我的直伸着的手，
+呈给你吻过我的唇，
+呈给你泥黑的温柔的脸颜，
+呈给你养育了我的乳房，
+呈给你的儿子们，我的兄弟们，
+呈给大地上一切的，
+我的大堰河般的褓姆和她们的儿子，
+呈给爱我如爱她自己的儿子般的大堰河。
+
+大堰河，
+我是吃了你的奶而长大了的
+你的儿子，
+我敬你
+爱你！ ";
+set @v_id="7738";
+set @v_code="7737";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="黎明的通知";
+set @v_body="为了我的祈愿
+诗人啊，你起来吧
+而且请你告诉他们
+说他们所等待的已经要来
+说我已踏着露水而来
+已借着最后一颗星的照引而来
+我从东方来
+从汹涌着波涛的海上来
+我将带光明给世界
+又将带温暖给人类
+借你正直人的嘴
+请带去我的消息
+通知眼睛被渴望所灼痛的人类
+和远方的沉浸在苦难里的城市和村庄
+请他们来欢迎我
+白日的先驱，光明的使者
+打开所有的窗子来欢迎
+打开所有的门来欢迎
+请鸣响汽笛来欢迎
+请吹起号角来欢迎
+请清道夫来打扫街衢
+请搬运车来搬去垃圾
+让劳动者以宽阔的步伐走在街上吧
+让车辆以辉煌的行列从广场流过吧
+请村庄也从潮湿的雾里醒来
+为了欢迎我打开它们的篱笆
+请村妇打开她们的鸡埘
+请农夫从畜棚牵出耕牛
+借你的热情的嘴通知他们
+说我从山的那边来，从森林的那边来
+请他们打扫干净那些晒场
+和那些永远污秽的天井
+请打开那糊有花纸的窗子
+请打开那贴着春联的门
+请叫醒殷勤的女人
+和那打着鼾声的男子
+请年轻的情人也起来
+和那些贪睡的少女
+请叫醒困倦的母亲
+和他身边的婴孩
+请叫醒每个人
+连那些病者和产妇
+连那些衰老的人们
+呻吟在床上的人们
+连那些因正义而战争的负伤者
+和那些因家乡沦亡而流离的难民
+请叫醒一切的不幸者
+我会一并给他们以慰安
+请叫醒一切爱生活的人
+工人，技师及画家
+请歌唱者唱着歌来欢迎
+用草与露水所渗合的声音
+请舞蹈者跳着舞来欢迎
+披上她们白雾的晨衣
+请叫那些健康而美丽的醒来
+说我马上要来叩打他们的窗门
+请你忠实于时间的诗人
+带给人类以慰安的消息
+请他们准备欢迎，请所有的人准备欢迎
+当雄鸡最后一次鸣叫的时候我就到来
+请他们用虔诚的眼睛凝视天边
+我将给所有期待我的以最慈惠的光辉
+趁这夜已快完了，请告诉他们
+说他们所等待的就要来了 ";
+set @v_id="7739";
+set @v_code="7738";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="给太阳";
+set @v_body="早晨，我从睡眠中醒来，
+看见你的光辉就高兴；
+──虽然昨夜我还是困倦，
+而且被无数的恶梦纠缠。
+你新鲜、温柔、明洁的光辉，
+照在我久未打开的窗上，
+把窗纸敷上浅黄如花粉的颜色，
+嵌在浅蓝而整齐的格影里，
+我心里充满感激，从床上起来，
+打开已关了一个冬季的窗门，
+让你把全金丝织的明丽的台巾，
+铺展在我临窗的桌子上。
+于是，我惊喜看见你：
+这样的真实，不容许怀疑，
+你站立在对面的山巅，
+而且笑得那么明朗。
+我用力睁开眼睛看你，
+渴望能捕捉你的形象，
+多么强烈，多么恍惚，多么庄严！
+你的光芒刺痛我的瞳孔。
+太阳啊，你这不朽的哲人，
+你把快乐带给人间，
+即使最不幸的看见你，
+也在心里感受你的安慰。
+你是时间的锻冶工，
+美好的生活镀金匠；
+你把日子铸成无数金轮，
+飞旋在古老的荒原上……
+假如没有你，太阳，
+一切生命将匍匐在阴暗里，
+即使有翅膀，也只能像蝙蝠
+在永恒的黑夜里飞翔。
+我爱你像人们爱他们的母亲，
+你用光热哺育我的观念和思想──
+使我热情地生活，为理想而痛苦，
+直到我的生命被死亡带走。
+经历了寂寞漫长的冬季，
+今天，我想到山巅上去，
+解散我的衣服，赤裸着，
+在你的光辉里沐浴我的灵魂…… ";
+set @v_id="7740";
+set @v_code="7739";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="梦";
+set @v_body="醒着的时候
+只能幻想
+
+而梦
+却在睡着的时候来访
+
+或许是童年的青梅竹马
+或许是有朋友来自远方
+
+钢丝床上有痛苦
+稻草堆上有欢语
+匮乏时的赠予
+富足时的失窃
+
+不是一场虚惊
+就是若有所失 ";
+set @v_id="7741";
+set @v_code="7740";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="雪落在中国的土地上";
+set @v_body="雪落在中国的土地上，
+寒冷在封锁着中国呀……
+
+风，
+像一个太悲哀了的老妇
+紧紧地跟随着
+伸出寒冷的指爪
+拉扯着行人的衣襟，
+用着你土地一样古老的
+一刻也不停地絮聒着……
+
+那从林间出现的，
+赶着马车的
+你中国的农夫，
+戴着皮帽，
+冒着大雪
+要到哪儿去呢？
+
+告诉你
+我也是农人的后裔──
+
+由于你们的
+刻满了痫苦的皱纹的脸
+我能如此深深地
+知道了
+生活在草原上的人们的
+岁月的艰辛。
+
+而我
+也并不比你们快乐啊
+──躺在时间的河流上
+苦难的浪涛
+曾经几次把我吞没而又卷起──
+流浪与监禁
+已失去了我的青春的最可贵的日子，
+我的生命
+也像你们的生命
+一样的憔悴呀。
+
+雪落在中国的土地上，
+寒冷在封锁着中国呀……
+
+沿着雪夜的河流，
+一盏小油灯在徐缓地移行，
+那破烂的乌篷船里
+映着灯光，垂着头
+坐着的是谁呀？
+
+──啊，你
+蓬发垢面的小妇，
+是不是
+你的家
+──那幸福与温暖的巢穴
+已枝暴戾的敌人
+烧毁了么？
+
+是不是
+也像这样的夜间，
+失去了男人的保护，
+在死亡的恐怖里
+你已经受尽敌人刺刀的戏弄7
+
+咳，就在如此寒冷的今夜
+无数的
+我们的年老的母亲，
+就像异邦人
+不知明天的车轮
+要滚上怎样的路程？
+──而且
+中国的路
+是如此的崎岖，
+是如此的泥泞呀。
+
+雪落在中国的土地上：
+寒冷在封锁着中国呀……
+
+那些被烽火所啮啃着的地域，
+无数的，土地的垦植者
+失去了他们所饲养的家畜
+失去了他们把沃的田地
+拥挤在
+生活的绝望的污巷里；
+饥谨的大地
+伸向阴暗的天
+伸出乞援的
+颤抖着的两臂。
+
+中国的痛苦与灾难
+像这雪夜一样广阔而又漫长呀！
+
+雪落在中国的土地上，
+寒冷在封锁着中国呀……
+
+中国，
+我的在没有灯光的晚上
+所写的无力的诗句
+能给你些许的温暖么？
+·1937年12月28日夜间 ";
+set @v_id="7742";
+set @v_code="7741";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="年龄的问题";
+set @v_body="爷爷的年龄，写在脸上的皱纹里；
+马儿的年龄，嚼在嘴巴的牙齿里；
+树木的年龄，藏在肚子的年轮里。
+老师!那么池塘的年龄，
+是不是画在一圈圈的涟漪里？ ";
+set @v_id="7743";
+set @v_code="7742";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《赞林黛玉》";
+set @v_body="两弯似蹙非蹙肙烟眉，
+一双似喜非喜含露目。
+态生两靥之愁，
+娇袭一身之病。
+泪光点点，
+娇喘微微。
+娴静时如姣花照水，
+行动处似弱柳扶风。
+心较比干多一窍，
+病如西子胜三分。";
+set @v_id="7744";
+set @v_code="7743";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《作者题绝》";
+set @v_body="满纸荒唐言，一把辛酸泪！
+都云作者痴，谁解其中味？";
+set @v_id="7745";
+set @v_code="7744";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《太虚幻境楹联》";
+set @v_body="假作真时真亦假，无为有处有还无。";
+set @v_id="7746";
+set @v_code="7745";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《好了歌》";
+set @v_body="世人都晓神仙好，惟有功名忘不了。
+古今将相在何方，荒冢一堆草没了。
+世人都晓神仙好，只有金银忘不了。
+终朝只恨聚无多，及到多时眼闭了。
+世人都晓神仙好，只有娇妻忘不了。
+君生日日说恩情，君死又随人去了。
+世人都晓神仙好，只有儿孙忘不了。
+痴心父母古来多，孝顺儿孙谁见了。";
+set @v_id="7747";
+set @v_code="7746";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《终身误》";
+set @v_body="都道是金玉良姻，俺只念木石前盟。
+空对着，山中高士晶莹雪；
+终不忘，世外仙姝寂寞林。
+叹人间，美中不足今方信。
+纵然是齐眉举案，到底意难平。";
+set @v_id="7748";
+set @v_code="7747";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《杏帘在望》";
+set @v_body="年代: 清 作者: 曹雪芹
+杏帘招客饮，在望有山庄。
+菱荇鹅儿水，桑榆燕子梁。
+一畦春韭绿，十里稻花香。
+盛世无饥馁，何须耕织忙。";
+set @v_id="7749";
+set @v_code="7748";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《有凤来仪》";
+set @v_body="秀玉初成实，堪宜待凤凰。
+竿竿青欲滴，个个绿生凉。
+迸砌妨阶水，穿帘碍鼎香。
+莫摇清碎影，好梦昼初长。";
+set @v_id="7750";
+set @v_code="7749";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《风筝》探春";
+set @v_body="阶下儿童仰面时，清明妆点最堪宜。
+游丝一断浑无力，莫向东风怨别离。";
+set @v_id="7751";
+set @v_code="7750";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《葬花》吟黛玉";
+set @v_body="花谢花飞花满天，红消香断有谁怜？
+游丝软系飘春榭，落絮轻沾扑绣帘。
+闺中女儿惜春暮，愁绪满怀无处诉，
+手把花除出绣闺，忍踏落花来复去。
+柳丝榆荚自芳菲，不管桃飘与李飞。
+桃李明年能再发，明年闺中知有谁？
+三月香巢已垒成，梁间燕子太无情！
+明年花发虽可啄，却不道人去梁空巢也倾。
+一年三百六十日，风刀霜剑严相逼，
+明媚鲜妍能几时，一朝飘泊难寻觅。
+花开易见落难寻，阶前愁杀葬花人，
+独倚花锄泪暗洒，洒上空枝见血痕。
+杜鹃无语正黄昏，荷锄归去掩重门。
+青灯照壁人初睡，冷雨敲窗被未温。
+怪奴底事倍伤神，半为怜春半恼春：
+怜春忽至恼忽去，至又无言去不闻。
+昨宵庭外悲歌发，知是花魂与鸟魂？
+花魂鸟魂总难留，鸟自无咽花自羞。
+愿奴肋下生双翼，随花飞到天尽头。
+天尽头，何处有香丘？
+未若锦囊收艳骨，一抔净土掩风流。
+质本洁来还洁去，强于污掉陷渠沟。
+尔今死去侬收葬，未卜侬身何日丧？
+侬今葬花人笑痴，他年葬侬知是谁？
+试看春残花渐落，便是红颜老死时。
+一朝春尽红颜老，花落人亡两不知！";
+set @v_id="7752";
+set @v_code="7751";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《林黛玉诗》";
+set @v_body="半卷湘帘半掩门，碾冰为土玉为盆。
+偷来梨蕊三分白，借得梅花一缕魂。
+月窟仙人缝缟抉，秋闺怨女拭啼痕。";
+set @v_id="7753";
+set @v_code="7752";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《咏菊》黛玉（潇湘妃子）";
+set @v_body="无赖诗魔昏晓侵，绕篱欹石自沉音。
+毫端蕴秀临霜写，口角噙香对月吟。
+满纸自怜题素怨，片言谁解诉秋心。
+一从陶令平章后，千古高风说到今。";
+set @v_id="7754";
+set @v_code="7753";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《西江月·无故寻愁觅恨》";
+set @v_body="无故寻愁觅恨，
+有时似傻如狂。
+纵然生得好皮囊，
+腹内原来草莽。
+潦倒不通世务，
+愚顽怕读文章。
+行为偏僻性乖张，
+那管世人诽谤！
+富贵不知乐业，
+贫穷难耐凄凉。
+可怜辜负好韶光，
+于国于家无望。
+天下无能第一，
+古今不肖无双。
+寄言纨绔与膏粱：
+莫效此儿形状！";
+set @v_id="7755";
+set @v_code="7754";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《咏白海棠》";
+set @v_body="半卷湘帘半掩门，
+碾冰为土玉为盆。
+偷来梨蕊三分白，
+借得梅花一缕魂。
+月窟仙人缝缟袂，
+秋闺怨女拭啼痕。
+娇羞默默同谁诉，
+倦倚西风夜已昏。";
+set @v_id="7756";
+set @v_code="7755";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="枉凝眉";
+set @v_body="一个是阆苑仙葩，一个是美玉无瑕。
+若说没奇缘，今生偏又遇着他，
+若说有奇缘，如何心事终虚化？
+一个枉自嗟呀，一个空劳牵挂。
+一个是水中月，一个是镜中花。
+想眼中能有多少泪珠儿，
+怎经得秋流到冬尽，春流到夏！";
+set @v_id="7757";
+set @v_code="7756";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《问菊》黛玉（潇湘妃子）";
+set @v_body="欲讯秋情众莫知，喃喃负手叩东篱：
+孤标傲世俗谁隐，一样花开为底迟？
+圃露庭霜何寂寞，鸿归蛩病可相思？
+休言举世无谈者，解语何妨话片时？";
+set @v_id="7758";
+set @v_code="7757";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《菊梦》黛玉（潇湘妃子）";
+set @v_body="篱畔秋酣一觉清，和云伴月不分明。
+登仙非慕庄生蝶，忆旧还寻陶令盟。
+睡去依依随雁断，惊回故故恼蛩鸣。
+醒时幽怨同谁诉，衰草寒烟无限情。";
+set @v_id="7759";
+set @v_code="7758";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《秋窗风雨夕》";
+set @v_body="秋花惨淡秋草黄，耿耿秋灯秋夜长。
+已觉秋窗秋不尽，那堪风雨助凄凉！
+助秋风雨来何速？惊破秋窗秋梦绿。
+抱得秋情不忍眠，自向秋屏移泪烛。
+泪烛摇摇爇短檠，牵愁照恨动离情。
+谁家秋院无风入？何处秋窗无雨声？
+罗衾不奈秋风力，残漏声催秋雨急。
+连宵脉脉复飕飕，灯前似伴离人泣。
+寒烟小院转萧条，疏竹虚窗时滴沥。
+不知风雨几时休，已教泪洒窗纱湿。";
+set @v_id="7760";
+set @v_code="7759";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《桃花行》";
+set @v_body="桃花帘外东风软，桃花帘内晨妆懒：
+帘外桃花帘内人，人与桃花隔不远；
+东风有意揭帘栊，花欲窥人帘不卷。
+桃花帘外开仍旧，帘中人比桃花瘦；
+花解怜人花也愁，隔帘消息风吹透。
+风透湘帘花满庭，庭前春色倍伤情：
+闲苔院落门空掩，斜日栏杆人自凭。
+凭栏人向东风泣，茜裙偷傍桃花立；
+桃花桃叶乱纷纷，花绽新红叶凝碧。
+雾裹烟封一万株，烘楼照壁红模糊。
+天机烧破鸳鸯锦，春酣欲醒移珊枕。
+侍女金盆进水来，香泉影蘸胭脂冷；
+胭脂鲜艳何相类，花之颜色人之泪。
+若将人泪比桃花，泪自长流花自媚；
+泪眼观花泪易干，泪干春尽花憔悴。
+憔悴花遮憔悴人，花飞人倦易黄昏；
+一声杜宇春归尽，寂寞帘栊空月痕！";
+set @v_id="7761";
+set @v_code="7760";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《西江月》";
+set @v_body="汉苑零星有限，隋堤点缀无穷。
+三春事业付东风，明月梅花一梦。
+几处落红庭院，谁家香雪帘栊？
+江南江北一般同，偏是离人恨重！
+娇羞默默同谁诉，倦倚西风夜已昏。";
+set @v_id="7762";
+set @v_code="7761";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="《临江仙·白云堂前春解舞》";
+set @v_body="白云堂前春解舞，东风卷得均匀。
+蜂围蝶阵乱纷纷，几曾随逝水？岂必委芳尘？
+万缕千丝终不改，任他随聚随分。
+韶华休笑本无根：
+好风凭借力，送我上青云。";
+set @v_id="7763";
+set @v_code="7762";
+set @v_type_id="79";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="你应该努力追求幸福";
+set @v_body="在嘈杂和匆忙中，平静地前行吧，
+也别忘了在寂静中，能找到多好的安宁。
+
+可以的话，尽量不放弃原则而与所有人和睦相处。
+细语清晰地说出你的肺腑之言，也聆听别人的说话，
+别人的话纵然又枯燥又无知，总会有他们的故事。
+
+避开大声吵闹和好斗的人；他们是扰乱心性的人。
+不要跟其他人比较，否则可能变得虚荣自负或忿忿不平，
+因为一定有人比你伟大，也一定有人比你渺小。
+
+享受计划，也享受成就。
+无论自己的事业有多卑微，维持对它的兴趣；
+在一生多变的命运中，它是你真正拥有的东西。
+
+谨慎处理生意，因为这世界充斥着欺诈。
+但是，不要因此而看不见人间美德；
+很多人为崇高理想而奋斗，生命到处都有英勇的事迹。
+
+做你自己。尤其不要虚情假意。
+但也不要把爱视为虚伪；
+因为尽管生命有时枯燥乏味、有时令人迷醉，
+爱，却如青草般日久常在。
+
+不轻视因年老而获得的阅历，
+并得体地舍弃年轻时拥有的东西。
+
+培育心灵上的力量，以面对突然而来的不幸。
+但不要杞人忧天以致心神不宁。
+众多的恐惧，源自疲乏和孤独。
+
+要既不逾矩，又善待自己。
+你是宇宙的孩子，身份不次于树木和星星；
+身处这里是你的权利。
+不管你是否明白它的奥秘，
+毫无疑问宇宙在展现着原本应有的样貌和规律。
+
+因此，不管在你心中上帝是什么模样，和他和睦相处吧。
+也不管你怎样劳累和胸怀大志，在生命的烦嚣和困惑中，
+要保持心灵上的安宁。
+
+不管经历了多少伪善、苦役、和破碎的梦，
+世界依然是美丽的。
+要保持轻松开朗。努力保持快乐。";
+set @v_id="7764";
+set @v_code="7763";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
 set @v_title=" 浆声灯影里的秦淮河(俞平伯篇）";
 set @v_body="我们消受得秦淮河上的灯影，当圆月犹皎的仲夏之夜。 
@@ -165,28 +2720,285 @@ set @v_body="我们消受得秦淮河上的灯影，当圆月犹皎的仲夏之�
 我决不敢望诸君能在此中窥得。即我自己虽正在这儿执笔构思，实在也无从重新体验出那时 
 的情景。说老实话，我所有的只是忆。我告诸君的只是忆中的秦淮夜泛。至于说到那“当时 
 之感”，这应当去请教当时的我。而他久飞升了，无所存在。 ";
-set @v_id="911";
-set @v_code="299";
+set @v_id="7765";
+set @v_code="7764";
 set @v_type_id="118";
-set @v_author_id="5369";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="礼物";
-set @v_body="如此幸福的一天 
-雾早散了，我在花园劳作 
-蜂鸟歇在忍冬花上 
-世上没有什么我真想拥有 
-我知道没人值得我羡慕 
-遭受的任何痛苦，我都忘了 
-想起过去的我并不使我难堪 
-我感觉不到痛苦 
-直起身，我看见 
-蓝色的大海和风帆。 ";
-set @v_id="912";
-set @v_code="300";
+set @v_title="阳光中的向日葵";
+set @v_body="你看到了吗
+你看到阳光中的那棵向日葵了吗
+你看它，它没有低下头
+而是把头转向身后
+它把头转了过去
+就好像是为了一口咬断
+那套在它脖子上的
+那牵在太阳手中的绳索
+你看到了吗
+你看到那棵昂着头
+怒视着太阳的向日葵了吗
+它的头几乎已把太阳遮住
+它的头即使是在没有太阳的时候
+也依然在闪耀着光芒
+你看到那棵向日葵了吗
+你应该走近它
+你走近它便会发现
+它脚下的那片泥土
+每抓起一把
+都一定会攥出血来";
+set @v_id="7766";
+set @v_code="7765";
 set @v_type_id="118";
-set @v_author_id="5413";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="死后也还会衰老";
+set @v_body="地里已长出死者的白发
+这使我相信，人死后也还会衰老
+
+人死后也还会有恶梦扑在身上
+也还会惊醒，睁眼看到
+
+又一个白天从蛋壳里出世
+并且很快便开始忙于在地上啄食
+
+也还会听见自己的脚步
+听出自己的双腿在欢笑在忧愁
+
+也还会回忆，尽管头脑里空洞洞的
+尽管那些心里的人们已经腐烂
+
+也还会歌颂他们，歌颂爱人
+用双手稳稳地接住她的脸
+
+然后又把她小心地放进草丛
+看着她笨拙地拖出自己性感的躯体
+
+也还会等待，等待阳光
+最后象块破草席一样被风卷走
+
+等待日落，它就如同害怕一只猛兽
+会撕碎它的肉似的躲开你
+
+而夜晚，它却温顺地让你拉进怀里
+任随你玩弄，发泄，一声不吭
+
+也还会由于劳累就地躺下，闭目
+听着天上群兽在争斗时发出的吼叫
+
+也还会担忧，或许一夜之间
+天空的血将全部流到地上
+
+也还会站起来，哀悼一副死去的面孔
+可她的眼睛还在注视着你
+
+也还会希望，愿自己永远地活着
+愿自己别是一只被他人猎取的动物
+
+被放进火里烤着，被吞食
+也还会痛苦，也还会不堪忍受啊
+
+地里已经长出死者的白发
+这使我相信：人死后也会衰老";
+set @v_id="7767";
+set @v_code="7766";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title=" 雨中抒情";
+set @v_body="没有其他什么人了 走廊里安静得出奇 有些冷 仿佛堆满了积雪。
+雨的哗哗声 像一柄巨大的扫帚 将人们冲刷进各自温暖的房间。
+这么大的雨 在干燥的北方多么少见 这使我想起南方 我那温湿的家乡。
+可现在我在北京 我已习惯了在尘土中奔走 风沙袭击着我的眼睛。
+我日复一日在这鬼天气里操劳 阜成门的空气指数 每天吓我一跳。
+但我毕竟看到了这场雨 它干得多棒 多么干净利索
+它冲刷得我心里痒痒的，仿佛这雨点竟在轻轻抓挠我的肺腑和心脏。
+呵 天哪 怎么回事 我竟有些冲动 我竟想对着雨水抒情。
+多么可怕 我知道我不该在雨中抒情 我的教养告诉我
+别对着落叶伤感 别冲着夕阳发呆
+这会使你苍白的脸看起来益发可笑 你看上去像个昏了头的可怜虫。
+真的 我严格遵守着这些没有人发布的律条 这使我看起来有很大进步
+适应了这个时代；这使我看起来彬彬有礼 像一个正常的有头脑的主儿。
+可今夜我这是怎么啦，在这大雨茫茫之中，在这雨声不经意的冲撞中，
+我竟无端地想起远在故乡的父母，呵，白发的双亲，你们可知道，
+远在北京的儿子此刻的心情，儿子今年毕业，就将留居京城，
+可能一年，都难回去一次，就像我那在上海工作的哥哥一样，诗人徐江说，
+眼看着世道人心一天天真实， 可就在这无边无际的真实中，我失去了我的南方
+失去了我的故乡，失去了故乡连绵的雨水，失去了故乡白发的爹娘，
+独在异乡为异客 ，失去父母的儿子，永远在世道的真实中流浪。
+父母呵，到现在我都学不会喜欢国安队，我知道，工体不是我的球场，
+呵！我又一次陷入无来由的为前途和生计的怔忡，我又一次无来由的
+为一些不可言说的情绪激动。呵，星散的友人，呵，初恋的情人，
+呵，那消逝了一年又一年的互换的眼神，呵……
+即使是现在我所能把握的一切，我又怎能知道他们不会在某个时候，
+某个月转星移的夜晚离我而去，或者被如今夜这般
+淋漓的大雨席卷而去，消失了，忘却了，变成了风雨中的一杯尘土了。
+呵，这是我大学四年即将终结的时候，宿舍里还横七竖八地躺着六个兄弟，
+昨天我们还在一处喝酒歌唱，过不了几日便将各自为前程奔忙，
+小六和老大到广州执教；老五和二哥去往浙江，一个杭州，
+一个温州，也是两地茫茫；我和老四留在北京，而我们
+最小的兄弟，他独自一个人去了大连湾寒冷的战舰上。
+呵……对不起，我俗了，在这场突如其来的大雨中，
+我俗了，我居然在抒情，我居然像我所不喜欢的诗人那样，
+婆婆妈妈了一把。原谅我吧，这么大的雨，这么凉的夜，
+我不知道，我该如何逃避我易于伤感的命运";
+set @v_id="7768";
+set @v_code="7767";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="词语的变迁";
+set @v_body="从前我喜欢“少女“这个词
+每当我说出这个词
+就好像从心中吐出清晨的光亮似的
+纯洁无比
+后来我更喜欢“姑娘“这个词
+我喜欢它里面包藏着的
+足以使这个词本身膨胀酥化起来的
+那种迷人热量
+而现在，我又开始喜欢“妇人“这个词
+我刚刚在纸上写下这个词
+就仿佛已经闻到这个词所散发出的
+诱人乳香
+我呀，我现在特别想
+把我那已经从少女变成姑娘的女友
+再一举变成一个妇人
+好让她用她的亲身体验跟我一起完成
+这人生审美道路上的三级跳
+可是，当我将这美好的愿望向她提起
+却遭到了无情的拒绝
+这我就想不通了
+我亲眼看着她高高兴兴地
+从一个少女变成了姑娘
+怎么如今到了人生路上最关键的时刻
+她倒反而失去了追求进步的精神了呢";
+set @v_id="7769";
+set @v_code="7768";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="念一首诗给你听";
+set @v_body="下雨过后的屋檐 果然 是适合风铃 
+你从窗外看到 风刚刚冒出嫩芽的声音 
+很轻而我决定了 在猫的眼睛上 旅行 
+於是乎 所有的神秘都向后退 退成风景
+只有隐藏的够灵巧的事情 才能长成 蒲公英
+然后毫无负担的跟著 前进 很小心因为害怕 
+将只敢在梦中喜欢你的我的那部份 吵醒 
+於是乎 
+我默念了一首诗 给你听
+打开诗集的动作 
+很小心 很轻  很轻 很小心 
+就像猫跟风铃 
+我念了一首诗 给你听 ";
+set @v_id="7770";
+set @v_code="7769";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="诗笺";
+set @v_body="听时光轻盈的引领着夜色的步伐 
+像是只身旷野远离红尘喧嚣吵杂 
+此刻灵魂沐浴在清辉的余香之下 
+灯火阑珊处千思万绪调整了时差 
+
+桌案边摆放一杯温热往事的浓茶 
+宣纸上执笔的手还在仿隶书描画 
+极细致的临摹出千年前那幕繁华 
+于是诗的意境追溯至汉唐时人家 
+
+这游弋在岁月昏黄中悠远的篇章 
+终于穿越过氤氲找到一丝温暖的牵挂 
+仿佛那枚流浪在边缘的寂寞明月 
+也终于寻觅到一处任思念栖息的天涯";
+set @v_id="7771";
+set @v_code="7770";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="潇湘";
+set @v_body="明月潇湘的客栈 
+我沉睡在皎洁的从前 
+梦回唐朝的容颜 
+一幅薄如蝉翼的画卷 
+
+潮汐抚平过的沙滩 
+最适合回忆搁浅 
+漫步于这琥珀色海岸 
+风吹动足音悠远 
+
+看风花雪月的云烟 
+印染些许天空的蓝 
+思绪也一路去潮退 
+终将成最美的诗篇 
+
+唯有月色在水中潋滟 
+宛若诗人般吟唱轻弹 
+绵绵一曲春江花月夜 
+在逾越迷漫传颂千年 ";
+set @v_id="7772";
+set @v_code="7771";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="英雄冢";
+set @v_body="纵然 将军面对的朝代为 泱泱盛唐 
+这酒肆里的绣花鞋 却令江山 如此委婉 
+
+胆还悬在梁 檐外那枚 楚腰纤细的夕阳 
+却已沉入 伊人深闺里的染坊 
+
+酒招旗 剽悍的晃 也野不过红颜回眸 一闪 
+该是刀落的客栈 却任由一张宣纸 在鱼雁往返 
+
+提笔的手 也还不够力悬腕 诗却已初露锋芒 
+汉字 竟可如此细腻的 儿女情长 ";
+set @v_id="7773";
+set @v_code="7772";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
+
+set @v_title="我想和你一起生活";
+set @v_body="我想和你一起生活
+在某个小镇，
+共享无尽的黄昏
+和绵绵不绝的钟声。
+在这个小镇的旅店里——
+古老时钟敲出的
+微弱响声
+像时间轻轻滴落。
+有时候，在黄昏，自顶楼某个房间传来
+笛声，
+吹笛者倚著窗牖，
+而窗口大朵郁金香。
+此刻你若不爱我，我也不会在意。
+在房间中央，一个磁砖砌成的炉子，
+每一块磁砖上画著一幅画：
+一颗心，一艘帆船，一朵玫瑰。
+而自我们唯一的窗户张望，
+雪，雪，雪。
+你会躺成我喜欢的姿势：慵懒，
+淡然，冷漠。
+一两回点燃火柴的
+刺耳声。
+你香烟的火苗由旺转弱，
+烟的末梢颤抖著，颤抖著
+短小灰白的烟蒂——连灰烬
+你都懒得弹落——
+香烟遂飞舞进火中。";
+set @v_id="7774";
+set @v_code="7773";
+set @v_type_id="118";
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
 set @v_title="对星星的诺言";
 set @v_body="星星睁着眼睛， 
@@ -218,1310 +3030,475 @@ set @v_body="星星睁着眼睛，
 我向你们保证： 
 你们瞅着我， 
 我永远，永远纯真";
-set @v_id="913";
-set @v_code="301";
+set @v_id="7775";
+set @v_code="7774";
 set @v_type_id="118";
-set @v_author_id="5409";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="回答";
-set @v_body="卑鄙是卑鄙者的通行证，
-高尚是高尚者的墓志铭。
-看吧，在那镀金的天空中，
-飘满了死者弯曲的倒影。
-冰川纪过去了，
-为什么到处都是冰凌？
-好望角发现了，
-为什么死海里千帆相竞？
-我来到这个世界上，
-只带着纸、绳索和身影，
-为了在审判之前，
-宣读那些被判决了的声音：
-告诉你吧，世界，
-我——不——相——信！
-纵使你脚下有一千名挑战者，
-那就把我算做第一千零一名。
-我不相信天是蓝的，
-我不相信雷的回声；
-我不相信梦是假的，
-我不相信死无报应。
-如果海洋注定要决堤，
-就让所有的苦水都注入我心中；
-如果陆地注定要上升，
-就让人类重新选择生存的峰顶。
-新的转机和闪闪的星斗，
-正在缀满没有遮拦的天空，
-那是五千年的象形文字，
-那是未来人们凝视的眼睛。";
-set @v_id="914";
-set @v_code="302";
+set @v_title="乡愁";
+set @v_body="小时侯
+乡愁是一枚小小的邮票
+我在这头
+母亲在那头
+长大后乡愁是一张窄窄的船票
+我在这头
+新娘在那头
+后来呵
+乡愁是一方矮矮的坟墓
+我在外头
+母亲呵在里头
+而现在
+乡愁是一湾浅浅的海峡
+我在这头
+大陆在那头";
+set @v_id="7776";
+set @v_code="7775";
 set @v_type_id="118";
-set @v_author_id="5345";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="一束";
-set @v_body="在我和世界之间
-你是海湾，是帆
-是缆绳忠实的两端
-你是喷泉，是风
-是童年清脆的呼喊
+set @v_title="当我死时";
+set @v_body="当我死时，葬我在长江与黄河
+之间，枕我的头颅，白发盖着黑土。
+在中国，最美最母亲的国度，
+我便坦然睡去，睡整张大陆，
+听两侧，安魂曲起自长江，黄河
+两管永生的音乐，滔滔，朝东。
+这是最纵容最宽阔的床，
 
-
-在我和世界之间
-你是画框，是窗口
-是开满野花的田园
-你是呼吸，是床头
-是陪伴星星的夜晚
-
-
-在我和世界之间
-你是日历，是罗盘
-是暗中滑行的光线
-你是履历，是书签
-是写在最后的序言
-
-
-在我和世界之间
-你是纱幕，是雾
-是映入梦中的灯盏
-你是口笛，是无言之歌
-是石雕低垂的眼帘
-
-
-在我和世界之间
-你是鸿沟，是池沼
-是正在下陷的深渊
-你是栅栏，是墙垣
-是盾牌上永久的图案";
-set @v_id="915";
-set @v_code="303";
+让一颗心满足地睡去，满足的想，
+从前，一个中国青年曾经，
+在冰冻的密西根河向西了望，
+想望透黑夜看中国的黎明，
+饕餮地图，从西湖到太湖，
+到多鹧鸪的重庆，代替回乡。";
+set @v_id="7777";
+set @v_code="7776";
 set @v_type_id="118";
-set @v_author_id="5345";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title=" 断章";
-set @v_body="你站在桥上看风景，
-看风景人在楼上看你。
-
-明月装饰了你的窗子，
-你装饰了别人的梦";
-set @v_id="916";
-set @v_code="304";
+set @v_title="致橡树";
+set @v_body="我如果爱你——
+绝不像攀援的凌霄花，
+借你的高枝炫耀自己：
+我如果爱你——
+绝不学痴情的鸟儿，
+为绿荫重复单调的歌曲；
+也不止像泉源，
+常年送来清凉的慰籍；
+也不止像险峰，增加你的高度，衬托你的威仪。
+甚至日光。
+甚至春雨。
+不，这些都还不够！
+我必须是你近旁的一株木棉，
+做为树的形象和你站在一起。
+根，紧握在地下，
+叶，相触在云里。
+每一阵风过，
+我们都互相致意，
+但没有人
+听懂我们的言语。
+你有你的铜枝铁干，
+像刀，像剑，
+也像戟，
+我有我的红硕花朵，
+像沉重的叹息，
+又像英勇的火炬，
+我们分担寒潮、风雷、霹雳；
+我们共享雾霭流岚、虹霓，
+仿佛永远分离，
+却又终身相依，
+这才是伟大的爱情，
+坚贞就在这里：
+不仅爱你伟岸的身躯，
+也爱你坚持的位置，脚下的土地。";
+set @v_id="7778";
+set @v_code="7777";
 set @v_type_id="118";
-set @v_author_id="5153";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="一棵开花的树";
-set @v_body="如何让你遇见我
-在我最美丽的时刻　为这
-我已在佛前　求了五百年
-求祗让我们结一段尘缘
-佛于是把我化作一棵树
-长在你必经的路旁
-阳光下慎重地开满了花
-朵朵都是我前世的盼望
-当你走近　请你细听
-那颤抖的叶是我等待的热情
-而当你终于无视地走过
-在你身后落了一地的
-朋友啊　那不是花瓣
-是我凋零的心";
-set @v_id="917";
-set @v_code="305";
+set @v_title="祖国啊，我亲爱的祖国";
+set @v_body="我是你河边上破旧的老水车，
+数百年来纺着疲惫的歌；
+我是你额上熏黑的矿灯，
+照你在历史的隧洞里蜗行摸索
+我是干瘪的稻穗，是失修的路基；
+是淤滩上的驳船
+把纤绳深深
+勒进你的肩膊，
+——祖国啊！
+我是贫困，
+我是悲哀。
+我是你祖祖辈辈
+痛苦的希望啊，
+是“飞天”袖间
+千百年未落到地面的花朵，
+——祖国啊！
+我是你簇新的理想，
+刚从神话的蛛网里挣脱；
+我是你雪被下古莲的胚芽；
+我是你挂着眼泪的笑涡；
+我是新刷出的雪白的起跑线；
+是绯红的黎明
+正在喷薄；
+—— 祖国啊！
+我是你的十亿分之一，
+是你九百六十万平方的总和；
+你以伤痕累累的乳房
+喂养了
+迷惘的我、深思的我、 沸腾的我；
+那就从我的血肉之躯上
+去取得
+你的富饶、你的荣光、你的自由；
+—— 祖国啊，
+我亲爱的祖国！";
+set @v_id="7779";
+set @v_code="7778";
 set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="夏日的午后";
-set @v_body="想你　和那一个
-夏日的午后
-想你从林深处缓缓走来
-是我含笑的出水的莲
-是我的　最最温柔
-最易疼痛的那一部分
-是我的　圣洁遥远
-最不可碰触的年华
-极愿　如庞贝的命运
-将一切最美的在瞬间烧熔
-含泪成为永恒的模子
-好能　一次次地　在千万年间
-重复地　重复地　重复地
-嵌进你我的心中";
-set @v_id="918";
-set @v_code="306";
+set @v_title="这也是一切";
+set @v_body="不是一切大树，
+都被暴风折断；
+不是一切种子，
+都找不到生根的土壤；
+不是一切真情，
+都流失在人心的沙漠里；
+不是一切梦想，
+都甘愿被折掉翅膀。
+不，不是一切
+都像你说的那样！
+不是一切火焰，
+都只燃烧自己
+而不把别人照亮；
+不是一切星星，
+都仅指示黑暗
+而不报告曙光；
+不是一切歌声，
+都掠过耳旁
+而不留在心上。
+不，不是一切
+都像你说的那样！
+不是一切呼吁都没有回响；
+不是一切损失都无法补偿；
+不是一切深渊都是灭亡；
+不是一切灭亡都覆盖在弱者头上；
+不是一切心灵
+都可以踩在脚下，烂在泥里；
+不是一切后果
+都是眼泪血印，而不展现欢容。
+一切的现在都孕育着未来，
+未来的一切都生长于它的昨天。
+希望，而且为它斗争，
+请把这一切放在你的肩上。";
+set @v_id="7780";
+set @v_code="7779";
 set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="如歌的行板";
-set @v_body="一定有些什么
-是我所不能了解的
-
-不然　草木怎么都会
-循序生长
-而侯鸟都能飞回故乡
-
-一定有些什么
-是我所无能无力的
-
-不然　日与夜怎么交替得
-那样快　所有的时刻
-都已错过　忧伤蚀我心怀
-
-一定有些什么　在叶落之后
-是我所必须放弃的
-
-是十六岁时的那本日记
-还是　我藏了一生的
-
-那些美丽的如山百合般的
-秘密";
-set @v_id="919";
-set @v_code="307";
+set @v_title="双桅船";
+set @v_body="雾打湿了我的双翼，
+可风却不容我再迟疑。
+岸啊，心爱的岸，
+昨天刚刚和你告别，
+今天你又在这里。
+明天我们将在，
+另一个纬度相遇。
+是一场风暴，一盏灯，
+把我们联系在一起。
+是一场风暴，另一盏灯，
+使我们再分东西。
+不怕天涯海角，
+岂在朝朝夕夕。
+你在我的航程上，
+我在你的视线里。";
+set @v_id="7781";
+set @v_code="7780";
 set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="爱的筵席";
-set @v_body="是令人日渐消瘦的心事
-是举箸前莫名的伤悲
-是记忆里一场不散的筵席
-是不能饮不可饮　也要拼却的
-一醉";
-set @v_id="920";
-set @v_code="308";
+set @v_title="神女峰";
+set @v_body="在向你挥舞的各色花帕中
+是谁的手突然收回
+紧紧捂住了自己的眼睛
+当人们四散离去，谁
+还站在船尾
+衣裙漫飞，如翻涌不息的云
+江涛
+高一声
+低一声
+美丽的梦留下美丽的优伤
+人间天上，代代相传
+但是，心
+真能变成石头吗
+为盼望远天的杳鹤
+而错过无数次春江月明
+沿着江岸
+金光菊和女贞子的洪流
+正煽动新的背叛
+与其在悬崖上展览千年
+不如在爱人肩头痛哭一晚 ";
+set @v_id="7782";
+set @v_code="7781";
 set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="年轻的心";
-set @v_body="不再回头的
-不再是古老的辰光
-也不只是那些个夜晚的
-星群和月亮
-
-尽管　每个清晨仍然会
-开窗探望
-每个夏季　仍然
-会有茉莉的清香
-
-可是　是有些什么
-已经失落了
-在拥挤的市街前
-在仓皇下降的暮色中
-我年轻的心啊
-会有茉莉的清香
-
-可是　是有些什么
-已经失落了
-在拥挤的市街前
-在仓皇下降的暮色中
-我年轻的心啊
-永不再重逢";
-set @v_id="921";
-set @v_code="309";
+set @v_title="你见过大海";
+set @v_body="你见过大海
+你想象过
+大海
+你想象过大海
+然后见到它
+就是这样
+你见过了大海
+并想象过它
+可你不是
+一个水手
+就是这样
+你想象过大海
+你见过大海
+也许你还喜欢大海
+顶多是这样
+ 
+你见过大海
+你也想象过大海
+你不情愿
+让海水给淹死
+就是这样
+人人都这样";
+set @v_id="7783";
+set @v_code="7782";
 set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="十六岁的花季";
-set @v_body="在陌生的城市里醒来
-唇间仍留着你的名字
-爱人我已离你千万里
-我也知道
-十六岁的花季只开一次
-
-但我仍在意裙裾的洁白
-在意那一切被赞美的
-被宠爱与抚慰的情怀
-在意那金色的梦幻的网
-替我挡住异域的风霜
-
-爱原来是一种酒
-饮了就化作思念
-而在陌生的城市里
-我夜夜举杯
-遥向着十六岁的那一年";
-set @v_id="922";
-set @v_code="310";
+set @v_title="有关大雁塔";
+set @v_body="有关大雁塔
+我们又能知道些什么
+有很多人从远方赶来
+为了爬上去
+做一次英雄
+也有的还来做第二次
+或者更多
+那些不得意的人们
+那些发福的人们
+统统爬上去
+做一做英雄
+然后下来
+走进这条大街
+转眼不见了
+也有有种的往下跳
+在台阶上开一朵红花
+那就真的成了英雄
+当代英雄
+有关大雁塔
+我们又能知道什么
+我们爬上去
+看看四周的风景
+然后再下来";
+set @v_id="7784";
+set @v_code="7783";
 set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="我的信仰";
-set @v_body="我相信　爱的本质一如
-生命的单纯与温柔
-我相信　所有的
-光与影的反射和相投
+set @v_title="没有写完的诗";
+set @v_body="一、 古老的故事 
 
-我相信　满树的花朵
-只源于冰雪中的一粒种子
-我相信　三百篇诗
-反复述说着的　也就只是
-年少时没能说出的
-那一个字
+我被钉在监狱的墙上 
+黑色的时间聚拢，一群群乌鸦 
+从世界的每个角落从历史的每个夜晚 
+把一个又一个英雄啄死在这堵墙上 
+英雄的痛苦变成石头 
+比山还要孤独 
+为了开凿和塑造 
+为了民族的性格 
+英雄被钉死 
+风剥蚀着，雨敲打着 
+模模糊糊的形象在墙上显露 
+残缺不全的胳膊手面孔 
+辫子抽打着，黑暗啄食着 
+祖先和兄弟的手沉重地劳动 
+把自己默默无声地垒进墙壁 
+我又一次来到这里 
+反抗被奴役的命运 
+用激烈的死亡震落墙上的泥土 
+让默默死去的人们起来叫喊 
 
-我相信　上苍一切的安排
-我也相信　如果你愿与我
-一起去追溯
-在那遥远而谦卑的源头之上
-我们终于会互相明白";
-set @v_id="923";
-set @v_code="311";
+二、 受难 
+
+我的女儿就要被处决 
+枪口向我走来，一只黑色的太阳 
+在干裂的土地上向我走来 
+老树枯干的手指 
+脸上痉挛的皱纹 
+我和土地忍受共同的灾难 
+心摔在地上 
+女儿的血溅满泥土 
+孩子的泪水在我脸上流着 
+孩子的眼泪也是咸的 
+冬天，一条条小河在冰冻 
+河流停止了歌唱 
+姊妹、女儿和妻子 
+衣襟被撕破，头发飘落 
+浪花飞溅岩石 
+我的头发像一片大海 
+父亲、丈夫、儿子 
+手在头发的海洋上颠簸 
+骨节沉闷地响着 
+船舶、森林粗犷地生长 
+
+三、 简短的抒情诗 
+
+像在梦中 
+我成了女孩子 
+来到这世界 
+吱吱叫着的石子路 
+踩碎影子 
+我赤脚跑来 
+血滴融进 
+露水 
+一颗颗红玛瑙闪动起伏的胸脯 
+为了嫩绿的心 
+黎明时开放 
+我把青春纯洁的骚动献给了革命 
+手臂洁白的桥 
+寻找太阳 
+不再怕星星在水中颤抖 
+书脊的林子，夜的摸索 
+我变成一颗星星 
+不再颤抖 
+
+四、赴刑 
+
+欺骗的风蒙住窗子 
+屠杀在进行 
+我不能躲在屋子里 
+我的血不让我这样做 
+早晨的孩子们不让我这样做 
+我被投进监狱 
+手铐、脚镣深深嵌进我的肉里 
+鞭子在身上结网 
+声音被割断 
+我的心像一团火在嘴唇上无声燃烧 
+我走向刑场，轻蔑地看着 
+这历史的夜晚，这世界的角落 
+没有别的选择，我选择天空 
+天空不会腐烂 
+我只有被处决，否则黑夜无处躲藏 
+我是在黑夜中诞生，为了创造出光明 
+我只有被处决，否则谎言就会被粉碎 
+我反对光明不能容忍的一切，包括反对 
+沉默 
+周围挤满了被驱赶来的人群 
+黑压压地挤满被夺取光泽的人们 
+我也站在这群人中 
+看着自己被处决 
+看着我的血一滴一滴地流尽 
+
+五、没有写完的诗 
+
+我死了 
+子弹在身上留下弹坑像空空的眼窝 
+我死了 
+不是为留下一片哭声、一片感动 
+不是为了花朵在坟墓上孤独地开放 
+民族的感情已经足够丰富 
+草原每天落满露水 
+河流每天流向海洋 
+这久远的潮湿的感情 
+难道被感动的次数还少吗 
+…… 
+
+我被钉死在墙上 
+衣襟缓缓飘动 
+像一面正在升起的旗帜";
+set @v_id="7785";
+set @v_code="7784";
 set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="诀别";
-set @v_body="不愿成为一种阻挡
-不愿　让泪水
-沾濡上最亲爱的那张脸庞
-
-于是　在这黑暗的时刻
-我悄然隐退
-请原谅我不说一声再会
-而在最深最深的角落里
-试着将你藏起
-藏到任何人　任何岁月
-也无法触及的　距离";
-set @v_id="924";
-set @v_code="312";
+set @v_title="回旋";
+set @v_body="你提着那盏易碎的灯
+你把我的眼光拉弯
+像水波在你脚下轻柔消失
+提着那盏铜制的灯
+ 
+你用手遮着你像影子样柔和
+把我的眼光擦得微微发疼
+提着那盏熟透了的杏子
+你绿得透过了你的裙子
+ 
+让我染红云彩作你的背影
+慢慢收回坠着的夕阳
+你提着那盏梨子那盏樱桃
+你在我嘴里嚼着
+ 
+我的眼光飘出香味像果子
+你把我拉弯拱上夜空
+你碎了我把你拾起来
+吹散藏在手里的满天星星";
+set @v_id="7786";
+set @v_code="7785";
 set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="泪─月华";
-set @v_body="忘不了的　是你眼中的泪
-映影着云间的月华
+set @v_title="沉默——歌词";
+set @v_body="一
 
-昨夜　下了雨
-雨丝侵入远山的荒冢
-那小小的相思木的树林
-遮盖在你坟山的是青色的荫
-今晨　天晴了
-地萝爬上远山的荒冢
-那轻轻的山谷里的野风
-拂拭在你坟上的是白头的草
+有人沉默着，说着我听不见的话
+将一种空缺的东西继续着
+当一个声音中断，持续着它失真的尾 音
+越拉越长，越细，越尖锐
+象山丘的轮廓终于平伏
+你身体的线条也不再弯曲
+象一条抽象的直线越出了这张纸
+在别处持续着
+分割着空气，分割着我
+象刀刃一样，失去了金属
+象精微的伤口，使两半的我吻合
 
-黄昏时
-谁会到坟间去辨认残破的墓碑
-已经忘了埋葬时的方位
-只记得哭的时候是朝着斜阳
+二
 
-随便吧
-选一座青草最多的
-放下一束风信子
-我本不该流泪
-明知地下长眠的不一定是你
-又何必效世俗人的啼泣
+有人沉默着，就象一把椅子
+象这里除我以外的一切
+一只杯子，一盏持续亮着的灯
+一个一望而知的窗口
+但它并不是这些物质
+它是静物，在画面上，沉默着
+有着沉默充足的想法
+和长久的注视对应
+它看着你，静物看着你
+而椅子已被撤走
+留下物质的痕迹，也是物质
+这里，是她的沉默和目光
 
-是几百年了啊
-这悠长的梦　还没有醒
-但愿现实变成古老的童话
-你只是长睡一百年　我也陪你
-让野蔷薇在我们身上开花
-让红胸鸟在我们发间做巢
-让落叶在我们衣褶里安息
-转瞬间就过了一个世纪
+三
 
-但是　这只是梦而已
-远山的山影吞没了你
-也吞没了我忧郁的心
-回去了　穿过那松林
-林中有模糊的鹿影
-幽径上开的是什么花
-为什么夜夜总是带泪的月华";
-set @v_id="925";
-set @v_code="313";
+沉默是她的替身
+而喧闹已经远行
+沉默是她的面具
+可爱的灵魂已经逃遁
+沉默是她的馈赠
+以替换致命的空虚
+也就是说沉默并不是空虚
+并不是无声
+沉默是她响亮的名字
+也是风暴仅有的歌词";
+set @v_id="7787";
+set @v_code="7786";
 set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="四季";
-set @v_body="　<１>
-
-让我相信　亲爱的
-这是我的故事
-就好像　让我相信
-花开　花落
-就是整个春季的历史
-
-　<２>
-
-你若能忘记　那么
-我应该也可以
-把所有的泪珠都冰凝在心中
-或者　将它们缀上
-那夏夜的无垠的天空
-
-　<３>
-
-而当风起的时候
-我也只不管紧一紧衣裾
-护住我那仍在低唱的心
-不让秋来偷听
-
-　<４>
-
-只为　不能长在落雪的地方
-终我一生　无法说出那个盼望
-我是一棵被移植的针叶木
-亲爱的　你是那极北的
-冬日的故土";
-set @v_id="926";
-set @v_code="314";
-set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="白鸟之死";
-set @v_body="你若是那含泪的射手
-我就是　那一只
-决心不再躲闪的白鸟
-
-只等那羽箭破空而来
-射入我早已碎裂的胸怀
-你若是这世间唯一
-唯一能伤我的射手
-我就是你所有的青春岁月
-所有不能忘的欢乐和悲愁
-
-就好象是最后的一朵云彩
-隐没在那无限澄蓝的天空
-那么　让我死在你的手下
-就好象是　终于能
-死在你的怀中";
-set @v_id="927";
-set @v_code="315";
-set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="此刻之后";
-set @v_body="在古老单纯的时光里
-一直　有一句
-没说完的话
-
-像日里夜里的流水
-是山上海上的月光
-反复地来　反复地去
-
-让我柔弱的心
-始终在盼望　始终
-找不到栖身的地方
-
-而在此时　你用
-静默的风景　静默的
-声音把它说完
-
-我却在拦阻不及的热泪里
-发现　此刻之后
-青春终于一去不再复返";
-set @v_id="928";
-set @v_code="316";
-set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="山路";
-set @v_body="我好像答应过
-要和你　一起
-走上那条美丽的山路
-
-你说　那坡上种满了新茶
-还有细密的相思树
-我好像答应过你
-在一个遥远的春日下午
-而今夜　在灯下
-梳起我初白的发
-忽然记起了一些没能
-实现的诺言　一些
-无法解释的悲伤
-
-在那条山路上
-少年的你　是不是
-还在等我
-还在急切地向来处张望";
-set @v_id="929";
-set @v_code="317";
-set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="请别哭泣";
-set @v_body="我已无诗
-世间也再无飞花　无细雨
-尘封的四季啊
-请别哭泣
-
-万般　万般的无奈
-爱的余烬已熄
-重回人间
-猛然醒觉那千条万条　都是
-已知的路　已了然的轨迹
-
-跟着人群走下去吧
-就这样微笑地走到尽头
-我柔弱的心啊
-请试着去忘记　请千万千万
-别再哭泣";
-set @v_id="930";
-set @v_code="318";
-set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="灯下的诗与心情";
-set @v_body="不是在一瞬间　就能
-脱胎换骨的
-生命原是一次又一次的
-试探
-
-所以　请耐心地等待
-我爱　让昼与夜交替地过去
-让白发日渐滋长
-让我们慢慢地改变了心情
-让焚烧了整个春与夏的渴望
-终于熄灭　换成了
-一种淡然的逐渐远去的酸辛
-
-月亮出来的时候
-也不能再开门去探望
-也能　终于
-由得它去疯狂地照进
-所有的山林";
-set @v_id="931";
-set @v_code="319";
-set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="美丽的心情";
-set @v_body="假如生命是一列
-疾驰而过的火车
-快乐和伤悲　就是
-那两条铁轨
-在我身后　紧紧追随
-
-所有的时刻都很仓皇而又模糊
-除非你能停下来　远远地回顾
-
-只有在回首的刹那
-才能得到一种清明的
-酸辛　所以　也只有
-在太迟了的时候
-才能细细揣摩出　一种
-无悔的　美丽的　心情";
-set @v_id="932";
-set @v_code="320";
-set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="青春";
-set @v_body="假如生命是一列
-所有的结局都已写好 
-所有的泪水也都已启程 
-却忽然忘了是怎么样的一个开始 
-在那个古老的不再回来的夏日 
-无论我如何地去追索 
-年轻的你只如云影掠过 
-而你微笑的面容极浅极淡 
-逐渐隐没在日落后的群岚 
-遂翻开那发黄的扉页 
-命运将它装订得极为拙劣 
-含着泪 我一读再读 却不得不承认 
-青春是一本太仓促的书";
-set @v_id="933";
-set @v_code="321";
-set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="送别";
-set @v_body="不是所有的梦都来得及实现
-不是所有的话都来得及告诉你
-内疚和悔恨 
-总要深深地种植在离别后的心中
-尽管他们说
-世间种种
-最后终必成空
-我并不是立意要错过
-可是我 一直都在这样做
-错过那花满枝桠的昨日
-又要错过今朝   
-今朝 仍要重复那相同的别离
-馀生将成陌路
-一去千里 
-在暮霭里
-向你深深地俯首
-请为我珍重
-尽管他们说 
-世间种种 
-最后终必 终必成空";
-set @v_id="934";
-set @v_code="322";
-set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="回眸";
-set @v_body="前世的五百次回眸才能换得今生的一次擦肩而过，
-那么，我要用多少次回眸才能真正住进你的心中？
-         ------席慕容
-前世，我频频回眸 
-挥别的手帕飘成一朵云 
-多少相思 多少离愁 
-终成一道水痕送我远走 
-今生，我寻觅前世失落的足迹 
-跋山涉水 走进你的眼中 
-前世的五百次回眸换得今生的一次擦肩而过 
-我用一千次回眸换得今生在你面前的驻足停留 
-问佛：要多少次回眸才能真正住进你的心中 
-佛无语,我只有频频回首 
-像飞蛾扑向火 
-可以不计后果 可以不要理由 
-回眸 再回眸 
-千次万次 你在我眼中 也在我心中 
-我频频回顾着 期待你的温柔 
-我频频回顾着 渴望长相厮守 
-前世 我在舟中回眸 
-莲叶一片一片 连成我眼中的哀愁 
-今生 佛成全我的思念 
-让我走进你的眼中 
-我寻觅了很久 累了 
-只想在你怀中停息 
-只想让你的手揩去我脸上的泪痕 
-只想让你的体温温暖我冰凉的双手 
-不要问我为何今生千里迢迢将你寻觅 
-我没有喝孟婆汤 心中牵挂着你 
-不要问我为何哭泣 
-我没有喝孟婆汤 仍记得前世离别时心底的绝望 
-说我喜极而泣吧 
-泪落在你的襟上 
-前世的种种哀愁开成一树繁密的丁香 
-我只想与你携手在树下看那一朵开成五瓣向我们预言幸福 
-今生我仍旧频频回望 
-今生我仍旧不喝孟婆汤 
-来世我还会千里迢迢将你寻觅 
-来世我还会和你手牵手寻找五瓣的丁香";
-set @v_id="935";
-set @v_code="323";
-set @v_type_id="118";
-set @v_author_id="5364";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="再别康桥";
-set @v_body="轻轻的我走了，
-正如我轻轻的来；
-我轻轻的招手，
-作别西天的云彩。
-
-那河畔的金柳，
-是夕阳中的新娘；
-波光里的艳影，
-在我的心头荡漾。
-
-软泥上的青荇，
-油油的在水底招摇；
-在康河的柔波里，
-我甘心做一条水草！
-
-那榆荫下的一潭，
-不是清泉，是天上虹；
-揉碎在浮藻间，
-沉淀着彩虹似的梦。
-
-寻梦？撑一支长，
-向青草更青处漫；
-满载一船星辉，
-在星辉斑斓里放歌。
-
-但我不能放歌，
-悄悄是别离的笙箫；
-夏虫也为我沉默，
-沉默是今晚的康桥！
-
-悄悄的我走了，
-正如我悄悄的来；
-我挥一挥衣袖，
-不带走一片云彩。 ";
-set @v_id="936";
-set @v_code="324";
-set @v_type_id="118";
-set @v_author_id="5176";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="赠日本女郎";
-set @v_body="最是那一低头的温柔，
-象一朵水莲花不胜凉风的娇羞，
-道一声珍重，道一声珍重，
-那一声珍重里有蜜甜的忧愁——
-沙扬娜拉！";
-set @v_id="937";
-set @v_code="325";
-set @v_type_id="118";
-set @v_author_id="5176";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="雪花的快乐";
-set @v_body="假如我是一朵雪花，
-翩翩的在半空里潇洒，
-我一定认清我的方向——
-飞扬，飞扬，飞扬，——
-这地面上有我的方向。
-不去那冷寞的幽谷，
-
-不去那凄清的山麓，
-也不上荒街去惆怅——
-飞扬，飞扬，飞扬，——
-你看，我有我的方向！
-
-在半空里娟娟的飞舞，
-认明了那清幽的住处，
-等着她来花园里探望——
-飞扬，飞扬，飞扬，——
-啊，她身上有朱砂梅的清香！
-
-那时我凭借我的身轻，
-盈盈的②，沾住了她的衣襟，
-贴近她柔波似的心胸——
-消溶，消溶，消溶——
-溶入了她柔波似的心胸！ ";
-set @v_id="938";
-set @v_code="326";
-set @v_type_id="118";
-set @v_author_id="5176";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="翡冷翠的一夜";
-set @v_body="    你真的走了，明天？那我，那我，……
-    你也不用管，迟早有那一天；
-    你愿意记着我，就记着我，
-    要不然趁早忘了这世界上
-    有我，省得想起时空着恼，
-    只当是一个梦，一个幻想；
-    只当是前天我们见的残红，
-    怯怜怜的在风前抖擞，一瓣，
-    两瓣，落地，叫人踩，变泥……
-    唉，叫人踩，变泥——变了泥倒干净，
-    这半死不活的才叫是受罪，
-    看着寒伧，累赘，叫人白眼——
-    天呀！你何苦来，你何苦来……
-    我可忘不了你，那一天你来，
-    就比如黑暗的前途见了光彩，
-    你是我的先生，我爱，我的恩人，
-    你教给我什么是生命，什么是爱，
-    你惊醒我的昏迷，偿还我的天真。
-    没有你我哪知道天是高，草是青？
-    你摸摸我的心，它这下跳得多快；
-    再摸我的脸，烧得多焦，亏这夜黑
-    看不见；爱，我气都喘不过来了，
-    别亲我了；我受不住这烈火似的活，
-    这阵子我的灵魂就象是火砖上的
-    熟铁，在爱的槌子下，砸，砸，火花
-    四散的飞洒……我晕了，抱着我，
-    爱，就让我在这儿清静的园内，
-    闭着眼，死在你的胸前，多美！
-    头顶白树上的风声，沙沙的，
-    算是我的丧歌，这一阵清风，
-    橄榄林里吹来的，带着石榴花香，
-    就带了我的灵魂走，还有那萤火，
-    多情的殷勤的萤火，有他们照路，
-    我到了那三环洞的桥上再停步，
-    听你在这儿抱着我半暖的身体，
-    悲声的叫我，亲我，摇我，咂我，……
-    我就微笑的再跟着清风走，
-    随他领着我，天堂，地狱，哪儿都成，
-    反正丢了这可厌的人生，实现这死
-    在爱里，这爱中心的死，不强如
-    五百次的投生？……自私，我知道，
-    可我也管不着……你伴着我死？
-    什么，不成双就不是完全的“爱死”，
-    要飞升也得两对翅膀儿打伙，
-    进了天堂还不一样的要照顾，
-    我少不了你，你也不能没有我；
-    要是地狱，我单身去你更不放心，
-    你说地狱不定比这世界文明
-    （虽则我不信，）象我这娇嫩的花朵，
-    难保不再遭风暴，不叫雨打，
-    那时候我喊你，你也听不分明，——
-    那不是求解脱反投进了泥坑，
-    倒叫冷眼的鬼串通了冷心的人，
-    笑我的命运，笑你懦怯的粗心？
-    这话也有理，那叫我怎么办呢？
-    活着难，太难就死也不得自由，
-    我又不愿你为我牺牲你的前程……
-    唉！你说还是活着等，等那一天！
-    有那一天吗？——你在，就是我的信心；
-    可是天亮你就得走，你真的忍心
-    丢了我走？我又不能留你，这是命；
-    但这花，没阳光晒，没甘露浸，
-    不死也不免瓣尖儿焦萎，多可怜！
-    你不能忘我，爱，除了在你的心里，
-    我再没有命；是，我听你的话，我等，
-    等铁树儿开花我也得耐心等；
-    爱，你永远是我头顶的一颗明星：
-    要是不幸死了，我就变一个萤火，
-    在这园里，挨着草根，暗沉沉的飞，
-    黄昏飞到半夜，半夜飞到天明，
-    只愿天空不生云，我望得见天
-    天上那颗不变的大星，那是你，
-    但愿你为我多放光明，隔着夜，
-    隔着天，通着恋爱的灵犀一点……
-
-    　　六月十一日，一九二五年翡冷翠山中 ";
-set @v_id="939";
-set @v_code="327";
-set @v_type_id="118";
-set @v_author_id="5176";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="偶然";
-set @v_body="我是天空里的一片云，
-偶尔投影在你的波心－－
-你不必讶异，
-更无须欢喜－－
-在转瞬间消灭了踪影。
-你我相逢在黑夜的海上，
-你有你的，我有我的，方向；
-你记得也好，
-最好你忘掉，
-在这交会时互放的光亮！ ";
-set @v_id="940";
-set @v_code="328";
-set @v_type_id="118";
-set @v_author_id="5176";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="雨巷";
-set @v_body="撑着油纸伞，独自
-彷徨在悠长，悠长
-又寂寥的雨巷，
-我希望逢着
-一个丁香一样地
-结着愁怨的姑娘。
-她是有
-丁香一样的颜色，
-丁香一样的芬芳，
-丁香一样的忧愁，
-在雨中哀怨，
-哀怨又彷徨；
-她彷徨在这寂寥的雨巷，
-撑着油纸伞
-像我一样，
-像我一样地
-默默彳亍着，
-冷漠，凄清，又惆怅。
-她静默地走近
-走近，又投出
-太息一般的眼光，
-她飘过
-像梦一般地，
-像梦一般地凄婉迷茫。
-像梦中飘过
-一枝丁香地，
-我身旁飘过这女郎；
-她静静地远了，远了，
-到了颓圮的篱墙，
-走尽这雨巷。
-在雨的哀曲里，
-消了她的颜色，
-散了她的芬芳，
-消散了，甚至她的
-太息般的眼光，
-丁香般的惆怅。
-撑着油纸伞，独自
-彷徨在悠长，悠长
-又寂寥的雨巷，
-我希望飘过
-一个丁香一样地
-结着愁怨的姑娘。";
-set @v_id="941";
-set @v_code="329";
-set @v_type_id="118";
-set @v_author_id="5349";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="我用残损的手掌";
-set @v_body="谁家动刀尺？
-心也需要秋衣。
-
-听鲛人的召唤，
-听木叶的呼息！
-风从每一条脉络进来，
-窃听心的枯裂之音。
-
-诗人云：心即是琴。
-谁听过那古旧的阳春白雪？
-为真知的死者的慰藉，
-有人已将它悬在树梢，
-为天籁之凭托——
-但曾一度谛听的飘逝之音。
-
-而断裂的吴丝蜀桐，
-仅使人从弦柱间思忆华年。";
-set @v_id="942";
-set @v_code="330";
-set @v_type_id="118";
-set @v_author_id="5349";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="你还在我身边";
-set @v_body="    瀑布的水逆流而上
-蒲公英的种子从远处飘回，聚成伞的模样
-太阳从西边升起 落向东方
-
-子弹退回枪膛
-运动员回到起跑线上
-我交回录取通知书 忘了十年寒窗
-
-厨房里飘来饭菜的香
-你把我的卷子签好名字
-关掉电视 帮我把书包背上";
-set @v_id="943";
-set @v_code="331";
-set @v_type_id="118";
-set @v_author_id="5348";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="童话";
-set @v_body="“白桦为什么颤抖，妈妈？” 
-——“他在细听鸟儿说话。” 
-“鸟儿说些什么，妈妈？” 
-——“说仙女傍晚把它们好一顿吓。” 
-“仙女怎么会把鸟儿吓呢？” 
-——“她追赶着白鸽在林中乱窜。” 
-“仙女为什么要追赶白鸽？” 
-——“她见白鸽差点淹死在水潭。” 
-
-“白鸽为什么会差点淹死呢？” 
-——“它想把掉到水里的星星啄上岸” 
-“妈妈，它把水里的星星啄上来了吗？” 
-——“孩子啊，这个我可答不上来。 
-我只知道，等到仙女挨着白鸽的脸蛋时， 
-就像如今我在亲你一样， 
-亲呀亲呀，亲个没完。” ";
-set @v_id="944";
-set @v_code="332";
-set @v_type_id="118";
-set @v_author_id="5416";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="念一首诗给你听";
-set @v_body="下雨过后的屋檐 果然 是适合风铃 
-你从窗外看到 风刚刚冒出嫩芽的声音 
-很轻而我决定了 在猫的眼睛上 旅行 
-於是乎 所有的神秘都向后退 退成风景
-只有隐藏的够灵巧的事情 才能长成 蒲公英
-然后毫无负担的跟著 前进 很小心因为害怕 
-将只敢在梦中喜欢你的我的那部份 吵醒 
-於是乎 
-我默念了一首诗 给你听
-打开诗集的动作 
-很小心 很轻  很轻 很小心 
-就像猫跟风铃 
-我念了一首诗 给你听 ";
-set @v_id="945";
-set @v_code="333";
-set @v_type_id="118";
-set @v_author_id="5405";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="诗笺";
-set @v_body="听时光轻盈的引领着夜色的步伐 
-像是只身旷野远离红尘喧嚣吵杂 
-此刻灵魂沐浴在清辉的余香之下 
-灯火阑珊处千思万绪调整了时差 
-
-桌案边摆放一杯温热往事的浓茶 
-宣纸上执笔的手还在仿隶书描画 
-极细致的临摹出千年前那幕繁华 
-于是诗的意境追溯至汉唐时人家 
-
-这游弋在岁月昏黄中悠远的篇章 
-终于穿越过氤氲找到一丝温暖的牵挂 
-仿佛那枚流浪在边缘的寂寞明月 
-也终于寻觅到一处任思念栖息的天涯";
-set @v_id="946";
-set @v_code="334";
-set @v_type_id="118";
-set @v_author_id="5405";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="潇湘";
-set @v_body="明月潇湘的客栈 
-我沉睡在皎洁的从前 
-梦回唐朝的容颜 
-一幅薄如蝉翼的画卷 
-
-潮汐抚平过的沙滩 
-最适合回忆搁浅 
-漫步于这琥珀色海岸 
-风吹动足音悠远 
-
-看风花雪月的云烟 
-印染些许天空的蓝 
-思绪也一路去潮退 
-终将成最美的诗篇 
-
-唯有月色在水中潋滟 
-宛若诗人般吟唱轻弹 
-绵绵一曲春江花月夜 
-在逾越迷漫传颂千年 ";
-set @v_id="947";
-set @v_code="335";
-set @v_type_id="118";
-set @v_author_id="5405";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="英雄冢";
-set @v_body="纵然 将军面对的朝代为 泱泱盛唐 
-这酒肆里的绣花鞋 却令江山 如此委婉 
-
-胆还悬在梁 檐外那枚 楚腰纤细的夕阳 
-却已沉入 伊人深闺里的染坊 
-
-酒招旗 剽悍的晃 也野不过红颜回眸 一闪 
-该是刀落的客栈 却任由一张宣纸 在鱼雁往返 
-
-提笔的手 也还不够力悬腕 诗却已初露锋芒 
-汉字 竟可如此细腻的 儿女情长 ";
-set @v_id="948";
-set @v_code="336";
-set @v_type_id="118";
-set @v_author_id="5405";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="所有的美好正在生长";
-set @v_body="天空生长的花朵
-叫醒大地上更多的颜色
-大地生长的花朵
-认真倾听盛夏的诉说
-合欢以纤细测量树荫的体温
-幽香半含，起起伏伏
-木槿簪花轻笑
-比起去年好像更甜了几分
-所有的美好正在生长
-荷花打着伞，盛装而来
-一路擎着深爱，偎着蓝";
-set @v_id="949";
-set @v_code="337";
-set @v_type_id="118";
-set @v_author_id="5365";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="母亲的江山";
-set @v_body="你给了我黑发
-时光把它变浅
-你给了我红颜
-时光令之变暗
-你给了我飞快
-时光还你以缓慢
-你给了我丰茂
-时光报你以萧条
-多年后，我变成了你
-和时光争夺江山
-是你，让予我
-一车一马，整个棋盘";
-set @v_id="950";
-set @v_code="338";
-set @v_type_id="118";
-set @v_author_id="5365";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="行路的人，你要一无所想";
-set @v_body="你要把手插在口袋里
-那串暖得热乎乎的钥匙，你可以时而握着
-时而放开，让它们唱出
-你还未能写出的歌词
-你要一无所想，步履轻盈
-即使行囊在肩上生根，雪粘在头发上
-雾霾挡住了视线
-你可以左顾右盼
-但不要停下来，这一点你最好学学风
-不疲轮换萧瑟和葱茏
-学学鸟儿，在摇摇晃晃的枝头
-不舍歌喉清脆
-有一些小小的快乐，你要把它撒在天空
-留在傍晚之后。撒在路边
-说不定哪天，你会与它再度重逢";
-set @v_id="951";
-set @v_code="339";
-set @v_type_id="118";
-set @v_author_id="5365";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="我有漂亮的村庄（星飞、大江刘合作）";
-set @v_body="我有漂亮的村庄
-那里孤独的人都像紫地丁一样
-骄傲地活着
-在岸坡，在沟渠
-在任何有泥土的地方
-不卑不亢
-
-我有漂亮的村庄
-那里河流都穿着五彩的衣裳
-流苏点缀在冬的额头
-旷野有风在歌唱
-歌声注视月亮
-在又冷又硬的冰层下明亮地摇晃";
-set @v_id="952";
-set @v_code="340";
-set @v_type_id="118";
-set @v_author_id="5365";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="用自己去爱一爱残存的浮萍";
-set @v_body="用草地挥霍雨水
-用绿荫回绝空泛
-用繁茂解释无言
-用满满解释甜甜
-用星空去辨认曾经
-用一天去印证漫漫
-用歌一曲完成远与近的循环
-用梦一场告诉时至今日的答案
-用快乐还需节制一点
-用悲伤也不要万万千千
-用自己去爱一爱残存的浮萍
-用还不肯了然的秋天渲染流水的画板";
-set @v_id="953";
-set @v_code="341";
-set @v_type_id="118";
-set @v_author_id="5365";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="我想像过去那样";
-set @v_body="洗掉白日的油彩
-脱掉摇花曳步的鞋子
-到夜晚里去
-松开高举的旗帜
-放下喧嚣的酒樽
-揭开连日紧堵口鼻的罩子
-到春风里去
-我想像过去那样
-到春风的夜晚走走
-
-把心和肺一起放进去
-把影子和灵魂一起放进去
-把说出来和说不出来的一起放进去
-把流动的和凝结的一起放进去
-
-然后，像过去那样
-不必担心多少有毒悬浮物潜伏暗藏
-随意做一个自由的深呼吸";
-set @v_id="954";
-set @v_code="342";
-set @v_type_id="118";
-set @v_author_id="5365";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="假如生活欺骗了你";
-set @v_body="假如生活欺骗了你
-不要悲伤 不要心急
-忧郁的日子里须要镇静
-相信吧 快乐的日子将会来临
-心儿永远向往着未来
-现在却常是忧郁
-一切都是瞬息
-一切都将会过去
-而那过去了的
-就会成为亲切的回忆 ";
-set @v_id="955";
-set @v_code="343";
-set @v_type_id="118";
-set @v_author_id="5412";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="从前慢";
-set @v_body="记得早先少年时 
-大家诚诚恳恳 
-说一句 是一句
-
-清早上火车站 
-长街黑暗无行人 
-卖豆浆的小店冒着热气
-
-从前的日色变得慢 
-车，马，邮件都慢 
-一生只够爱一个人
-
-从前的锁也好看 
-钥匙精美有样子 
-你锁了 人家就懂了 ";
-set @v_id="956";
-set @v_code="344";
-set @v_type_id="118";
-set @v_author_id="5411";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="年龄的问题";
-set @v_body="爷爷的年龄，写在脸上的皱纹里；
-马儿的年龄，嚼在嘴巴的牙齿里；
-树木的年龄，藏在肚子的年轮里。
-老师!那么池塘的年龄，
-是不是画在一圈圈的涟漪里？ ";
-set @v_id="957";
-set @v_code="345";
-set @v_type_id="118";
-set @v_author_id="5350";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="热爱生命";
-set @v_body="我不去想是否能够成功
-既然选择了远方
-便只顾风雨兼程
-
-我不去想能否赢得爱情
-既然钟情于玫瑰
-就勇敢地吐露真诚
-
-我不去想身后会不会袭来寒风冷雨
-既然目标是地平线
-留给世界的只能是背影
-
-我不去想未来是平坦还是泥泞
-只要热爱生命
-一切，都在意料之中";
-set @v_id="958";
-set @v_code="346";
-set @v_type_id="118";
-set @v_author_id="5363";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="怀想";
-set @v_body="我不知道
-是否　还在爱你
-如果爱着
-为什么　会有那样一次分离
-
-我不知道
-是否　早已不再爱你
-如果不爱
-为什么　记忆没有随着时光
-流去
-
-回想你的笑靥
-我的心　起伏难平
-可恨一切
-都已成为过去
-只有婆娑的夜晚
-一如从前　那样美丽 ";
-set @v_id="959";
-set @v_code="347";
-set @v_type_id="118";
-set @v_author_id="5363";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="假如你不够快乐";
-set @v_body="假如你不够快乐
-也不要把眉头深锁
-人生本来短暂
-为什么　还要栽培苦涩
-
-打开尘封的门窗
-让阳光雨露洒遍每个角落
-走向生命的原野
-让风儿熨平前额
-
-博大可以稀释忧愁
-深色能够覆盖浅色 ";
-set @v_id="960";
-set @v_code="348";
-set @v_type_id="118";
-set @v_author_id="5363";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="只要彼此爱过一次";
-set @v_body="如果不曾相逢
-也许　心绪永远不会沉重
-如果真的失之交臂
-恐怕一生也不得轻松
-
-一个眼神
-便足以让心海　掠过飓风
-在贫瘠的土地上
-更深地懂得风景
-
-一次远行
-便足以憔悴了一颗　羸弱的心
-每望一眼秋水微澜
-便恨不得　泪水盈盈
-
-死怎能不　从容不迫
-爱又怎能　无动于衷
-只要彼此爱过一次
-就是无憾的人生 ";
-set @v_id="961";
-set @v_code="349";
-set @v_type_id="118";
-set @v_author_id="5363";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="跨越自己";
-set @v_body="我们可以欺瞒别人
-却无法欺瞒自己
-当我们走向枝繁叶茂的五月
-青春就不再是一个谜
-
-向上的路
-总是坎坷又崎岖
-要永远保持最初的浪漫
-真是不容易
-
-有人悲哀
-有人欣喜
-当我们跨越了一座高山
-也就跨越了一个真实的自己";
-set @v_id="962";
-set @v_code="350";
-set @v_type_id="118";
-set @v_author_id="5363";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="旅行";
-set @v_body="凡是遥远的地方
-对我们都有一种诱惑
-不是诱惑于美丽
-就是诱惑于传说
-
-即使远方的风景
-并不尽如人意
-我们也无需在乎
-因为这实在是一个
-迷人的错
-
-仰首是春　俯首是秋
-愿所有的幸福都追随着你
-月圆是画　月缺是诗";
-set @v_id="963";
-set @v_code="351";
-set @v_type_id="118";
-set @v_author_id="5363";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="倘若才华得不到承认";
-set @v_body="倘若才华得不到承认
-与其诅咒　不如坚忍
-在坚忍中积蓄力量
-默默耕耘
-
-诅咒　无济于事
-只能让原来的光芒黯淡
-在变得黯淡的光芒中
-沦丧的更有　大树的精神
-
-飘来的是云
-飘去的也是云
-既然今天
-没人识得星星一颗
-那么明日
-何妨做　皓月一轮";
-set @v_id="964";
-set @v_code="352";
-set @v_type_id="118";
-set @v_author_id="5363";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
 set @v_title="面朝大海，春暖花开";
 set @v_body="从明天起，做一个幸福的人
@@ -1540,11 +3517,11 @@ set @v_body="从明天起，做一个幸福的人
 愿你有情人终成眷属
 愿你在尘世获得幸福
 我只愿面朝大海，春暖花开";
-set @v_id="965";
-set @v_code="353";
+set @v_id="7788";
+set @v_code="7787";
 set @v_type_id="118";
-set @v_author_id="5159";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
 set @v_title="五月的麦地";
 set @v_body="全世界的兄弟们
@@ -1562,11 +3539,11 @@ set @v_body="全世界的兄弟们
 让大地上布满哀伤的村庄
 有时我孤独一人坐在麦地里为众兄弟背诵中国诗歌
 没有了眼睛也没有了嘴唇";
-set @v_id="966";
-set @v_code="354";
+set @v_id="7789";
+set @v_code="7788";
 set @v_type_id="118";
-set @v_author_id="5159";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
 set @v_title="祖国(以梦为马)";
 set @v_body="我要做远方的忠诚的儿子
@@ -1615,11 +3592,11 @@ set @v_body="我要做远方的忠诚的儿子
 太阳的山顶埋葬　诗歌的尸体——千年王国和我
 骑着五千年凤凰和名字叫“马”的龙——我必将失败
 但诗歌本身以太阳必将胜利";
-set @v_id="967";
-set @v_code="355";
+set @v_id="7790";
+set @v_code="7789";
 set @v_type_id="118";
-set @v_author_id="5159";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
 set @v_title="黑夜的献诗";
 set @v_body="黑夜从大地上升起
@@ -1651,11 +3628,11 @@ set @v_body="黑夜从大地上升起
 放声歌唱
 大风刮过山岗
 上面是无边的天空";
-set @v_id="968";
-set @v_code="356";
+set @v_id="7791";
+set @v_code="7790";
 set @v_type_id="118";
-set @v_author_id="5159";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
 set @v_title="九月";
 set @v_body="目击众神死亡的草原上野花一片
@@ -1669,1155 +3646,195 @@ set @v_body="目击众神死亡的草原上野花一片
 明月如镜高悬草原映照千年岁月
 我的琴声呜咽　泪水全无
 只身打马过草原";
-set @v_id="969";
-set @v_code="357";
+set @v_id="7792";
+set @v_code="7791";
 set @v_type_id="118";
-set @v_author_id="5159";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="星星";
-set @v_body="当夜色降临 
-我站在台阶上倾听 
-星星蜂拥在花园里 
-而我站在黑暗中 
+set @v_title="把羊群赶下大海";
+set @v_body="请把羊群赶下大海，牧羊人，
+请把世界留给石头——
+黑夜的石头，在天空它们便是
+璀璨的群星，你不会看见。
 
-听，一颗星星落地作响 
-你别赤脚在这草地上散步 
-我的花园到处是星星的碎片";
-set @v_id="970";
-set @v_code="358";
+请把羊群赶下大海，牧羊人，
+让大海从最底层掀起波澜。
+海滨低地似乌云一般旷远，
+剩下孤单的我们，在另一个世界面前。
+
+凌厉的海风。你脸上的盐。
+伟大的太阳在沉船的深渊。
+灯塔走向大海，水上起了火焰
+海岬以西河流的声音低缓。
+
+告别昨天的一场大雨，
+承受黑夜的压力、恐怖的摧残。
+沉寂的树木接住波涛，
+海岬以东汇合着我们两人的夏天
+
+因为我站在道路的尽头发现
+你是唯一可以走近的人；
+我为你的羊群祝福：把它们赶下大海
+我们相识在这一带荒凉的海岸。";
+set @v_id="7793";
 set @v_type_id="118";
-set @v_author_id="5367";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="致橡树";
-set @v_body="我如果爱你——
-绝不像攀援的凌霄花，
-借你的高枝炫耀自己：
-我如果爱你——
-绝不学痴情的鸟儿，
-为绿荫重复单调的歌曲；
-也不止像泉源，
-常年送来清凉的慰籍；
-也不止像险峰，增加你的高度，衬托你的威仪。
-甚至日光。
-甚至春雨。
-不，这些都还不够！
-我必须是你近旁的一株木棉，
-做为树的形象和你站在一起。
-根，紧握在地下，
-叶，相触在云里。
-每一阵风过，
-我们都互相致意，
-但没有人
-听懂我们的言语。
-你有你的铜枝铁干，
-像刀，像剑，
-也像戟，
-我有我的红硕花朵，
-像沉重的叹息，
-又像英勇的火炬，
-我们分担寒潮、风雷、霹雳；
-我们共享雾霭流岚、虹霓，
-仿佛永远分离，
-却又终身相依，
-这才是伟大的爱情，
-坚贞就在这里：
-不仅爱你伟岸的身躯，
-也爱你坚持的位置，脚下的土地。";
-set @v_id="971";
-set @v_code="359";
+set @v_title="热爱生命";
+set @v_body="我不去想是否能够成功
+既然选择了远方
+便只顾风雨兼程
+
+我不去想能否赢得爱情
+既然钟情于玫瑰
+就勇敢地吐露真诚
+
+我不去想身后会不会袭来寒风冷雨
+既然目标是地平线
+留给世界的只能是背影
+
+我不去想未来是平坦还是泥泞
+只要热爱生命
+一切，都在意料之中";
+set @v_id="7794";
+set @v_code="7792";
 set @v_type_id="118";
-set @v_author_id="5173";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="祖国啊，我亲爱的祖国";
-set @v_body="我是你河边上破旧的老水车，
-数百年来纺着疲惫的歌；
-我是你额上熏黑的矿灯，
-照你在历史的隧洞里蜗行摸索
-我是干瘪的稻穗，是失修的路基；
-是淤滩上的驳船
-把纤绳深深
-勒进你的肩膊，
-——祖国啊！
-我是贫困，
-我是悲哀。
-我是你祖祖辈辈
-痛苦的希望啊，
-是“飞天”袖间
-千百年未落到地面的花朵，
-——祖国啊！
-我是你簇新的理想，
-刚从神话的蛛网里挣脱；
-我是你雪被下古莲的胚芽；
-我是你挂着眼泪的笑涡；
-我是新刷出的雪白的起跑线；
-是绯红的黎明
-正在喷薄；
-—— 祖国啊！
-我是你的十亿分之一，
-是你九百六十万平方的总和；
-你以伤痕累累的乳房
-喂养了
-迷惘的我、深思的我、 沸腾的我；
-那就从我的血肉之躯上
-去取得
-你的富饶、你的荣光、你的自由；
-—— 祖国啊，
-我亲爱的祖国！";
-set @v_id="972";
-set @v_code="360";
+set @v_title="怀想";
+set @v_body="我不知道
+是否　还在爱你
+如果爱着
+为什么　会有那样一次分离
+
+我不知道
+是否　早已不再爱你
+如果不爱
+为什么　记忆没有随着时光
+流去
+
+回想你的笑靥
+我的心　起伏难平
+可恨一切
+都已成为过去
+只有婆娑的夜晚
+一如从前　那样美丽 ";
+set @v_id="7795";
+set @v_code="7793";
 set @v_type_id="118";
-set @v_author_id="5173";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="这也是一切";
-set @v_body="不是一切大树，
-都被暴风折断；
-不是一切种子，
-都找不到生根的土壤；
-不是一切真情，
-都流失在人心的沙漠里；
-不是一切梦想，
-都甘愿被折掉翅膀。
-不，不是一切
-都像你说的那样！
-不是一切火焰，
-都只燃烧自己
-而不把别人照亮；
-不是一切星星，
-都仅指示黑暗
-而不报告曙光；
-不是一切歌声，
-都掠过耳旁
-而不留在心上。
-不，不是一切
-都像你说的那样！
-不是一切呼吁都没有回响；
-不是一切损失都无法补偿；
-不是一切深渊都是灭亡；
-不是一切灭亡都覆盖在弱者头上；
-不是一切心灵
-都可以踩在脚下，烂在泥里；
-不是一切后果
-都是眼泪血印，而不展现欢容。
-一切的现在都孕育着未来，
-未来的一切都生长于它的昨天。
-希望，而且为它斗争，
-请把这一切放在你的肩上。";
-set @v_id="973";
-set @v_code="361";
+set @v_title="假如你不够快乐";
+set @v_body="假如你不够快乐
+也不要把眉头深锁
+人生本来短暂
+为什么　还要栽培苦涩
+
+打开尘封的门窗
+让阳光雨露洒遍每个角落
+走向生命的原野
+让风儿熨平前额
+
+博大可以稀释忧愁
+深色能够覆盖浅色 ";
+set @v_id="7796";
+set @v_code="7794";
 set @v_type_id="118";
-set @v_author_id="5173";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="双桅船";
-set @v_body="雾打湿了我的双翼，
-可风却不容我再迟疑。
-岸啊，心爱的岸，
-昨天刚刚和你告别，
-今天你又在这里。
-明天我们将在，
-另一个纬度相遇。
-是一场风暴，一盏灯，
-把我们联系在一起。
-是一场风暴，另一盏灯，
-使我们再分东西。
-不怕天涯海角，
-岂在朝朝夕夕。
-你在我的航程上，
-我在你的视线里。";
-set @v_id="974";
-set @v_code="362";
+set @v_title="只要彼此爱过一次";
+set @v_body="如果不曾相逢
+也许　心绪永远不会沉重
+如果真的失之交臂
+恐怕一生也不得轻松
+
+一个眼神
+便足以让心海　掠过飓风
+在贫瘠的土地上
+更深地懂得风景
+
+一次远行
+便足以憔悴了一颗　羸弱的心
+每望一眼秋水微澜
+便恨不得　泪水盈盈
+
+死怎能不　从容不迫
+爱又怎能　无动于衷
+只要彼此爱过一次
+就是无憾的人生 ";
+set @v_id="7797";
+set @v_code="7795";
 set @v_type_id="118";
-set @v_author_id="5173";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="神女峰";
-set @v_body="在向你挥舞的各色花帕中
-是谁的手突然收回
-紧紧捂住了自己的眼睛
-当人们四散离去，谁
-还站在船尾
-衣裙漫飞，如翻涌不息的云
-江涛
-高一声
-低一声
-美丽的梦留下美丽的优伤
-人间天上，代代相传
-但是，心
-真能变成石头吗
-为盼望远天的杳鹤
-而错过无数次春江月明
-沿着江岸
-金光菊和女贞子的洪流
-正煽动新的背叛
-与其在悬崖上展览千年
-不如在爱人肩头痛哭一晚 ";
-set @v_id="975";
-set @v_code="363";
+set @v_title="跨越自己";
+set @v_body="我们可以欺瞒别人
+却无法欺瞒自己
+当我们走向枝繁叶茂的五月
+青春就不再是一个谜
+
+向上的路
+总是坎坷又崎岖
+要永远保持最初的浪漫
+真是不容易
+
+有人悲哀
+有人欣喜
+当我们跨越了一座高山
+也就跨越了一个真实的自己";
+set @v_id="7798";
+set @v_code="7796";
 set @v_type_id="118";
-set @v_author_id="5173";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="我爱这土地";
-set @v_body="假如我是一只鸟，
-我也就应用嘶哑的喉咙歌唱：
-这被暴风雨所打击的土地，
-这永远汹涌着我们的悲愤的河流，
-这无止息地吹刮着的激怒的风，
-和那来自林间的无比温柔的黎明……
-——然后我死了，
-连羽毛也腐烂在土地里面。
-为什么我的眼里常含泪水？
-因为我对这土地爱得深沉…… ";
-set @v_id="976";
-set @v_code="364";
+set @v_title="旅行";
+set @v_body="凡是遥远的地方
+对我们都有一种诱惑
+不是诱惑于美丽
+就是诱惑于传说
+
+即使远方的风景
+并不尽如人意
+我们也无需在乎
+因为这实在是一个
+迷人的错
+
+仰首是春　俯首是秋
+愿所有的幸福都追随着你
+月圆是画　月缺是诗";
+set @v_id="7799";
+set @v_code="7797";
 set @v_type_id="118";
-set @v_author_id="5344";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
-set @v_title="礁石";
-set @v_body="一个浪，一个浪
-无休止地扑过来
-每一个浪都在它脚下
-被打成碎沫、散开……
-它的脸上和身上
-象刀砍过的一样
-但它依然站在那里
-含着微笑，看着海洋……";
-set @v_id="977";
-set @v_code="365";
+set @v_title="倘若才华得不到承认";
+set @v_body="倘若才华得不到承认
+与其诅咒　不如坚忍
+在坚忍中积蓄力量
+默默耕耘
+
+诅咒　无济于事
+只能让原来的光芒黯淡
+在变得黯淡的光芒中
+沦丧的更有　大树的精神
+
+飘来的是云
+飘去的也是云
+既然今天
+没人识得星星一颗
+那么明日
+何妨做　皓月一轮";
+set @v_id="7800";
+set @v_code="7798";
 set @v_type_id="118";
-set @v_author_id="5344";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="大堰河──我的褓姆";
-set @v_body="大堰河，是我的褓姆。
-她的名字就是生她的村庄的名字，
-她是童养媳，
-大堰河，是我的褓姆。
-
-我是地主的儿子；
-也是吃了大堰河的奶而长大了的
-大堰河的儿子。
-大堰河以养育我而养育她的家，
-而我，是吃了你的奶而被养育了的，
-大堰河啊，我的褓姆。
-
-大堰河，今天我看到雪使我想起了你：
-你的被雪压着的草盖的坟墓，
-你的关闭了的故居檐头的枯死的瓦菲，
-你的被典押了的一丈平方的园地，
-你的门前的长了青苔的石椅，
-大堰河，今天我看到雪使我想起了你。
-
-你用你厚大的手掌把我抱在怀里，抚摸我；
-在你搭好了灶火之后，
-在你拍去了围裙上的炭灰之后，
-在你尝到饭已煮熟了之后，
-在你把乌黑的酱碗放到乌黑的桌子上之后，
-在你补好了儿子们的为山腰的荆棘扯破的衣服之后，
-在你把小儿被柴刀砍伤了的手包好之后，
-在你把夫儿们的衬衣上的虱子一颖颗的掐死之后，
-在你拿起了今天的第一颗鸡蛋之后，
-你用你厚大的手掌把我抱在怀里，抚摸我。
-
-我是地主的儿子，
-在我吃光了你大堰河的奶之后，
-我被生我的父母领回到自己的家里。
-啊，大堰河，你为什么要哭？
-
-我做了生我的父母家里的新客了！
-我摸着红漆雕花的家具，
-我摸着父母的睡床上金色的花纹，
-我呆呆地看着檐头的我不认得的“天伦叙乐”的匾，
-我摸着新换上的衣服的丝的和贝壳的钮扣，
-我看着母亲怀里的不熟识的妹妹，
-我坐着油漆过的安了火钵的炕凳，
-我吃着碾了三番的白米的饭，
-但，我是这般忸怩不安！因为我
-我做了生我的父母家里的新客了。
-
-大堰河，为了生活，
-在她流尽了她的乳液之后，
-她就开始用抱过我的两臂劳动了；
-她含着笑，洗着我们的衣服，
-她含着笑，提着菜篮到村边的结冰的池塘去，
-她含着笑，切着冰屑悉索的萝卜，
-她含着笑，用手掏着猪吃的麦糟，
-她含着笑，扇着敦肉的炉子的火，
-她含着笑，背了团箕到广场上去
-晒好那些大豆和小麦，
-大堰河，为了生活，
-在她流尽了她的乳液之后，
-她就用抱过我的两臂，劳动了。
-
-大堰河，深爱着她的乳儿；
-在年节里，为了他，忙着切那冬米的糖，
-为了他，常悄悄地走到村边的她的家里去，
-为了他，走到她的身边叫一声“妈”，
-大堰河，把他画的大红大绿的关云长
-贴在灶边的墙上，
-大堰河，会对她的邻居夸口赞美她的乳儿；
-大堰河曾做了一个不能对人说的梦：
-在梦里，她吃着她的乳儿的婚酒，
-坐在辉煌的结彩的堂上，
-而她的娇美的媳妇亲切地叫她“婆婆”
-……
-大堰河，深爱她的乳儿！
-
-大堰河，在她的梦没有做醒的时候已死了。
-她死时，乳儿不在她的旁侧，
-她死时，平时打骂她的丈夫也为她流泪，
-五个儿子，个个哭得很悲，
-她死时，轻轻地呼着她的乳儿的名字，
-大堰河，已死了，
-她死时，乳儿不在她的旁侧。
-
-大堰河，含泪的去了！
-同着四十几年的人世生活的凌侮，
-同着数不尽的奴隶的凄苦，
-同着四块钱的棺材和几束稻草，
-同着几尺长方的埋棺材的土地，
-同着一手把的纸钱的灰，
-大堰河，她含泪的去了。
-
-这是大堰河所不知道的：
-她的醉酒的丈夫已死去，
-大儿做了土匪，
-第二个死在炮火的烟里，
-第三，第四，第五
-在师傅和地主的叱骂声里过着日子。
-而我，我是在写着给予这不公道的世界的咒语。
-当我经了长长的飘泊回到故土时，
-在山腰里，田野上，
-兄弟们碰见时，是比六七年前更要亲密！
-这，这是为你，静静的睡着的大堰河
-所不知道的啊！
-
-大堰河，今天，你的乳儿是在狱里，
-写着一首呈给你的赞美诗，
-呈给你黄土下紫色的灵魂，
-呈给你拥抱过我的直伸着的手，
-呈给你吻过我的唇，
-呈给你泥黑的温柔的脸颜，
-呈给你养育了我的乳房，
-呈给你的儿子们，我的兄弟们，
-呈给大地上一切的，
-我的大堰河般的褓姆和她们的儿子，
-呈给爱我如爱她自己的儿子般的大堰河。
-
-大堰河，
-我是吃了你的奶而长大了的
-你的儿子，
-我敬你
-爱你！ ";
-set @v_id="978";
-set @v_code="366";
-set @v_type_id="118";
-set @v_author_id="5344";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="黎明的通知";
-set @v_body="为了我的祈愿
-诗人啊，你起来吧
-而且请你告诉他们
-说他们所等待的已经要来
-说我已踏着露水而来
-已借着最后一颗星的照引而来
-我从东方来
-从汹涌着波涛的海上来
-我将带光明给世界
-又将带温暖给人类
-借你正直人的嘴
-请带去我的消息
-通知眼睛被渴望所灼痛的人类
-和远方的沉浸在苦难里的城市和村庄
-请他们来欢迎我
-白日的先驱，光明的使者
-打开所有的窗子来欢迎
-打开所有的门来欢迎
-请鸣响汽笛来欢迎
-请吹起号角来欢迎
-请清道夫来打扫街衢
-请搬运车来搬去垃圾
-让劳动者以宽阔的步伐走在街上吧
-让车辆以辉煌的行列从广场流过吧
-请村庄也从潮湿的雾里醒来
-为了欢迎我打开它们的篱笆
-请村妇打开她们的鸡埘
-请农夫从畜棚牵出耕牛
-借你的热情的嘴通知他们
-说我从山的那边来，从森林的那边来
-请他们打扫干净那些晒场
-和那些永远污秽的天井
-请打开那糊有花纸的窗子
-请打开那贴着春联的门
-请叫醒殷勤的女人
-和那打着鼾声的男子
-请年轻的情人也起来
-和那些贪睡的少女
-请叫醒困倦的母亲
-和他身边的婴孩
-请叫醒每个人
-连那些病者和产妇
-连那些衰老的人们
-呻吟在床上的人们
-连那些因正义而战争的负伤者
-和那些因家乡沦亡而流离的难民
-请叫醒一切的不幸者
-我会一并给他们以慰安
-请叫醒一切爱生活的人
-工人，技师及画家
-请歌唱者唱着歌来欢迎
-用草与露水所渗合的声音
-请舞蹈者跳着舞来欢迎
-披上她们白雾的晨衣
-请叫那些健康而美丽的醒来
-说我马上要来叩打他们的窗门
-请你忠实于时间的诗人
-带给人类以慰安的消息
-请他们准备欢迎，请所有的人准备欢迎
-当雄鸡最后一次鸣叫的时候我就到来
-请他们用虔诚的眼睛凝视天边
-我将给所有期待我的以最慈惠的光辉
-趁这夜已快完了，请告诉他们
-说他们所等待的就要来了 ";
-set @v_id="979";
-set @v_code="367";
-set @v_type_id="118";
-set @v_author_id="5344";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="给太阳";
-set @v_body="早晨，我从睡眠中醒来，
-看见你的光辉就高兴；
-──虽然昨夜我还是困倦，
-而且被无数的恶梦纠缠。
-你新鲜、温柔、明洁的光辉，
-照在我久未打开的窗上，
-把窗纸敷上浅黄如花粉的颜色，
-嵌在浅蓝而整齐的格影里，
-我心里充满感激，从床上起来，
-打开已关了一个冬季的窗门，
-让你把全金丝织的明丽的台巾，
-铺展在我临窗的桌子上。
-于是，我惊喜看见你：
-这样的真实，不容许怀疑，
-你站立在对面的山巅，
-而且笑得那么明朗。
-我用力睁开眼睛看你，
-渴望能捕捉你的形象，
-多么强烈，多么恍惚，多么庄严！
-你的光芒刺痛我的瞳孔。
-太阳啊，你这不朽的哲人，
-你把快乐带给人间，
-即使最不幸的看见你，
-也在心里感受你的安慰。
-你是时间的锻冶工，
-美好的生活镀金匠；
-你把日子铸成无数金轮，
-飞旋在古老的荒原上……
-假如没有你，太阳，
-一切生命将匍匐在阴暗里，
-即使有翅膀，也只能像蝙蝠
-在永恒的黑夜里飞翔。
-我爱你像人们爱他们的母亲，
-你用光热哺育我的观念和思想──
-使我热情地生活，为理想而痛苦，
-直到我的生命被死亡带走。
-经历了寂寞漫长的冬季，
-今天，我想到山巅上去，
-解散我的衣服，赤裸着，
-在你的光辉里沐浴我的灵魂…… ";
-set @v_id="980";
-set @v_code="368";
-set @v_type_id="118";
-set @v_author_id="5344";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="梦";
-set @v_body="醒着的时候
-只能幻想
-
-而梦
-却在睡着的时候来访
-
-或许是童年的青梅竹马
-或许是有朋友来自远方
-
-钢丝床上有痛苦
-稻草堆上有欢语
-匮乏时的赠予
-富足时的失窃
-
-不是一场虚惊
-就是若有所失 ";
-set @v_id="981";
-set @v_code="369";
-set @v_type_id="118";
-set @v_author_id="5344";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="雪落在中国的土地上";
-set @v_body="雪落在中国的土地上，
-寒冷在封锁着中国呀……
-
-风，
-像一个太悲哀了的老妇
-紧紧地跟随着
-伸出寒冷的指爪
-拉扯着行人的衣襟，
-用着你土地一样古老的
-一刻也不停地絮聒着……
-
-那从林间出现的，
-赶着马车的
-你中国的农夫，
-戴着皮帽，
-冒着大雪
-要到哪儿去呢？
-
-告诉你
-我也是农人的后裔──
-
-由于你们的
-刻满了痫苦的皱纹的脸
-我能如此深深地
-知道了
-生活在草原上的人们的
-岁月的艰辛。
-
-而我
-也并不比你们快乐啊
-──躺在时间的河流上
-苦难的浪涛
-曾经几次把我吞没而又卷起──
-流浪与监禁
-已失去了我的青春的最可贵的日子，
-我的生命
-也像你们的生命
-一样的憔悴呀。
-
-雪落在中国的土地上，
-寒冷在封锁着中国呀……
-
-沿着雪夜的河流，
-一盏小油灯在徐缓地移行，
-那破烂的乌篷船里
-映着灯光，垂着头
-坐着的是谁呀？
-
-──啊，你
-蓬发垢面的小妇，
-是不是
-你的家
-──那幸福与温暖的巢穴
-已枝暴戾的敌人
-烧毁了么？
-
-是不是
-也像这样的夜间，
-失去了男人的保护，
-在死亡的恐怖里
-你已经受尽敌人刺刀的戏弄7
-
-咳，就在如此寒冷的今夜
-无数的
-我们的年老的母亲，
-就像异邦人
-不知明天的车轮
-要滚上怎样的路程？
-──而且
-中国的路
-是如此的崎岖，
-是如此的泥泞呀。
-
-雪落在中国的土地上：
-寒冷在封锁着中国呀……
-
-那些被烽火所啮啃着的地域，
-无数的，土地的垦植者
-失去了他们所饲养的家畜
-失去了他们把沃的田地
-拥挤在
-生活的绝望的污巷里；
-饥谨的大地
-伸向阴暗的天
-伸出乞援的
-颤抖着的两臂。
-
-中国的痛苦与灾难
-像这雪夜一样广阔而又漫长呀！
-
-雪落在中国的土地上，
-寒冷在封锁着中国呀……
-
-中国，
-我的在没有灯光的晚上
-所写的无力的诗句
-能给你些许的温暖么？
-·1937年12月28日夜间 ";
-set @v_id="982";
-set @v_code="370";
-set @v_type_id="118";
-set @v_author_id="5344";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="我想和你一起生活";
-set @v_body="我想和你一起生活
-在某个小镇，
-共享无尽的黄昏
-和绵绵不绝的钟声。
-在这个小镇的旅店里——
-古老时钟敲出的
-微弱响声
-像时间轻轻滴落。
-有时候，在黄昏，自顶楼某个房间传来
-笛声，
-吹笛者倚著窗牖，
-而窗口大朵郁金香。
-此刻你若不爱我，我也不会在意。
-在房间中央，一个磁砖砌成的炉子，
-每一块磁砖上画著一幅画：
-一颗心，一艘帆船，一朵玫瑰。
-而自我们唯一的窗户张望，
-雪，雪，雪。
-你会躺成我喜欢的姿势：慵懒，
-淡然，冷漠。
-一两回点燃火柴的
-刺耳声。
-你香烟的火苗由旺转弱，
-烟的末梢颤抖著，颤抖著
-短小灰白的烟蒂——连灰烬
-你都懒得弹落——
-香烟遂飞舞进火中。";
-set @v_id="983";
-set @v_code="371";
-set @v_type_id="118";
-set @v_author_id="5347";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="回延安";
-set @v_body="    一
-
-心口呀莫要这么厉害的跳，
-灰尘呀莫把我眼睛挡住了……
-手抓黄土我不放，
-紧紧贴在心窝上。
-
-……几回回梦里回延安，
-双手搂定宝塔山。
-千声万声呼唤你
-──母亲延安就在这里！
-
-杜甫川唱来柳林铺笑，
-红旗飘飘把手招。
-白羊肚手巾红腰带，
-亲人们迎过延河来。
-
-满心话登时说不过来，
-一头扑在亲人怀……
-
-二
-
-……二十里铺送过柳林铺迎，
-分别十年又回家中。
-树梢树枝树根根，
-亲山亲水有亲人。
-
-羊羔羔吃奶望着妈，
-小米饭养活我长大。
-东山的糜子西山的谷，
-肩膀上的红旗手中的书。
-
-手把手儿教会了我，
-母亲打发我们过黄河。
-革命的道路千万里，
-天南海北想着你……
-
-三
-
-米酒油馍木炭火，
-团团围定炕头坐。
-满窑里围的不透风，
-脑畔上还响着脚步声。
-
-老爷爷进门气喘得紧：
-“我梦见鸡毛信来──
-可真见亲人……”
-亲人见了亲人面，
-双眼的眼泪眼眶里转。
-
-保卫延安你们费了心，
-白头发添了几根根。
-团支书又领进社主任，
-当年的放羊娃如今长成人。
-
-白生生的窗纸红窗花，
-娃娃们争抢来把手儿拉。
-一口口的米酒千万句话，
-长江大河起浪花。
-
-十年来革命大发展，
-说不尽这三千六百天……
-
-四
-
-千万条腿来千万只眼，
-也不够我走来也不够我看。
-头顶着蓝天大明镜，
-延安城照在我心中──
-
-一条条街道宽又平，
-一座座楼房披彩虹；
-一盏盏电灯亮又明，
-一排排绿树迎春风……
-
-对照过去我认不出了你，
-母亲延安换新衣。
-
-五
-
-杨家岭的红旗啊高高的飘，
-革命万里起高潮！
-宝塔山下留脚印，
-毛主席登上了天安门！
-
-枣园的灯光照人心，
-延河滚滚喊“前进”！
-赤卫队……青年团……红领巾，
-走着咱英雄几辈辈人……
-
-社会主义路上大踏步走，
-光荣的延河还要在前头！
-身长翅膀吧脚生云，
-再回延安看母亲！
-
-·1956年3月9日 延安";
-set @v_id="984";
-set @v_code="372";
-set @v_type_id="118";
-set @v_author_id="5161";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="错误";
-set @v_body="我打江南走过
-那等在季节里的容顏
-如莲花的开落
-
-东风不来
-三月的柳絮不飞
-你底心如小小寂寞的城
-恰若青石的街道向晚
-音不响，三月的春帷不揭
-你底心，是小小的窗扉紧掩
-
-我达达的马蹄
-是美丽的错误
-我不是归人
-是个过客……";
-set @v_id="985";
-set @v_code="373";
-set @v_type_id="118";
-set @v_author_id="5370";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="水手刀";
-set @v_body="长春籐一样
-热带的情丝
-挥一挥手即断了
-挥沉了处子般的
-款摆著绿的岛
-挥沉了半个夜的星星
-挥出一程风雨来
-
-一把古老的水手刀
-被离别磨亮
-被用于寂寞
-被用于欢乐
-被用于航向一切逆风的
-桅蓬与绳索……";
-set @v_id="986";
-set @v_code="374";
-set @v_type_id="118";
-set @v_author_id="5370";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="秋天";
-set @v_body="黑夜是凝滞的岁月， 
-岁月是流动的黑夜。
-你停在门口，
-回过头，递给我短短的一瞥。
-这就是离别吗？
-难道一切都将被忘却？
-像绚丽的秋天过去，
-到处要蒙上冷漠的白雪。
-我珍爱果实，
-但也不畏惧这空旷的拒绝。
-只要心灵饮着热血，
-未来就没有凋残的季节！
-秋风摇荡繁星，
-哦，那是永恒在天空书写；
-是的，一瞥就足够了，
-我已该深深把你感谢。";
-set @v_id="987";
-set @v_code="375";
-set @v_type_id="118";
-set @v_author_id="5406";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="我的幻想";
-set @v_body="我在幻想着，
-幻想在破灭着；
-幻想总把破灭宽恕，
-破灭却从不把幻想放过。";
-set @v_id="988";
-set @v_code="376";
-set @v_type_id="118";
-set @v_author_id="5406";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="我赞美世界";
-set @v_body="我赞美世界，
-用蜜蜂的歌，
-蝴蝶的舞，
-和花朵的诗。
-月亮，
-遗失在夜空中，
-像是一枚卵石。
-星群，
-散落在黑夜里，
-像是细小的金沙。
-用夏夜的风，
-来淘洗吧！
-你会得到宇宙的光华。
-把牧童
-草原样浓绿的短曲；
-把猎人
-森林样丰富的幻想；
-把农民
-麦穗样金黄的欢乐；
-把渔人
-水波样透明的希望；
-……
-把全天下的：海洋、高山
-平原、江河，
-把七大州：
-早晨、傍晚、日出
-月落，
-从生活中，睡梦中，
-投入思想的熔岩，
-凝成我黎明一样灿烂的
-——诗歌。";
-set @v_id="989";
-set @v_code="377";
-set @v_type_id="118";
-set @v_author_id="5406";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="一代人（外两首）";
-set @v_body="一 代 人
- 
-黑夜给了我黑色的眼睛
-我却用它寻找光明
- 
- 
-摄
- 
-阳光
-在天上一闪，
-又被乌云埋掩。
-暴雨冲洗着，
-我灵魂的底片。
- 
- 
-祭
- 
-我把你的誓言
-把爱
-刻在蜡烛上
-看它怎样
-被泪水淹没
-被心火烧完
-看那最后一念
-怎样灭绝
-怎样被风吹散";
-set @v_id="990";
-set @v_code="378";
-set @v_type_id="118";
-set @v_author_id="5406";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="远和近";
-set @v_body="你 
-一会看我 
-一会看云 
-我觉得 
-你看我时很远 
-你看云时很近";
-set @v_id="991";
-set @v_code="379";
-set @v_type_id="118";
-set @v_author_id="5406";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="是树木游泳的力量";
-set @v_body="是树木游泳的力量 
-使鸟保持它的航程 
-使它想起潮水的声音 
-鸟在空中说话 
-它说：中午 
-它说：树冠的年龄 
-
-芳香覆盖我们全身 
-长长清凉的手臂越过内心 
-我们在风中游泳 
-寂静成型 
-我们看不见最初的日子 
-最初，只有爱情 ";
-set @v_id="992";
-set @v_code="380";
-set @v_type_id="118";
-set @v_author_id="5406";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="我是一个任性的孩子";
-set @v_body="也许
-我是被妈妈宠坏的孩子
-我任性
-我希望
-每一个时刻
-都像彩色蜡笔那样美丽
-我希望
-能在心爱的白纸上画画
-画出笨拙的自由
-画下一只永远不会
-流泪的眼睛
-一片天空
-一片属于天空的羽毛和树叶
-一个淡绿的夜晚和苹果
-我想画下早晨
-画下露水
-所能看见的微笑
-画下所有最年轻的
-没有痛苦的爱情
-画下想象中
-我的爱人
-她没有见过阴云
-她的眼睛是晴空的颜色
-她永远看着我
-永远，看着
-绝不会忽然掉过头去
-我想画下遥远的风景
-画下清晰的地平线和水波
-画下许许多多快乐的小河
-画下丘陵——
-长满淡淡的茸毛
-我让它们挨得很近
-让它们相爱
-让每一个默许
-每一阵静静的春天的激动
-都成为一朵小花的生日
-我还想画下未来
-我没见过她，也不可能
-但知道她很美
-我画下她秋天的风衣
-画下那些燃烧的烛火和枫叶
-画下许多因为爱她
-而熄灭的心
-画下婚礼
-画下一个个早早醒来的节日——
-上面贴着玻璃糖纸
-和北方童话的插图
-我是一个任性的孩子
-我想涂去一切不幸
-我想在大地上
-画满窗子
-让所有习惯黑暗的眼睛
-都习惯光明
-我想画下风
-画下一架比一架更高大的山岭
-画下东方民族的渴望
-画下大海——
-无边无际愉快的声音
-最后，在纸角上
-我还想画下自己
-画下一只树熊
-他坐在维多利亚深色的丛林里
-坐在安安静静的树枝上
-发愣
-他没有家
-没有一颗留在远处的心
-他只有，许许多多
-浆果一样的梦
-和很大很大的眼睛
-我在希望
-在想
-但不知为什么
-我没有领到蜡笔
-没有得到一个彩色的时刻
-我只有我
-我的手指和创痛
-只有撕碎那一张张
-心爱的白纸
-让它们去寻找蝴蝶
-让它们从今天消失
-我是一个孩子
-一个被幻想妈妈宠坏的孩子
-我任性 ";
-set @v_id="993";
-set @v_code="381";
-set @v_type_id="118";
-set @v_author_id="5406";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="一个人应该活得是自己并且干净";
-set @v_body="人的生命里有一种能量，它使你不安宁。说它是欲望也行，幻想也行，妄想也行，总之它不可能停下来，它需要一个表达形式。这个形式可能是革命，也可能是爱情；可能是搬一块石头，也可能是写一首诗。只要这个形式和生命力里的这个能量吻合了，就有了一个完美的过程。 
-
-一个彻底诚实的人是从不面对选择的，那条路永远会清楚无二地呈现在你面前，这和你的憧憬无关，就像你是一棵苹果树，你憧憬结橘子，但是你还是诚实地结出苹果一样。 
-
-西方爱情是强烈开放的花朵，东方爱情是两朵花之间微妙的芳香。 
-
-自由并不是你不知道干什么好，也不是你干什么都可以不坐牢；自由是你清楚无疑你要干什么，不装蒜，不矫揉造作，无论什么功利结果，会不会坐牢或者送死，都不在话下了。对于惶惑不知道干什么的人来说，自由是不存在的；对于瞻前顾后、患得患失的人来说，自由是不可及的。 
-
-一个人，生活可以变得好，也可以变得坏；可以活得久，也可以活得不久；可以做一个艺术家，也可以锯木头，没有多大区别。但是有一点，就是他不能面目全非，他不能变成一个鬼，他不能说鬼话、说谎言，他不能在醒来的时候看见自己觉得不堪入目。一个人应该活得是自己并且干净。 
-
-命运不是风来回吹，命运是大地，走到哪里你都在命中。 
-
-贾宝玉是真性情，鲁智深也是真性情；鲁智深一句唱词儿“赤条条来去无牵挂”，贾宝玉眼泪就下来了，顿时就有了感觉。可是你让贾宝玉抡个棍子去打，那无疑是找死。他们爱好不同，性情很不一样，但是呢，都是真性情，它就通了。 
-
-从叶到花，或从花到叶，于科研是一个过程，而于生命自身则永远只在此刻。花和叶都是一种记忆方式。果子同时也是叶子。生命是闪耀的此刻，不是过程，就像芳香不需要道路一样。 
-
-中国人只创造了两个理想，一个是山中的桃花源，一个是墙里的大观园。我的笑话不过是把大观园搬到了山里，忘了林黛玉的药锄是葬花用的。 
-
-我到了新西兰一个小岛上，把身体交给了劳动。四年之后，有一天，我忽然看见黑色的鸟停在月亮里，树上的花早就开了，红花已经落了满地。这时候我才感到我从文 化中间、文字中间走了出来。万物清清楚楚地呈现在你的心里，一阵风吹过，鸟就开始叫了，树就开始响了。这个时候我明白了一个道理：只有在你生命美丽的时 候，世界才是美丽的。 ";
-set @v_id="994";
-set @v_code="382";
-set @v_type_id="118";
-set @v_author_id="5406";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="相信未来";
-set @v_body="当蜘蛛网无情地查封了我的炉台  
-当灰烬的余烟叹息着贫困的悲哀  
-我依然固执地铺平失望的灰烬  
-用美丽的雪花写下：相信未来  
-当我的紫葡萄化为深秋的露水  
-当我的鲜花依偎在别人的情怀  
-我依然固执地用凝霜的枯藤  
-在凄凉的大地上写下：相信未来  
-我要用手指那涌向天边的排浪  
-我要用手掌那托住太阳的大海  
-摇曳着曙光那枝温暖漂亮的笔杆  
-用孩子的笔体写下：相信未来  
-我之所以坚定地相信未来  
-是我相信未来人们的眼睛  
-她有拨开历史风尘的睫毛  
-她有看透岁月篇章的瞳孔  
-不管人们对于我们腐烂的皮肉  
-那些迷途的惆怅、失败的苦痛  
-是寄予感动的热泪、深切的同情  
-还是给以轻蔑的微笑、辛辣的嘲讽  
-我坚信人们对于我们的脊骨  
-那无数次的探索、迷途、失败和成功  
-一定会给予热情、客观、公正的评定  
-是的，我焦急地等待着他们的评定  
-朋友，坚定地相信未来吧  
-相信不屈不挠的努力  
-相信战胜死亡的年轻  
-相信未来、热爱生命 ";
-set @v_id="995";
-set @v_code="383";
-set @v_type_id="118";
-set @v_author_id="5414";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="这是四点零八分的北京";
-set @v_body="这是四点零八分的北京
-一片手的海洋翻动
-这是四点零八分的北京
-一声尖厉的汽笛长鸣
-北京车站高大的建筑
-突然一阵剧烈地抖动
-我吃惊地望着窗外
-不知发生了什么事情
-我的心骤然一阵疼痛，一定是
-妈妈缀扣子的针线穿透了我的心胸
-这时，我的心变成了一只风筝
-风筝的线绳就在妈妈的手中
-线绳绷得太紧了，就要扯断了
-我不得不把头探出车厢的窗棂
-直到这时，直到这个时候
-我才明白发生了什么事情
-——一阵阵告别的声浪
-就要卷走车站
-北京在我的脚下
-已经缓缓地移动
-我再次向北京挥动手臂
-想一把抓住她的衣领
-然后对她大声地叫喊：
-永远记着我，妈妈啊北京
-终于抓住了什么东西
-管他是谁的手，不能松
-因为这是我的北京
-是我的最后的北京";
-set @v_id="996";
-set @v_code="384";
-set @v_type_id="118";
-set @v_author_id="5414";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
-
-set @v_title="你应该努力追求幸福";
-set @v_body="在嘈杂和匆忙中，平静地前行吧，
-也别忘了在寂静中，能找到多好的安宁。
-
-可以的话，尽量不放弃原则而与所有人和睦相处。
-细语清晰地说出你的肺腑之言，也聆听别人的说话，
-别人的话纵然又枯燥又无知，总会有他们的故事。
-
-避开大声吵闹和好斗的人；他们是扰乱心性的人。
-不要跟其他人比较，否则可能变得虚荣自负或忿忿不平，
-因为一定有人比你伟大，也一定有人比你渺小。
-
-享受计划，也享受成就。
-无论自己的事业有多卑微，维持对它的兴趣；
-在一生多变的命运中，它是你真正拥有的东西。
-
-谨慎处理生意，因为这世界充斥着欺诈。
-但是，不要因此而看不见人间美德；
-很多人为崇高理想而奋斗，生命到处都有英勇的事迹。
-
-做你自己。尤其不要虚情假意。
-但也不要把爱视为虚伪；
-因为尽管生命有时枯燥乏味、有时令人迷醉，
-爱，却如青草般日久常在。
-
-不轻视因年老而获得的阅历，
-并得体地舍弃年轻时拥有的东西。
-
-培育心灵上的力量，以面对突然而来的不幸。
-但不要杞人忧天以致心神不宁。
-众多的恐惧，源自疲乏和孤独。
-
-要既不逾矩，又善待自己。
-你是宇宙的孩子，身份不次于树木和星星；
-身处这里是你的权利。
-不管你是否明白它的奥秘，
-毫无疑问宇宙在展现着原本应有的样貌和规律。
-
-因此，不管在你心中上帝是什么模样，和他和睦相处吧。
-也不管你怎样劳累和胸怀大志，在生命的烦嚣和困惑中，
-要保持心灵上的安宁。
-
-不管经历了多少伪善、苦役、和破碎的梦，
-世界依然是美丽的。
-要保持轻松开朗。努力保持快乐。";
-set @v_id="997";
-set @v_code="385";
-set @v_type_id="118";
-set @v_author_id="5410";
-Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author from book WHERE title=@v_title AND author=@v_author)
+set @v_author_id="0";
+Insert into book(title,body,id,code,type_id,author_id) SELECT @v_title,@v_body,@v_id,@v_code,@v_type_id,@v_author_id from DUAL WHERE NOT EXISTS(SELECT title,author_id from book WHERE title=@v_title AND author_id=@v_author_id)
 
