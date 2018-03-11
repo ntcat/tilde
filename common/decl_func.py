@@ -16,16 +16,16 @@ def trans_decl_func_to_value(keyName):
         keyValue = gl.fields_dict[keyName]
         pat = re.compile(r'{[ ]{0,}([\s\S]+?)[ ]{0,}}')
         outs = re.findall(pat, str(keyValue))
-        df = '' if len(outs)==0 else outs[0].upper()
+        df = '' if len(outs)==0 else outs[0]  #不能这里.upper()，怕把SQL语句也转换
         if df == '':   # most first
             return keyValue
-        elif df == 'AUTO_INCREMENT':
+        elif df.upper() == 'AUTO_INCREMENT':
             return get_auto_increment(keyName)
-        elif df == 'UUID' or df =='GUID':
+        elif df.upper() == 'UUID' or df.upper() =='GUID':
             return get_uuid()
-        elif df =='NOW':
+        elif df.upper() =='NOW':
             return get_now()
-        elif df[:4] =='SQL:':
+        elif df[:4].upper() =='SQL:':
             return get_column0(df[4:])
         else:
             pass
