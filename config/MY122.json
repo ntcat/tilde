@@ -2,7 +2,7 @@
     "host": "localhost",
     "port": 3306,
     "user": "root",
-    "passwd":"rocky1127",
+    "passwd":"Kongmeng123456",
     "db":"classics",
     "charset":"utf8"
 }
