@@ -3,3 +3,5 @@ common/__pycache__/files.cpython-36.pyc
 *.pyc
 *.json
 *.sql
+!default.json
+venv/
